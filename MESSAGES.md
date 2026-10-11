@@ -344,7 +344,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p161A2 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p161B1 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p161C3 | 158 | 8 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p161D | 158 | 8 November |  | not read | 2 | none | Log chimera of the entries on page 159 B and C |
+| p161D | 158 | 8 November |  | not read | 2 | none | A log chimera of the entries on page 159 B and C, not a cryptogram |
 | p161E | 158 | 8 November | nov07 | known-key repair (1 edits) | 0 | partial reading (score 175, null max 40, vocabulary coverage 0.27) | Read with Lasry's published keys |
 | p162A | 159 | 8 November | nov07 | known-key repair attempt, text withheld | 1 | clears nulls, does not read (score 88, null max 44) |  |
 | p162B | 159 | 8 November | nov07 | known-key repair (2 edits) | 3 | partial reading (score 84, null max 43, vocabulary coverage 0.16) | Read with Lasry's published keys |
