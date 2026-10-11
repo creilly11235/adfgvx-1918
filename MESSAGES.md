@@ -44,14 +44,14 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p072B3 | 69 | 5 October | oct04 | period key, length repaired | 3 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p073A1 | 70 | 6 October | oct04 | known-key repair (2 edits) | 5 | reads, repaired (score 277, null max 30, vocabulary coverage 0.36) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p073A2 | 70 | 6 October | oct04 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p073B | 70 | 6 October |  | not read | 7 | none | see detailed table |
+| p073B | 70 | 6 October |  | not read | 7 | none | Unread, no reading found |
 | p074A | 71 | 6 October | oct04 | period key, as transcribed | 12 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p074A.2 | 71 | 6 October |  | not read | 0 | none |  |
 | p075A1 | 72 | 6 October | oct04 | known-key repair (1 edits) | 4 | partial reading (score 102, null max 17, vocabulary coverage 0.22) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p075A2 | 72 | 6 October | oct04 | known-key repair (1 edits) | 4 | partial reading (score 111, null max 23, vocabulary coverage 0.16) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p075A3 | 72 | 6 October | oct04 | period key, as transcribed | 2 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p075B | 72 | 6 October | oct04 | known-key repair attempt, text withheld | 1 | clears nulls, does not read (score 28, null max 20) |  |
-| p076A | 73 | 26 October |  | not read | 2 | none | see detailed table |
+| p076A | 73 | 26 October |  | not read | 2 | none | Unread, no reading found |
 | p077A | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p077B | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p077C | 74 | 28 October |  | not read | 0 | none |  |
@@ -121,7 +121,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p102C | 99 | 1 November |  | not read | 1 | none |  |
 | p102C3 | 99 | 1 November | nov01 | period key, as transcribed | 5 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p102D | 99 | 1 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p103A | 100 | 1 November | nov01 | known-key repair (2 edits) | 1 | reads, repaired (score 87, null max 24, vocabulary coverage 0.50) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p103A | 100 | 1 November | nov01 | known-key repair (2 edits) | 1 | reads, repaired (score 87, null max 24, vocabulary coverage 0.50) | Armin, 1 Mar 2017 blog comment, after fixing one block (claimed, not verified by us). Our decode reads under the key too |
 | p103B | 100 | 1 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p103C | 100 | 1 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p103D1 | 100 | 1 November | nov01 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -147,7 +147,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p107D | 104 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p107E3 | 104 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p108A | 105 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p108BB | 105 | 2 November | nov01 | known-key repair (2 edits) | 0 | partial reading (score 151, null max 31, vocabulary coverage 0.22) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p108BB | 105 | 2 November | nov01 | known-key repair (2 edits) | 0 | partial reading (score 151, null max 31, vocabulary coverage 0.22) | Norbert, 1 Mar 2017 blog comment, with corrections; spaced version by Max Baertl. Our decode reads under the key too |
 | p108C | 105 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p109A | 106 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p109A3 | 106 | 2 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -165,7 +165,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p112B | 109 | 3 November | nov01 | period key, as transcribed | 6 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p112C1 | 109 | 3 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p112C | 109 | 3 November | nov01 | period key, as transcribed | 2 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p112D | 109 | 3 November |  | not read | 0 | none | see detailed table |
+| p112D | 109 | 3 November |  | not read | 0 | none | Norbert, 1 Mar 2017 blog comment, mostly read with some garbling |
 | p113A | 110 | 3 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p113B | 110 | 3 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p113C | 110 | 3 November | nov01 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -237,7 +237,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p134A4 | 131 | 5 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p134B | 131 | 5 November | nov04 | period key, as transcribed | 2 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p135_ | 132 | 5 November | nov04 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p135B | 132 | 5 November | nov04 | known-key repair (1 edits) | 2 | reads, repaired (score 97, null max 36, vocabulary coverage 0.40) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p135B | 132 | 5 November | nov04 | known-key repair (1 edits) | 2 | reads, repaired (score 97, null max 36, vocabulary coverage 0.40) | Partial readings by Thomas and Norbert, 2017 blog comments. Our decode reads under the key too |
 | p135C | 132 | 5 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p136A2 | 133 | 5 November | nov04 | known-key repair attempt, text withheld | 2 | clears nulls, does not read (score 120, null max 62) |  |
 | p136A3 | 133 | 5 November | nov04 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -283,7 +283,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p148B.2 | 145 | 6 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p148B.3 | 145 | 6 November | nov04 | period key, length repaired | 0 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p149A1 | 146 | 6 November | nov04 | period key, length repaired | 4 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p149B | 146 | 6 November | nov04 | known-key repair (2 edits) | 0 | reads, repaired (score 214, null max 35, vocabulary coverage 0.55) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p149B | 146 | 6 November | nov04 | known-key repair (2 edits) | 0 | reads, repaired (score 214, null max 35, vocabulary coverage 0.55) | Norbert, 1 Mar 2017 blog comment. Our decode reads under the key too |
 | p149C1 | 146 | 6 November | nov04 | known-key repair (2 edits) | 6 | reads, repaired (score 207, null max 35, vocabulary coverage 0.70) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p150A | 147 | 6 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p150B1 | 147 | 6 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -312,7 +312,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p155B2 | 152 | 7 November | nov04 | period key, as transcribed | 5 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p155GC | 152 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p155D | 152 | 7 November | nov04 | period key, length repaired | 0 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p155E | 152 | 7 November |  | not read | 2 | none | see detailed table |
+| p155E | 152 | 7 November |  | not read | 2 | none | Unread, no reading found |
 | p155E2 | 152 | 7 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p156A3 | 153 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p156B1 | 153 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -344,7 +344,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p161A2 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p161B1 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p161C3 | 158 | 8 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p161D | 158 | 8 November |  | not read | 2 | none | see detailed table |
+| p161D | 158 | 8 November |  | not read | 2 | none | Unread, no reading found |
 | p161E | 158 | 8 November | nov07 | known-key repair (1 edits) | 0 | partial reading (score 175, null max 40, vocabulary coverage 0.27) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p162A | 159 | 8 November | nov07 | known-key repair attempt, text withheld | 1 | clears nulls, does not read (score 88, null max 44) |  |
 | p162B | 159 | 8 November | nov07 | known-key repair (2 edits) | 3 | partial reading (score 84, null max 43, vocabulary coverage 0.16) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
@@ -373,9 +373,9 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p166A.2 | 163 | 9 November |  | not read | 0 | none |  |
 | p166A1.3 | 163 | 9 November | nov07 | period key, as transcribed | 6 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p166A1.4 | 163 | 9 November | nov07 | period key, as transcribed | 24 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p167A | 164 | 9 November |  | not read | 35 | none | see detailed table |
+| p167A | 164 | 9 November |  | not read | 35 | none | Partial reconstruction by Norbert, March 2017 |
 | p167A4 | 164 | 9 November | nov07 | period key, as transcribed | 14 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p167A5 | 164 | 9 November |  | not read | 13 | none | see detailed table |
+| p167A5 | 164 | 9 November |  | not read | 13 | none | Partial reconstruction by Norbert, March 2017 |
 | p167_ | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p167C1 | 164 | 9 November | nov07 | period key, as transcribed | 4 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p167D | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -404,10 +404,10 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p171E | 168 | 9 November | nov07 | period key, length repaired | 2 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p172A | 169 | 9 November | nov07 | period key, length repaired | 0 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p172B | 169 | 9 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p173A | 170 | 9 November |  | not read | 0 | none | see detailed table |
+| p173A | 170 | 9 November |  | not read | 0 | none | Unread, no reading found |
 | p173B | 170 | 9 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p173B.2 | 170 | 9 November | nov07 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p174A1 | 171 | 9 November | nov07 | known-key repair (2 edits) | 5 | reads, repaired (score 284, null max 48, vocabulary coverage 0.34) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p174A1 | 171 | 9 November | nov07 | known-key repair (2 edits) | 5 | reads, repaired (score 284, null max 48, vocabulary coverage 0.34) | Norbert, 1 Mar 2017 blog comment, transcript corrupted (claimed, not verified by us). Our decode reads under the key too |
 | p174A3 | 171 | 9 November |  | not read | 7 | none |  |
 | p174A3.2 | 171 | 9 November | nov07 | period key, as transcribed | 2 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p174B1 | 171 | 9 November | nov07 | period key, as transcribed | 2 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -436,7 +436,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p178C | 175 | 10 November | nov10 | period key, as transcribed | 3 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p178C2 | 175 | 10 November | nov10 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p178C3 | 175 | 10 November | nov10 | known-key repair (1 edits) | 4 | reads, repaired (score 128, null max 24, vocabulary coverage 0.37) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
-| p179A | 176 | 10 November | nov10 | known-key repair attempt, text withheld | 10 | clears nulls, does not read (score 46, null max 13) | see detailed table |
+| p179A | 176 | 10 November | nov10 | known-key repair attempt, text withheld | 10 | clears nulls, does not read (score 46, null max 13) | Norbert suggested a reading needing corrections, 2 Mar 2017 blog comment |
 | p179A3 | 176 | 10 November | nov10 | period key, as transcribed | 5 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p179A6 | 176 | 10 November |  | not read | 6 | none |  |
 | p179B1 | 176 | 10 November | nov10 | new reading, see README, message 2305 | 0 | read, open letters listed there | This project, October 2026 |
@@ -489,15 +489,15 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p189B1 | 186 | 13 November | nov13_16 | period key, length repaired | 7 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p189B3 | 186 | 13 November |  | not read | 1 | none |  |
 | p189C1 | 186 | 13 November | nov13_16 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p190A1 | 187 | 13 November | chi_2017_comments | known-key repair (0 edits) | 1 | reads, repaired (score 235, null max 25, vocabulary coverage 0.67) | see detailed table. Our decode agrees in the sense that it reads under the key |
-| p190A | 187 | 13 November | chi_2017_comments | known-key repair (0 edits) | 0 | reads, repaired (score 114, null max 31, vocabulary coverage 0.41) | see detailed table. Our decode agrees in the sense that it reads under the key |
+| p190A1 | 187 | 13 November | chi_2017_comments | known-key repair (0 edits) | 1 | reads, repaired (score 235, null max 25, vocabulary coverage 0.67) | George Lasry, 3 May 2017 blog comment, improved by Norbert. Our decode reads under the key too |
+| p190A | 187 | 13 November | chi_2017_comments | known-key repair (0 edits) | 0 | reads, repaired (score 114, null max 31, vocabulary coverage 0.41) | George Lasry, 3 May 2017 blog comment, improved by Norbert. Our decode reads under the key too |
 | p190B | 187 | 13 November |  | not read | 1 | none |  |
 | p190G | 187 | 13 November | nov13_20 | known-key repair (2 edits) | 1 | partial reading (score 70, null max 50, vocabulary coverage 0.17) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p190D1 | 187 | 13 November | nov13_20 | known-key repair (1 edits) | 1 | partial reading (score 109, null max 68, vocabulary coverage 0.29) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p191A | 188 | 13 November | nov13_16 | period key, length repaired | 6 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p191B2 | 188 | 13 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p191_1 | 188 | 13 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p192A | 189 | 14 November |  | not read | 11 | none | see detailed table |
+| p192A | 189 | 14 November |  | not read | 11 | none | Unread, no reading found |
 | p192B | 189 | 14 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p192C | 189 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p192D | 189 | 15 November | nov13_16 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -536,7 +536,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p201A | 198 | 15 November |  | not read | 6 | none |  |
 | p201B | 198 | 15 November | nov13_16 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p201C | 198 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p201D | 198 | 15 November |  | not read | 0 | none | see detailed table |
+| p201D | 198 | 15 November |  | not read | 0 | none | Unread, no reading found |
 | p201E | 198 | 15 November |  | not read | 0 | none |  |
 | p202A1 | 199 | 15 November | nov13_16 | known-key fill of unread symbols | 0 | strong lead (margin 57.9) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p202A3 | 199 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -614,7 +614,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p218B1 | 215 | 22 November |  | not read | 20 | none |  |
 | p218B4 | 215 | 22 November | nov22 | period key, as transcribed | 21 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p218B3 | 215 | 22 November |  | not read | 18 | none |  |
-| p218C | 215 | 22 November |  | not read | 12 | none | see detailed table |
+| p218C | 215 | 22 November |  | not read | 12 | none | Unread, a third party repository calls it probably known, no reading published |
 | p219A1 | 216 | 24 November | nov22 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p219A | 216 | 24 November | nov22 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p219A.2 | 216 | 24 November | nov22 | period key, length repaired | 0 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
@@ -629,7 +629,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p220B | 217 | 24 November | nov22 | known-key fill of unread symbols | 21 | moderate lead (margin 20.6) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p220B2 | 217 | 24 November | nov22 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p220C | 217 | 24 November |  | not read | 2 | none |  |
-| p220C.2 | 217 | 24 November | dec09_history | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
+| p220C.2 | 217 | 24 November | dec09_history | period key, as transcribed | 0 | high | Prinz, September 2026, with a key from Childs 1919 typescript. Our decode reads under the key too |
 | p221A | 218 | 25 November | nov25 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p221A2 | 218 | 25 November | nov25 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p221A6 | 218 | 25 November | nov25 | period key, as transcribed | 1 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
