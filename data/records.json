@@ -7385,7 +7385,7 @@
   "plaintext": null,
   "confidence": "none",
   "credit": "Partial reconstruction by Norbert, March 2017",
-  "note": "Ciphertext from the corrected retranscription of the page scan, 242 symbols against 242 in the log. best known-key repair did not clear its shuffled nulls (score -6, null max 12), not exhaustive",
+  "note": "Ciphertext from the corrected retranscription of the page scan, 242 symbols against 242 in the log. Known-key repair was run on the earlier transcription only and has not been rerun on this one, so no repair outcome is stated",
   "status_symbol": "\u26aa",
   "accounting_note": "Klaus p.164",
   "accounting_who": "see detailed table"
@@ -7425,7 +7425,7 @@
   "plaintext": null,
   "confidence": "none",
   "credit": "Partial reconstruction by Norbert, March 2017",
-  "note": "Ciphertext from the corrected retranscription of the page scan, 178 symbols against 177 in the log. best known-key repair did not clear its shuffled nulls (score 3, null max 10), not exhaustive",
+  "note": "Ciphertext from the corrected retranscription of the page scan, 178 symbols against 177 in the log. Known-key repair was run on the earlier transcription only and has not been rerun on this one, so no repair outcome is stated",
   "status_symbol": "\u26aa",
   "accounting_note": "Klaus p.164",
   "accounting_who": "see detailed table"
@@ -9870,7 +9870,7 @@
   "plaintext": null,
   "confidence": "none",
   "credit": "No reading found",
-  "note": "Ciphertext from the corrected retranscription of the page scan, 90 symbols against 46 in the log. known-key repair produced no candidate (too short or too damaged), not a negative",
+  "note": "Ciphertext from the corrected retranscription of the page scan, 90 symbols against 46 in the log. Known-key repair was run on the earlier transcription only and has not been rerun on this one, so no repair outcome is stated",
   "status_symbol": "\u25cb",
   "accounting_note": "Klaus p.189",
   "accounting_who": "see detailed table"
@@ -10651,7 +10651,7 @@
   "plaintext": null,
   "confidence": "none",
   "credit": "No reading found",
-  "note": "Ciphertext from the corrected retranscription of the page scan, 170 symbols against 170 in the log. best known-key repair did not clear its shuffled nulls (score 8, null max 25), not exhaustive",
+  "note": "Ciphertext from the corrected retranscription of the page scan, 170 symbols against 170 in the log. Known-key repair was run on the earlier transcription only and has not been rerun on this one, so no repair outcome is stated",
   "status_symbol": "\u25cb",
   "accounting_note": "Klaus p.198",
   "accounting_who": "see detailed table"
