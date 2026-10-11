@@ -372,10 +372,10 @@ The decoded text of each entry is under [readings](readings).
 |---|---|
 | Reads under a published period key exactly as transcribed | 465 |
 | Reads under a published period key after repairing the length | 79 |
-| Reads after a known key repair of a damaged intercept | 16 reads, 12 partly |
+| Reads after a known key repair of a damaged intercept | 14 reads, 13 partly |
 | Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
 | Read by this project (page 153 pair and message 2305) | 3, described above |
-| Clears its shuffled nulls under a known key but does not read, so no text is given | 15 |
+| Clears its shuffled nulls under a known key but does not read, so no text is given | 16 |
 | Not read | 74 |
 
 The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
@@ -397,8 +397,7 @@ How to read the confidence column.
 
 Credit. Where the entry reads under a period key, the key was found by Lasry, Niebel, Kopal and Wacker in 2017.
 This table regenerated the decodes and did not check which messages they published, and their team reports having
-left 50 unread. We count 74 not read plus 15 that do not read, so most of those are probably old readings.
-Nobody outside that team can say which. Messages that Norbert, Armin and others read in the 2017 blog comments
+left 50 unread. We count 74 not read plus 16 that do not read. Nobody outside that team can say which of those they read. Messages that Norbert, Armin and others read in the 2017 blog comments
 are credited to them where the accounting records that.
 
 Sources besides Childs are in [SOURCES.md](SOURCES.md).
