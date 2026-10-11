@@ -373,9 +373,9 @@ Each entry id with a decoded text links to that text in the files under `reading
 | p166A.2 | 163 | 9 November |  | not read | 0 | none |  |
 | [p166A1.3](readings/nov07.md#p166a13-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, as transcribed | 6 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p166A1.4](readings/nov07.md#p166a14-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, as transcribed | 24 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p167A | 164 | 9 November |  | not read | 35 | none | Partial reconstruction by Norbert, March 2017 |
+| p167A | 164 | 9 November |  | not read | 84 | none | Partial reconstruction by Norbert, March 2017 |
 | [p167A4](readings/nov07.md#p167a4-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 14 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p167A5 | 164 | 9 November |  | not read | 13 | none | Partial reconstruction by Norbert, March 2017 |
+| p167A5 | 164 | 9 November |  | not read | 42 | none | Partial reconstruction by Norbert, March 2017 |
 | [p167_](readings/nov07.md#p167_-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p167C1](readings/nov07.md#p167c1-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 4 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p167D](readings/nov07.md#p167d-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -497,7 +497,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p191A](readings/nov13_16.md#p191a-childs-page-188-13-november-1918) | 188 | 13 November | nov13_16 | period key, length repaired | 6 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p191B2](readings/nov13_16.md#p191b2-childs-page-188-13-november-1918) | 188 | 13 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p191_1](readings/nov13_16.md#p191_1-childs-page-188-13-november-1918) | 188 | 13 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p192A | 189 | 14 November |  | not read | 11 | none | No reading found |
+| p192A | 189 | 14 November |  | not read | 6 | none | No reading found |
 | [p192B](readings/nov13_16.md#p192b-childs-page-189-14-november-1918) | 189 | 14 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p192C](readings/nov13_16.md#p192c-childs-page-189-15-november-1918) | 189 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p192D](readings/nov13_16.md#p192d-childs-page-189-15-november-1918) | 189 | 15 November | nov13_16 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -536,7 +536,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | p201A | 198 | 15 November |  | not read | 6 | none |  |
 | [p201B](readings/nov13_16.md#p201b-childs-page-198-15-november-1918) | 198 | 15 November | nov13_16 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p201C](readings/nov13_16.md#p201c-childs-page-198-15-november-1918) | 198 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p201D | 198 | 15 November |  | not read | 0 | none | No reading found |
+| p201D | 198 | 15 November |  | not read | 5 | none | No reading found |
 | p201E | 198 | 15 November |  | not read | 0 | none |  |
 | [p202A1](readings/leads.md#p202a1-childs-page-199-15-november-1918) | 199 | 15 November | nov13_16 | known-key fill of unread symbols | 0 | strong lead (margin 57.9) | Read with Lasry's published keys |
 | [p202A3](readings/nov13_16.md#p202a3-childs-page-199-15-november-1918) | 199 | 15 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |

@@ -59,3 +59,22 @@ Checked, with the outcome for each.
 
 This search is thin, not complete. Until a per message list turns up, no record of ours outside the 22 entries can be called new,
 and the fill leads stay leads.
+
+## What the 2017 paper says about the unread messages
+
+An open copy of the 2017 paper turned up. It says 618 of 668 cryptograms were recovered and about 50 were not.
+Of those 50, 36 had too many groups missing, and 14 had the correct length but fit no key. It gives no list of
+which messages they were. This does not change the search table above, which stays thin until a per message list is found.
+
+Sorting our own 74 not read records by what we can see, without claiming anything about which ones the team read.
+
+| Group | Records |
+|---|---|
+| No ciphertext held in our copy | 5 |
+| Log gives no printed count | 28 |
+| Symbols differ from the printed count | 34 |
+| Count matches but symbols are unknown or the length is odd | 5 |
+| Count matches and complete | 2 |
+
+The 16 records whose repair clears the nulls without reading sort as 14 with a count mismatch, 1 with no printed
+count and 1 with a matching count and unknown symbols. Our unread total of 74 is larger than their 50, so the two groups cannot be the same set. The table makes no claim about which of ours the team read.

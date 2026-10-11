@@ -30,7 +30,7 @@ known-key fill on a page image re-read. Key oct04. Unread symbols 0. strong lead
 NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUND#NDERENFIRMENATOMXFERNERWIEVIELBISJETZTGELIEFERTXDIEUELBENDATEQBETREFFENNQVOROSSISKFALLSSOLCHEIHNENBEKANNTXHAGELINXXXLSTARMEEOXQU#####
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p070A3, Childs page 67, 5 October 1918
 
@@ -40,7 +40,7 @@ known-key fill on a page image re-read. Key oct04. Unread symbols 0. strong lead
 ALSERSATZISTBEREITSOBERSTLTKARLVONGRUNDHERRXROEM#DES#XCHEVREGTSDORTHINBEORSERTXXBAYRKRIEGSMINISTERIUMNR######P
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p071A1, Childs page 68, 5 October 1918
 
@@ -66,7 +66,7 @@ known-key fill on a page image re-read. Key oct04. Unread symbols 1. weak lead (
 OUXZWDP#LU#ABARAILA#XLRXMITDXVIOEETUAX#####NIE#HANDGI#NAAENX#WAQE#MAUCHXGEI#WWLIXRUSSQE#X#OAGXMUNXM#TT#LEBEJS#IT#EL##FASTBEO#IN#LISPENCDRIERGEMAEFK##WA#XOUNNFUERMWN
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, no second reader
 
 ## p073A1, Childs page 70, 6 October 1918
 
@@ -126,7 +126,7 @@ known-key fill on a page image re-read. Key nov01. Unread symbols 0. weak lead (
 FUERXUKSXGROESSERERXVERKEHRXZUXERWARTENXHABENXSIEXSICHEREXVERBINDUNGMITXUKSXODERXMUSSXOSMXVERMITTELNXX
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p114A, Childs page 111, 3 November 1918
 
@@ -136,7 +136,7 @@ known-key fill on a page image re-read. Key nov01. Unread symbols 15. weak lead 
 OKMXOKEXABENDMELDUNGXANSAREXDONAUXR#HEALPXKOSPRERREICHTRAUMSUEDLICHUJVINE#X#JVIDEKR#A####IDUXG#KX####
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, no second reader
 
 ## p116D1, Childs page 113, 3 November 1918
 
@@ -196,7 +196,7 @@ known-key fill on a page image re-read. Key nov04. Unread symbols 0. moderate le
 DEUTSCHEBETSCHAFTXKONSTANTINOPEFXD#TERSC#RXAUSWAERTIGXRMX#XDX####
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p158C1, Childs page 155, 7 November 1918
 
@@ -216,7 +216,7 @@ known-key fill on a page image re-read. Key nov07. Unread symbols 0. strong lead
 NACHSIEBENBUERGENXOBKDOXHATZRSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPRECHUNGUEBERDIESEANGELEGENHEIT
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p161E, Childs page 158, 8 November 1918
 
@@ -306,7 +306,7 @@ known-key fill on a page image re-read. Key nov10. Unread symbols 0. weak lead (
 GUTANGEKOMMENXISTDORTWASLOSXSEIF
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p188_, Childs page 185, 13 November 1918
 
@@ -390,7 +390,7 @@ known-key fill on a page image re-read. Key nov22. Unread symbols 0. moderate le
 MASSOWBUDAPESTISTERSUCHUXLETZTEREFRAGENZUKLAEHENXOKMYAYY#YMOP
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p220B, Childs page 217, 24 November 1918
 
@@ -418,7 +418,7 @@ known-key fill on a page image re-read. Key nov25. Unread symbols 0. strong lead
 DEMGENERALKDOX#XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEILUNGANGENREALKDOX##AKEGBETENXXXCHEFDESGENERALSTABSDXFELDHEERES#####X
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
 
 ## p228A, Childs page 225, 28 November 1918
 
@@ -428,4 +428,4 @@ known-key fill on a page image re-read. Key nov28. Unread symbols 6. strong lead
 STATIHNUKSCHIFFRABERSTENDEZMITNSLNOVYDEDEZTAFELNNOCHNICGTEINGEGANGANYBITTETELEGDANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY
 ```
 
-Symbols re-read from the page image by one reader, second reader confirmed
+Symbols re-read from the page image by one reader, second blind reader confirmed
