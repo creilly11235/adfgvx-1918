@@ -42,3 +42,20 @@ We have not found a transcribed set of them.
 Several 2026 news and blog items claim an AI system read a message from 24 November 1918. They trace back to a
 single post by a writer using the name Prinz, who used a key from Childs's 1919 typescript. That is the message
 on page 217 in our tables, and we count it as read by others. We did not use the news items as sources.
+
+## Search for a list of what was read in 2017
+
+On 11 October 2026 we looked for any per message list of which records the 2017 team read. We found none.
+Checked, with the outcome for each.
+
+| Place | Outcome |
+|---|---|
+| Schmeh's February 2017 post and all its comments | Gives the team's key table with a total of 618 cryptograms recovered, plus Schmeh's list of 22 unsolved entries. No list of the records that were read |
+| Schmeh's separate page of unsolved ADFGVX messages | Already used. It names unsolved entries only, so every other record is unknown, not known read |
+| Lasry's thesis chapter on ADFGVX | Gives the counts and the fourteen keys. No per message list, and 50 unread of 668 is the only total |
+| The Cryptologia paper of 2017 | Not available to us in full text, so its supplements were not checked. This is an access gap |
+| Lasry's 2015 Kassel talk slides | The file text could not be read, so it is unchecked |
+| General web search for a Lasry repository, data set or CrypTool material holding the plaintexts | No hit. A search engine miss is not proof that none exists |
+
+This search is thin, not complete. Until a per message list turns up, no record of ours outside the 22 entries can be called new,
+and the fill leads stay leads.
