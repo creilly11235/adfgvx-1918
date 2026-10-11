@@ -6804,7 +6804,7 @@
   "method": "not read",
   "plaintext": null,
   "confidence": "none",
-  "credit": "Not a cryptogram, a typist chimera of two read records (pages 159 B and C)",
+  "credit": "Log chimera of the entries on page 159 B and C",
   "note": "best known-key repair did not clear its shuffled nulls (score 30, null max 33), not exhaustive",
   "status_symbol": "\u25cb",
   "accounting_note": "Klaus p.158, a log chimera of p.159 B and C, not a cryptogram",
