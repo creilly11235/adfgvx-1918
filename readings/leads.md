@@ -4,7 +4,7 @@ Text is the plaintext letters with X standing for a space or stop. A hyphen is a
 
 ## p059B, Childs page 56, 19 September 1918
 
-known-key repair (2 edits). Key sep19. Unread symbols 2. reads, repaired (score 123, null max 39, vocabulary coverage 0.45).
+known-key repair (2 edits). Key sep19. Unread symbols 2. partial reading (score 123, null max 39, vocabulary coverage 0.45).
 
 ```
 AKONA-H70XZURM1NR227Q0VX6X9X18XYGRXOSTWIRDDEMNAECHSTEIGENENDEUTSCHENAKONACHEVHALTEN
@@ -127,16 +127,6 @@ FUERXUKSXGROESSERERXVERKEHRXZUXERWARTENXHABENXSIEXSICHEREXVERBINDUNGMITXUKSXODER
 ```
 
 Symbols re-read from the page image by one reader, second reader confirmed
-
-## p104D2, Childs page 101, 1 November 1918
-
-known-key repair (3 edits). Key nov01. Unread symbols 2. partial reading (score 51, null max 20, vocabulary coverage 0.19).
-
-```
-0NMO-KXMA5PENSENUNTARSTELLTUCBBI-TETUE-EFEHLEXACIXKX11CRMPLA70G19XVS
-```
-
-Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent
 
 ## p114A, Childs page 111, 3 November 1918
 
@@ -350,7 +340,7 @@ Length repaired by inserting or removing symbols, edits listed in the repair log
 
 ## p193_, Childs page 190, 14 November 1918
 
-known-key repair (2 edits). Key nov13_20. Unread symbols 3. reads, repaired (score 130, null max 35, vocabulary coverage 0.35).
+known-key repair (2 edits). Key nov13_20. Unread symbols 3. partial reading (score 130, null max 35, vocabulary coverage 0.35).
 
 ```
 WELCHE-TATION-ANNNKJBEIBETRIEBSTTOERUNG?ERTRETENXXVIELLEICHTSEWA-TOPOLXDRINGBISCHEI-ANLP
