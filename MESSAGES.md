@@ -316,8 +316,8 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p155E2 | 152 | 7 November | nov04 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p156A3 | 153 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p156B1 | 153 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p156C3 | 153 | 7 November | ours_nov07_18col | new reading, see README, page 153 | 0 | read, open letters listed there | This project, October 2026 |
-| p156C6 | 153 | 7 November | ours_nov07_18col | new reading, see README, page 153 | 15 | read, open letters listed there | This project, October 2026 |
+| p156C3 | 153 | 7 November | ours_nov07_18col | new reading, see README, page 153 | 0 | read, three open letters | This project, October 2026 |
+| p156C6 | 153 | 7 November | ours_nov07_18col | new reading, see README, page 153 | 15 | read, three open letters | This project, October 2026 |
 | p156D2 | 153 | 9 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p156E1 | 153 | 9 November | nov07 | period key, length repaired | 0 | high after repair | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p157A2 | 154 | 7 November |  | not read | 0 | none |  |
@@ -439,7 +439,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p179A | 176 | 10 November | nov10 | known-key repair attempt, text withheld | 10 | clears nulls, does not read (score 46, null max 13) | Norbert suggested a reading needing corrections, 2 Mar 2017 blog comment |
 | p179A3 | 176 | 10 November | nov10 | period key, as transcribed | 5 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p179A6 | 176 | 10 November |  | not read | 6 | none |  |
-| p179B1 | 176 | 10 November | nov10 | new reading, see README, message 2305 | 0 | read, open letters listed there | This project, October 2026 |
+| p179B1 | 176 | 10 November | nov10 | new reading, see README, message 2305 | 0 | read, six open letters | This project, October 2026 |
 | p179B | 176 | 10 November | nov10 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p179B3 | 176 | 10 November | nov10 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p180A | 177 | 11 November | nov10 | known-key fill on a page image re-read | 0 | strong lead (margin 140.9) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
