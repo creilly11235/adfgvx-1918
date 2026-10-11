@@ -132,10 +132,10 @@ message, for instance, the candidates are the six cells of row A: 4, A, R, U, T 
 Twenty gaps with six choices each is 6^20, about 3.7 million billion combinations. That is too
 many to try one at a time, but it does not need to be: a dynamic program over the message finds
 the best-scoring combination exactly, along with the runner-up and the probability of each
-letter. To judge what counts as good German, the program learned from examples: the 544 messages
-in the collection that were already read (so it knows the telegrams' style, such as X for a full
-stop and the usual abbreviations and unit names), plus ordinary German books. It gives each
-possible string of letters a score for how much it looks like those examples.
+letter. The score is plain counting, the same kind Lasry's team used: a table of how often each
+run of five letters (ARMEE, XVERS and so on) occurs in the 544 messages of the collection that were
+already read, plus ordinary German books. A fill whose letter runs are common in real German
+telegrams scores high; one full of rare runs scores low. A person then reads the best fill.
 
 The result reads as German telegram text from start to finish:
 
@@ -172,8 +172,8 @@ The reading was checked in several ways:
   proves the reading is consistent with the key, since any choice of the six candidates would
   also pass, but it rules out arithmetic mistakes.
 - **Several of the place names appear nowhere else in the collection.** PETERREVE, VERSECZ,
-  VON SERBEN and the 216th Division were not in the training text, so the model could not
-  simply copy them.
+  VON SERBEN and the 216th Division were not in the counted text, so the score could not
+  simply have copied them.
 
 ### The six open letters
 
@@ -190,8 +190,8 @@ filled. These six are the open letters:
 | digit in "216" | 6 | 9 | the blank square cell GF |
 | digit "9" in "9. R.D." | 9 | 6 | the blank square cell XX |
 
-Our language model prefers our fill overall, but a test on planted messages showed that at this
-length the model picks the exact true fill only about one time in ten, so it cannot settle the
+The letter-count score prefers our fill overall, but a test on planted messages showed that at this
+length the score picks the exact true fill only about one time in ten, so it cannot settle the
 choice. The corpus spells the town both NAGYBESKEREK and NAYYBECSKEREK, which does not help either.
 The blank digit cells could be any arrangement of 5 to 9 (120 in all); the 2017 comment's
 arrangement and Lasry's differ by swapping two of them.
@@ -248,7 +248,7 @@ before knowing anything else about the key:
    pairings and orders, ranking them by how repetitive the resulting letter stream is (its index
    of coincidence).
 3. **Solve the square.** For each surviving column order, find the best square by hill-climbing
-   against the same German telegram model, first briefly for all candidates and then at length for
+   against the same letter-count score, first briefly for all candidates and then at length for
    the best 200.
 
 The search was tested before it was run on page 153. We planted 24 messages with the same
@@ -444,7 +444,7 @@ reading under Lasry's fill and lists the six open letters.
 `scripts/adfgvx.py` is the cipher itself (about 60 lines), and `data/messages.json` holds the
 intercepts as transcribed from Childs's log, with the keys.
 
-The searches that found these keys used a German language model built from the collection, and
+The searches that found these keys used the letter-count score described above, and
 long hill-climbing runs (about one CPU-hour per search, plus the planted tests and shuffled
 controls). They are described above but are not packaged here.
 
