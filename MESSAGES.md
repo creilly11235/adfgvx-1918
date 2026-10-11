@@ -344,7 +344,7 @@ The decoded text of each row is in the files under `readings`. Rows that are not
 | p161A2 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p161B1 | 158 | 7 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
 | p161C3 | 158 | 8 November | nov07 | period key, as transcribed | 0 | high | Lasry, Niebel, Kopal and Wacker 2017 (period key). Regenerated here, who first read each message not checked |
-| p161D | 158 | 8 November |  | not read | 2 | none | No reading found |
+| p161D | 158 | 8 November |  | not read | 2 | none | Not a cryptogram, a typist chimera of two read records (pages 159 B and C) |
 | p161E | 158 | 8 November | nov07 | known-key repair (1 edits) | 0 | partial reading (score 175, null max 40, vocabulary coverage 0.27) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
 | p162A | 159 | 8 November | nov07 | known-key repair attempt, text withheld | 1 | clears nulls, does not read (score 88, null max 44) |  |
 | p162B | 159 | 8 November | nov07 | known-key repair (2 edits) | 3 | partial reading (score 84, null max 43, vocabulary coverage 0.16) | This project, October 2026. Key from Lasry et al 2017 table. Probably also read in 2017, not checked |
