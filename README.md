@@ -132,8 +132,10 @@ message, for instance, the candidates are the six cells of row A: 4, A, R, U, T 
 Twenty gaps with six choices each is 6^20, about 3.7 million billion combinations. That is too
 many to try one at a time, but it does not need to be: a dynamic program over the message finds
 the best-scoring combination exactly, along with the runner-up and the probability of each
-letter. The score came from a German telegram-language model trained on the 544 other messages
-in the collection that read under known keys, mixed with ordinary German text.
+letter. To judge what counts as good German, the program learned from examples: the 544 messages
+in the collection that were already read (so it knows the telegrams' style, such as X for a full
+stop and the usual abbreviations and unit names), plus ordinary German books. It gives each
+possible string of letters a score for how much it looks like those examples.
 
 The result reads as German telegram text from start to finish:
 
