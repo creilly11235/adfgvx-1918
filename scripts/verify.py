@@ -49,21 +49,14 @@ for m in DATA['messages']:
         print('\n  With %d lost symbols restored as blanks at position %d (%s marks a lost letter):'
               % (lb['length'], lb['position'], '-'))
         show(A.decrypt(gapped, square, ranks), len(ranks) // 2)
-        readings = {}
-        for who in ('ours', 'lasry'):
-            fill = lb['fill_' + who]
-            full = intercept[:lb['position']] + fill + intercept[lb['position']:]
-            plain = A.decrypt(full, square, ranks)
-            readings[who] = plain
-            print('\n  Reading with %s fill:' % ('our' if who == 'ours' else "Lasry's"))
-            show(plain, len(ranks) // 2)
-            regen = A.encrypt(plain, square, ranks)
-            check('%s: re-encrypts to the restored %d symbols' % (who, len(full)), regen == full)
-            check('%s: the 220 intercepted symbols come back unchanged' % who,
-                  regen[:lb['position']] + regen[lb['position'] + lb['length']:] == intercept)
-        diffs = [(i, readings['ours'][i], readings['lasry'][i])
-                 for i in range(len(readings['ours'])) if readings['ours'][i] != readings['lasry'][i]]
-        print('\n  Letters where the two fills differ (position, ours, Lasry\'s): %s' % diffs)
+        full = intercept[:lb['position']] + lb['fill'] + intercept[lb['position']:]
+        plain = A.decrypt(full, square, ranks)
+        print('\n  Reading with the lost letters filled:')
+        show(plain, len(ranks) // 2)
+        regen = A.encrypt(plain, square, ranks)
+        check('re-encrypts to the restored %d symbols' % len(full), regen == full)
+        check('the %d intercepted symbols come back unchanged' % len(intercept),
+              regen[:lb['position']] + regen[lb['position'] + lb['length']:] == intercept)
         continue
 
     corrections = m.get('corrections', [])

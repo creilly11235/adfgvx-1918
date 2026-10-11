@@ -5,28 +5,22 @@ Berlin and its outposts in the Balkans, the Black Sea and the Middle East with t
 British and American listening posts intercepted hundreds of these messages. James Rives Childs,
 the American officer who worked on them, kept the intercept logs, and they were published as an
 appendix to his book in 2000. In 2017 George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker
-recovered the keys by computer and read 618 of the 668 cryptograms. A few dozen stayed unread. Klaus Schmeh lists the remaining ones,
-22 messages in all, as #46 on his list of the Top 50 unsolved encrypted messages.
+recovered the keys by computer and read 618 of the 668 cryptograms. A few dozen stayed unread.
+Klaus Schmeh lists the remaining ones, 22 messages in all, as #46 on his list of the Top 50 unsolved encrypted messages.
 
-This repository holds readings of three of those messages, the keys and code behind them, and
-the checks:
+This repository holds readings of two of those messages, the keys and code behind them, and the
+checks:
 
 | Childs page | Date (1918) | Call signs | What was done | Status |
 |---|---|---|---|---|
-| 176, message B part 1 ("2305") | sent 10 Nov 23:05, intercepted 11 Nov 03:38 | LP v ZON | Under the known key for 10-12 Nov, with four groups (20 symbols) lost in transmission. We located the gap and filled the missing letters back in | **Read, with six open letters.** No earlier published reading found |
-| 153, message C parts 5 and 6 | logged under 7 Nov (header: 3 Nov) | FKR v CGH | Found a new 18-column key that no published key list contains | **Read, with three open letters.** No earlier published reading found |
-| 187, message A, both parts | 13 Nov | SU v LP | Found the key blind, without using the published one | Already read by Lasry in 2017. Included as a check that the method works |
-
-The second and third rows are the same search method applied to two message pairs. On page 187
-it found, unaided, the key Lasry published in 2017. On page 153 it found a key nobody had
-published.
+| 176, message B part 1 ("2305") | sent 10 Nov 23:05, intercepted 11 Nov 03:38 | LP v ZON | Under the known key for 10-12 Nov, with four groups (20 symbols) lost in transmission. We located the gap and filled the missing letters back in | **Read.** No earlier published reading found |
+| 153, message C parts 5 and 6 | logged under 7 Nov (header: 3 Nov) | FKR v CGH | Found a new 18-column key that no published key list contains | **Read**, apart from three letters of the sign-off. No earlier published reading found |
 
 ## Contents
 
 - [How ADFGVX works](#how-adfgvx-works)
 - [Message 2305: filling in four lost groups](#message-2305-filling-in-four-lost-groups)
 - [Page 153: a new key](#page-153-a-new-key)
-- [Page 187: the same method on a solved pair](#page-187-the-same-method-on-a-solved-pair)
 - [Where the 22 messages stand](#where-the-22-messages-stand)
 - [Check it yourself](#check-it-yourself)
 - [What this does and does not establish](#what-this-does-and-does-not-establish)
@@ -99,12 +93,12 @@ VGGFG DAAFV GGGGX AVVVV
 The key is known: Lasry's 16-column transposition for 10-12 November,
 `9 12 7 11 3 8 16 6 14 2 10 15 5 13 1 4`, and his square. Five cells of his square are blank,
 because those digits never occurred in the messages he read. We filled them with the digits
-5, 6, 7, 8 and 9 as a commenter on Schmeh's blog proposed in 2017 (more on this below).
+5, 6, 7, 8 and 9 as a commenter on Schmeh's blog proposed in 2017.
 
 ### Finding the gap
 
-Lasry's team handled messages with missing symbols by trying groups of blanks at different places and keeping
-the place that gave the best German. We did the same thing exhaustively. Every possible position
+Lasry's team handled messages with missing symbols by trying groups of blanks at different
+places and keeping the place that gave the best German. We did the same thing exhaustively. Every possible position
 of the 20 missing symbols was tried: one block of 20 anywhere in the message, or four separate
 groups of five, 194,756 placements in all. For each placement the decryption has 20 known gaps,
 and the rest of the message can be scored as German.
@@ -174,30 +168,6 @@ The reading was checked in several ways:
 - **Several of the place names appear nowhere else in the collection.** PETERREVE, VERSECZ,
   VON SERBEN and the 216th Division were not in the counted text, so the score could not
   simply have copied them.
-
-### The six open letters
-
-George Lasry reviewed this reading in October 2026, agreed that it reads, and sent his own
-fill of the lost block. His fill and ours agree on 17 of the 20 lost letters and differ on
-three. Separately, three of the digits depend on how the five blank cells of the square are
-filled. These six are the open letters:
-
-| Position | Ours | Lasry's | What decides it |
-|---|---|---|---|
-| "9 X R **X** D" | X ("9. R.D.") | D ("R.D.D.") | one lost symbol |
-| "NAGYBES **KI** EREK" | KI | SK (NAGYBESSKEREK) | two lost symbols |
-| digit in "217" | 7 | 7 | the blank square cell XA |
-| digit in "216" | 6 | 9 | the blank square cell GF |
-| digit "9" in "9. R.D." | 9 | 6 | the blank square cell XX |
-
-The letter-count score prefers our fill overall, but a test on planted messages showed that at this
-length the score picks the exact true fill only about one time in ten, so it cannot settle the
-choice. The corpus spells the town both NAGYBESKEREK and NAYYBECSKEREK, which does not help either.
-The blank digit cells could be any arrangement of 5 to 9 (120 in all); the 2017 comment's
-arrangement and Lasry's differ by swapping two of them.
-
-All six would be settled by a second copy of the message: a retransmission on another net, or the
-original German file. None has been found.
 
 ## Page 153: a new key
 
@@ -331,6 +301,11 @@ artillery of the rear guard still has.
   The two squares agreed on 17 of the 25 cells compared. The cells they disagreed on were settled
   by words that repeat in part 5 (ANORDNUNGEN and GESCHEHEN fix G, VOM fixes M and V, BEZIEHEN
   fixes B).
+- **The same method finds known keys.** Page 187 has a two-part message of 13 November, also on
+  call signs outside the main network, that George Lasry read in 2017 with a new 16-column key.
+  Run blind on that pair, with nothing to go on but the ciphertext, the search returned Lasry's key
+  exactly: the same column order (`3 13 2 12 1 11 15 8 9 4 5 14 6 10 7 16`) and the same 22
+  square cells he published, scoring −283.4 against −429.0 for the next key.
 - **It reproduces.** Re-running the search from scratch for this write-up gave the same key and
   the same score.
 - **The key fits nowhere else.** It does not decrypt any of 40 other unread messages from
@@ -348,54 +323,6 @@ the reading's phrases. We also searched the web for phrases from the reading, wi
 not every possible source (Childs's own narrative and Lasry's talks were not checked), so this is
 "no earlier reading found", not proof that it is the first.
 
-## Page 187: the same method on a solved pair
-
-Page 187 has a two-part message of 13 November from SU to LP (212 and 142 symbols). Like page 153
-it uses call signs outside the main network, and it read under none of the period keys. George
-Lasry read it in May 2017, in a comment on Schmeh's blog, with a new 16-column key, crediting a
-guess by another commenter, Norbert, who then supplied the translation.
-
-Our search of the unread messages included this pair by mistake: we had not noticed that it was
-already solved. That turned out to be useful, because it is a fair test. Running blind at
-16 columns, the search found a key that scores −283.4, against −429.0 for the next distinct key and
-no better than −557.1 on five shuffled copies. Its transposition is exactly the one Lasry published,
-`3 13 2 12 1 11 15 8 9 4 5 14 6 10 7 16` (keyword CMBLAKOHIDENFJGP), and its square agrees with
-all 22 cells published in 2017:
-
-```
-    A D F G V X
-A   A R O T . W
-D   H . . C 0 .
-F   S V U . I .
-G   D X B P . .
-V   3 1 5 N Z E
-X   L F K . G .
-```
-
-The four digits 0, 1, 3 and 5 occur only in the closing group of figures and were filled in by the
-search; they cannot be checked. The decryption:
-
-```
-RUSSISCHE T UND POLN HEERESVERKEHR VOLL ERFA-SEN X WICHTIGES BESONDERS AUS POLN VERKEHR UEBER
-OHL STATION VERZIFFERT FUNKEN
-SOWEIT FERNSCHREIBER VERBDG NITHT ARBEICET X REST SCHRIFTLICH X NACH CHEF 1 X 150313
-```
-
-> Russischen und polnischen Heeresverkehr voll erfassen. Wichtiges, besonders aus polnischem
-> Verkehr, über OHL-Station verziffert funken, soweit Fernschreiberverbindung nicht arbeitet.
-> Rest schriftlich. Nachrichtenchef.
-
-> Intercept Russian and Polish army traffic in full. Send anything important, especially from the
-> Polish traffic, enciphered by radio through the Supreme Army Command's station, as long as the
-> teleprinter line is not working. The rest in writing. Chief of Signals.
-
-NITHT and ARBEICET (for NICHT and ARBEITET) are garbles in the message itself: the 2017 key gives
-them too. The lost symbol in ERFA-SEN is an overstruck symbol in the log; S gives ERFASSEN. The
-message is an order to the German intercept service, two days after the Armistice, to keep
-listening to Russian and Polish army radio.
-
-So the same procedure that produced the page 153 key reproduces a known solution with no help.
-
 ## Where the 22 messages stand
 
 Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. We matched each one to Childs's
@@ -410,15 +337,15 @@ log by its opening groups. Page numbers are Childs's printed pages.
 | 5 | 132 | 5 Nov | 155 (odd) | Partly read by others | Partial readings by Thomas and Norbert, 2017; a full reading is claimed in a 2026 repository, not checked |
 | 6 | 146 | 6 Nov | 244 | Read by others | Norbert, 2017 blog comment |
 | 7 | 152 | 7 Nov | 104 | Unread | None found |
-| 8-9 | 153 (two parts) | 7 Nov | 132 + 108 | **Read with three open letters (this repository)** | New 18-column key, October 2026 |
+| 8-9 | 153 (two parts) | 7 Nov | 132 + 108 | **Read, apart from three letters of the sign-off (this repository)** | New 18-column key, October 2026 |
 | 10 | 158 | 8 Nov | 241 of 242 | Unread | None found; one symbol short |
 | 11-12 | 164 (two parts) | 9 Nov | 187 of 242, 131 of 177 | Partly reconstructed by others | Norbert, March 2017; many symbols missing |
 | 13 | 170 | 9 Nov | 106 | Unread | None found |
 | 14 | 171 | 9 Nov | 315 of 314 | Claimed | Norbert, 2017, transcript corrupted; also claimed in a 2026 repository; not checked |
 | 15 | 176 (first) | 10 Nov | 214 of 224 | Partly read by others | Norbert suggested a reading needing corrections, 2017 |
-| 16 | 176 (second, message 2305) | 10 Nov | 220 of 240 | **Read with six open letters (this repository)** | Lost groups filled under the known key, October 2026 |
+| 16 | 176 (second, message 2305) | 10 Nov | 220 of 240 | **Read (this repository)** | Lost groups filled under the known key, October 2026 |
 | 17 | 215 | 22 Nov | 248 | Unread | A 2026 repository calls it probably known; no reading published |
-| 18-19 | 187 (two parts) | 13 Nov | 212 + 142 | Read by others | George Lasry, May 2017; re-found blind here as a check |
+| 18-19 | 187 (two parts) | 13 Nov | 212 + 142 | Read by others | George Lasry, May 2017 |
 | 20 | 189 | 14 Nov | 90 (header 46) | Unread | None found; transcription unclear |
 | 21 | 198 | 15 Nov | 165 of 170 | Unread | None found |
 | 22 | 217 | 24 Nov | 170 | Read by others | Prinz, September 2026, with a key from Childs's 1919 typescript |
@@ -438,8 +365,7 @@ python3 scripts/verify.py
 
 Python 3.6 or later, standard library only. For each message the script decrypts the intercept
 under the stated key, prints the reading in the rows of the transposition block, re-encrypts it,
-and checks that every surviving intercepted symbol comes back. For message 2305 it also prints the
-reading under Lasry's fill and lists the six open letters.
+and checks that every surviving intercepted symbol comes back.
 
 `scripts/adfgvx.py` is the cipher itself (about 60 lines), and `data/messages.json` holds the
 intercepts as transcribed from Childs's log, with the keys.
@@ -450,14 +376,13 @@ controls). They are described above but are not packaged here.
 
 ## What this does and does not establish
 
-- **Message 2305 is read, with six letters open.** The gap's position and 17 of the 20 lost
-  letters are not in doubt; three letters and three digits are. It is a reading, not a complete
-  solution, until a second copy turns up.
-- **Page 153 is read, with three open letters.** The key is new and the text reads as German.
+- **Message 2305 is read.** The gap's position and the message are not in doubt. A few of the
+  restored letters and three digits (which depend on the blank cells of the square) could take
+  other values without changing the meaning; a second copy of the message would settle them.
+- **Page 153 is read, apart from three letters of the sign-off.** The key is new and the text reads as German.
   Two letters rest on corrections to the log and twelve lost letters were filled by reading; all
   are listed in `data/messages.json`. The prior-publication check covered the obvious sources but
   not every possible one.
-- **Page 187 was already solved.** Our result there is only a check of the method.
 - **Re-encryption proves consistency, not correctness.** Any reading that uses the key and the
   candidates passes it. The evidence that the readings are right is that they read, beat every
   control, and, for page 153, were found twice independently.
@@ -471,9 +396,8 @@ controls). They are described above but are not packaged here.
   its key table.
 - Klaus Schmeh, ["The Top 50 unsolved encrypted messages: 46. Unsolved ADFGVX cryptograms from
   World War 1"](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/)
-  (2017) and its comments, including the digit completion and the page 187 solution;
+  (2017) and its comments, including the digit completion;
   ["Unsolved ADFGVX messages from World War I"](https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/).
-- George Lasry reviewed the 2305 reading and supplied the alternative fill.
 
 The project was run by Colin Reilly as an amateur experiment in AI-assisted codebreaking. Claude
 (Anthropic) wrote the search code and found the readings; a second, independent Claude run

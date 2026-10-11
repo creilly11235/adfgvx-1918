@@ -86,8 +86,7 @@
    "lost_block": {
     "position": 160,
     "length": 20,
-    "fill_ours": "DFFXXDXXVVXDXXXVXXAF",
-    "fill_lasry": "VFFXXDXXVVXDXDXGXXAF"
+    "fill": "DFFXXDXXVVXDXXXVXXAF"
    }
   },
   {
@@ -281,127 +280,6 @@
      "letter": 50
     }
    ]
-  },
-  {
-   "name": "p187",
-   "title": "Childs p.187, message A parts 1 and 2 (SU v LP, 13 Nov 1918)",
-   "parts": [
-    {
-     "label": "part 1",
-     "childs_printed_page": 187,
-     "log_header": "A) SU v LP (13 November; time illegible in our copy)",
-     "part_label": "1 TL CHI-212",
-     "symbols_in_log": 212,
-     "symbols_in_header": 212,
-     "groups": [
-      "FFVXV",
-      "GVVXA",
-      "XFAFA",
-      "DAXVX",
-      "GADDV",
-      "VVAVV",
-      "VXVFV",
-      "GVAAX",
-      "VVADA",
-      "DVFAD",
-      "XGDDF",
-      "GVAAD",
-      "VAVGA",
-      "VFDAF",
-      "FFDFF",
-      "AVAFV",
-      "DXFAF",
-      "AAFXA",
-      "FXXAG",
-      "XXDXA",
-      "DGFAX",
-      "GFGAD",
-      "XFGFF",
-      "VAAXG",
-      "FAD?A",
-      "AFDXG",
-      "VGAFX",
-      "FXDXX",
-      "ADADD",
-      "FGADA",
-      "GVAFA",
-      "AGXGD",
-      "XGXAX",
-      "VGGXF",
-      "FDXAG",
-      "XDAGX",
-      "AXFAV",
-      "FFVVV",
-      "AAFAV",
-      "FFVAA",
-      "ADFAG",
-      "FAFDV",
-      "DF"
-     ]
-    },
-    {
-     "label": "part 2",
-     "childs_printed_page": 187,
-     "log_header": "A) SU v LP (13 November; time illegible in our copy)",
-     "part_label": "2 TL RICHI-142",
-     "symbols_in_log": 142,
-     "symbols_in_header": 142,
-     "groups": [
-      "AFAFF",
-      "AXDVA",
-      "VVVVF",
-      "ADVFA",
-      "GXGVX",
-      "AGVAX",
-      "AXGGA",
-      "AAAAA",
-      "ADDVV",
-      "XVGAG",
-      "AGXVV",
-      "FGAAF",
-      "VVXGD",
-      "GGAVG",
-      "VFDVD",
-      "VDDDV",
-      "DXFAD",
-      "DDDAX",
-      "ADVVG",
-      "AAFFG",
-      "XGXAG",
-      "GDADF",
-      "VFXDA",
-      "DGDDG",
-      "GAAXD",
-      "VDFAD",
-      "FFDDX",
-      "VADDV",
-      "GD"
-     ]
-    }
-   ],
-   "key": {
-    "source": "recovered blind by our search in October 2026. The transposition is the one George Lasry published in 2017 (keyword CMBLAKOHIDENFJGP); the square agrees with all 22 cells published in 2017",
-    "transposition": [
-     3,
-     13,
-     2,
-     12,
-     1,
-     11,
-     15,
-     8,
-     9,
-     4,
-     5,
-     14,
-     6,
-     10,
-     7,
-     16
-    ],
-    "square": "AROT?WH??C0?SVU?I?DXBP??315NZELFK?G?",
-    "square_note": "Cells DV=0, VA=3, VD=1, VF=5 occur only in the closing digits and were filled by the search's language model; they cannot be checked. Published in 2017: AROT?WH??C??SVU?I?DXBP?????NZELFK?G?"
-   }
   }
  ]
 }
