@@ -1,0 +1,407 @@
+{
+ "source": "J. Rives Childs, General Solution of the ADFGVX Cipher System (Aegean Park Press, 2000), Appendix B. Groups as transcribed from the log; '-' marks a symbol the log shows as lost, '?' one we could not read.",
+ "messages": [
+  {
+   "name": "2305",
+   "title": "Childs p.176, message B part 1 (LP v ZON, 10-11 Nov 1918)",
+   "parts": [
+    {
+     "label": "part 1",
+     "childs_printed_page": 176,
+     "log_header": "B) LP v ZON (3.38 a.m., November 11th)",
+     "part_label": "1 TL RICHI-240",
+     "symbols_in_log": 220,
+     "symbols_in_header": 240,
+     "groups": [
+      "GGDAA",
+      "FXAVD",
+      "FFFDG",
+      "XXAGV",
+      "XXXDV",
+      "XAAFV",
+      "GAGAF",
+      "VFAGA",
+      "VDDDD",
+      "AVXGF",
+      "FAFXG",
+      "XXXXX",
+      "GAVAA",
+      "AAGDV",
+      "GGGVA",
+      "AXDVX",
+      "XXFAD",
+      "FXXXX",
+      "DGVDG",
+      "FDVGD",
+      "DAADV",
+      "XXXFV",
+      "XGXXD",
+      "XGGGG",
+      "AGVDG",
+      "VAGGG",
+      "DVVDF",
+      "VAFAV",
+      "VVXDF",
+      "DFFFF",
+      "XXXAX",
+      "XGVDX",
+      "XFXDF",
+      "FXXDX",
+      "XXXXV",
+      "GGGDA",
+      "FGGDX",
+      "VVVAA",
+      "FDVFX",
+      "XVXXF",
+      "VGGFG",
+      "DAAFV",
+      "GGGGX",
+      "AVVVV"
+     ]
+    }
+   ],
+   "key": {
+    "source": "Lasry et al. (2017), key for 10-12 Nov",
+    "transposition": [
+     9,
+     12,
+     7,
+     11,
+     3,
+     8,
+     16,
+     6,
+     14,
+     2,
+     10,
+     15,
+     5,
+     13,
+     1,
+     4
+    ],
+    "square": "4ARUT1OIFSKN35BZPVLD6JMXCWHQ2E7G08Y9",
+    "square_note": "Cells FD, GF, XA, XG, XX (5, 6, 7, 8, 9) are blank in Lasry's table; filled as proposed in a 2017 comment on Schmeh's blog."
+   },
+   "lost_block": {
+    "position": 160,
+    "length": 20,
+    "fill_ours": "DFFXXDXXVVXDXXXVXXAF",
+    "fill_lasry": "VFFXXDXXVVXDXDXGXXAF"
+   }
+  },
+  {
+   "name": "p153",
+   "title": "Childs p.153, message C parts 5 and 6 (FKR v CGH, 7 Nov 1918)",
+   "parts": [
+    {
+     "label": "part 5",
+     "childs_printed_page": 153,
+     "log_header": "C) FKR v CGH (11.55 p.m., November 3th [sic])",
+     "part_label": "5 TL (RI)CHI-132",
+     "symbols_in_log": 132,
+     "symbols_in_header": 132,
+     "groups": [
+      "VFVAX",
+      "FXDAD",
+      "ADVGX",
+      "FAVGD",
+      "VDDDA",
+      "DXGAA",
+      "AXVGV",
+      "FVDAD",
+      "DXADA",
+      "DVVAV",
+      "GFXDA",
+      "GDDDG",
+      "DXGGG",
+      "VVXDX",
+      "FVVAV",
+      "VVFAX",
+      "FXDXA",
+      "FAVVG",
+      "GXAVX",
+      "VFVXV",
+      "FGFVA",
+      "XGAAV",
+      "XXGDX",
+      "XFVXF",
+      "XGGVA",
+      "DAVAF",
+      "DG"
+     ]
+    },
+    {
+     "label": "part 6",
+     "childs_printed_page": 153,
+     "log_header": "C) FKR v CGH (11.55 p.m., November 3th [sic])",
+     "part_label": "6 TL (RI)CHI-108",
+     "symbols_in_log": 108,
+     "symbols_in_header": 108,
+     "groups": [
+      "AXVAA",
+      "-----",
+      "-----",
+      "-----",
+      "DDAFF",
+      "VAXAG",
+      "GADAF",
+      "DXAXX",
+      "XVDGD",
+      "XVXFF",
+      "GXFAV",
+      "VAADA",
+      "GXXXA",
+      "XDDGV",
+      "AVAXV",
+      "AXAAV",
+      "VXVAV",
+      "GXAXX",
+      "FGXXF",
+      "AAAFX",
+      "VADFD",
+      "XVF"
+     ]
+    }
+   ],
+   "key": {
+    "source": "found in October 2026; not in any published key list",
+    "transposition": [
+     16,
+     7,
+     13,
+     4,
+     15,
+     8,
+     17,
+     3,
+     1,
+     12,
+     14,
+     2,
+     5,
+     9,
+     10,
+     18,
+     11,
+     6
+    ],
+    "square": "?TXUGI????8?2WO?CMB1?SZ?5NDH?VEA??LR",
+    "square_note": "Only the 24 cells the two parts use are known; '?' cells never occur."
+   },
+   "corrections": [
+    {
+     "part": 1,
+     "letter": 31,
+     "log_pair": "AV",
+     "corrected_pair": "XV",
+     "why": "ARTILLERIE needs L here: with A first the pair gives G, with X it gives L"
+    },
+    {
+     "part": 1,
+     "letter": 40,
+     "log_pair": "AA",
+     "corrected_pair": "XA",
+     "why": "MELDEN needs E here: with A first the pair hits a cell the message never uses, with X it gives E"
+    }
+   ],
+   "fills": [
+    {
+     "part": 1,
+     "letter": 1,
+     "letter_value": "U"
+    },
+    {
+     "part": 1,
+     "letter": 3,
+     "letter_value": "I"
+    },
+    {
+     "part": 1,
+     "letter": 5,
+     "letter_value": "I"
+    },
+    {
+     "part": 1,
+     "letter": 10,
+     "letter_value": "E"
+    },
+    {
+     "part": 1,
+     "letter": 12,
+     "letter_value": "T"
+    },
+    {
+     "part": 1,
+     "letter": 14,
+     "letter_value": "N"
+    },
+    {
+     "part": 1,
+     "letter": 21,
+     "letter_value": "C"
+    },
+    {
+     "part": 1,
+     "letter": 23,
+     "letter_value": "H"
+    },
+    {
+     "part": 1,
+     "letter": 30,
+     "letter_value": "L"
+    },
+    {
+     "part": 1,
+     "letter": 32,
+     "letter_value": "E"
+    },
+    {
+     "part": 1,
+     "letter": 39,
+     "letter_value": "D"
+    },
+    {
+     "part": 1,
+     "letter": 41,
+     "letter_value": "N"
+    }
+   ],
+   "open_letters": [
+    {
+     "part": 1,
+     "letter": 48
+    },
+    {
+     "part": 1,
+     "letter": 49
+    },
+    {
+     "part": 1,
+     "letter": 50
+    }
+   ]
+  },
+  {
+   "name": "p187",
+   "title": "Childs p.187, message A parts 1 and 2 (SU v LP, 13 Nov 1918)",
+   "parts": [
+    {
+     "label": "part 1",
+     "childs_printed_page": 187,
+     "log_header": "A) SU v LP (13 November; time illegible in our copy)",
+     "part_label": "1 TL CHI-212",
+     "symbols_in_log": 212,
+     "symbols_in_header": 212,
+     "groups": [
+      "FFVXV",
+      "GVVXA",
+      "XFAFA",
+      "DAXVX",
+      "GADDV",
+      "VVAVV",
+      "VXVFV",
+      "GVAAX",
+      "VVADA",
+      "DVFAD",
+      "XGDDF",
+      "GVAAD",
+      "VAVGA",
+      "VFDAF",
+      "FFDFF",
+      "AVAFV",
+      "DXFAF",
+      "AAFXA",
+      "FXXAG",
+      "XXDXA",
+      "DGFAX",
+      "GFGAD",
+      "XFGFF",
+      "VAAXG",
+      "FAD?A",
+      "AFDXG",
+      "VGAFX",
+      "FXDXX",
+      "ADADD",
+      "FGADA",
+      "GVAFA",
+      "AGXGD",
+      "XGXAX",
+      "VGGXF",
+      "FDXAG",
+      "XDAGX",
+      "AXFAV",
+      "FFVVV",
+      "AAFAV",
+      "FFVAA",
+      "ADFAG",
+      "FAFDV",
+      "DF"
+     ]
+    },
+    {
+     "label": "part 2",
+     "childs_printed_page": 187,
+     "log_header": "A) SU v LP (13 November; time illegible in our copy)",
+     "part_label": "2 TL RICHI-142",
+     "symbols_in_log": 142,
+     "symbols_in_header": 142,
+     "groups": [
+      "AFAFF",
+      "AXDVA",
+      "VVVVF",
+      "ADVFA",
+      "GXGVX",
+      "AGVAX",
+      "AXGGA",
+      "AAAAA",
+      "ADDVV",
+      "XVGAG",
+      "AGXVV",
+      "FGAAF",
+      "VVXGD",
+      "GGAVG",
+      "VFDVD",
+      "VDDDV",
+      "DXFAD",
+      "DDDAX",
+      "ADVVG",
+      "AAFFG",
+      "XGXAG",
+      "GDADF",
+      "VFXDA",
+      "DGDDG",
+      "GAAXD",
+      "VDFAD",
+      "FFDDX",
+      "VADDV",
+      "GD"
+     ]
+    }
+   ],
+   "key": {
+    "source": "recovered blind by our search in October 2026. The transposition is the one George Lasry published in 2017 (keyword CMBLAKOHIDENFJGP); the square agrees with all 22 cells published in 2017",
+    "transposition": [
+     3,
+     13,
+     2,
+     12,
+     1,
+     11,
+     15,
+     8,
+     9,
+     4,
+     5,
+     14,
+     6,
+     10,
+     7,
+     16
+    ],
+    "square": "AROT?WH??C0?SVU?I?DXBP??315NZELFK?G?",
+    "square_note": "Cells DV=0, VA=3, VD=1, VF=5 occur only in the closing digits and were filled by the search's language model; they cannot be checked. Published in 2017: AROT?WH??C??SVU?I?DXBP?????NZELFK?G?"
+   }
+  }
+ ]
+}
