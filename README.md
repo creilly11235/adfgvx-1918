@@ -23,6 +23,7 @@ checks.
 - [Message 2305, filling in four lost groups](#message-2305-filling-in-four-lost-groups)
 - [Page 153, a new key](#page-153-a-new-key)
 - [Where the 22 messages stand](#where-the-22-messages-stand)
+- [Every message in the log](#every-message-in-the-log)
 - [Check it yourself](#check-it-yourself)
 - [What this does and does not establish](#what-this-does-and-does-not-establish)
 - [Sources and credits](#sources-and-credits)
@@ -359,11 +360,57 @@ Outside Schmeh's list, every other message in Childs's log that reads under one 
 published keys does so in our own run (543 of 688 records). Most of the rest are damaged intercepts
 with groups jammed or missing.
 
+## Every message in the log
+
+In October 2026 we decoded everything in Childs's log that we could, with the published keys, and wrote down
+one row for each of the 688 log entries. We did this because George Lasry's list of which messages his team
+read in 2017 was never published, so nobody outside that team can say which messages are still unread. The
+numbers below come from `data/records.json`, and the one line per entry table is [MESSAGES.md](MESSAGES.md).
+The decoded text of each entry is under [readings](readings).
+
+| Result | Entries |
+|---|---|
+| Reads under a published period key exactly as transcribed | 465 |
+| Reads under a published period key after repairing the length | 79 |
+| Reads after a known key repair of a damaged intercept | 16 reads, 12 partly |
+| Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
+| Read by this project (page 153 pair and message 2305) | 3, described above |
+| Clears its shuffled nulls under a known key but does not read, so no text is given | 15 |
+| Not read | 74 |
+
+The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
+differently, so the two counts cannot be matched one to one.
+
+How to read the confidence column.
+
+- **high** means the intercept decrypts to German under the period key with nothing changed, or after a
+  length repair of the kind Lasry's team described. The decoder here is a few lines of Python and the
+  `scripts/verify_all.py` check reproduces all 465 unchanged readings and encrypts them again symbol by symbol.
+- **reads, repaired** and **partial reading** are decodes of damaged intercepts under a published key after
+  inserting or removing a few symbols. They are scored against shuffled nulls and read by eye.
+- **strong, moderate and weak lead** are fills of the unread symbols under the key for that date, scored against a
+  thousand shuffled transposition keys with a German letter model. Strong means the margin over the best null
+  is at least 40, moderate at least 15. A control test on records others had read showed that about one genuine key
+  in nine does not come first, and that a margin below about 20 cannot be told from chance by the score alone.
+  A lead is not a confirmed reading.
+- Every key here comes from Lasry's 2017 table or Childs's appendix, except the page 153 key.
+
+Credit. Where the entry reads under a period key, the key was found by Lasry, Niebel, Kopal and Wacker in 2017.
+This table regenerated the decodes and did not check which messages they published, and their team reports having
+left 50 unread. We count 74 not read plus 15 that do not read, so most of those are probably old readings.
+Nobody outside that team can say which. Messages that Norbert, Armin and others read in the 2017 blog comments
+are credited to them where the accounting records that.
+
+Sources besides Childs are in [SOURCES.md](SOURCES.md).
+
 ## Check it yourself
 
 ```
 python3 scripts/verify.py
+python3 scripts/verify_all.py
 ```
+
+The second script checks all the decodes in `data/records.json` against their keys in `data/keys.json`.
 
 Python 3.6 or later, standard library only. For each message the script decrypts the intercept
 under the stated key, prints the reading in the rows of the transposition block, encrypts it again,
