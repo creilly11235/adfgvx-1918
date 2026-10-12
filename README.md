@@ -370,11 +370,24 @@ read in 2017 was never published, so nobody outside that team can say which mess
 numbers below come from `data/records.json`, and the one line per entry table is [MESSAGES.md](MESSAGES.md).
 Each entry has its own page under [messages](messages). A page follows the message from the printed book to an English translation, in six steps that are explained in the next section.
 
+Every entry is in exactly one of the groups below. The last column counts the entries that are not in the solved by others list, which is the accounting table kept with this project. That table counts a message as solved by others when it decrypts under a published period key or a named solver is credited. It is not the 2017 list of readings, which was never published, so not being in it says nothing about what anyone read. A row marked pending recheck is never counted as read.
+
+| Group | Entries | Not in the solved by others list |
+|---|---|---|
+| Read with Lasry's published keys, exactly, after a length repair, after a known key repair, or from two blind readings of the page | 569 | 22 |
+| Read by this project with a key of its own | 3 | 3 |
+| Possible, not confirmed. Partial repairs, repairs pending recheck, fills of unread symbols and repairs that clear their shuffled nulls but give no text | 48 | 47 |
+| Still open | 63 | 63 |
+| No solution possible. Four entries have no cipher text in the log and one joins two other messages | 5 | 5 |
+| Total | 688 | 140 |
+
+The same counts are at the top of [MESSAGES.md](MESSAGES.md). The next table splits the same 688 entries by how they were read.
+
 | Result | Entries |
 |---|---|
 | Reads under a published period key exactly as transcribed | 465 |
 | Reads under a published period key after repairing the length | 79 |
-| Reads after a known key repair of a damaged intercept | 13 reads, 11 partly |
+| Reads after a known key repair of a damaged intercept | 12 reads, 11 partly, 1 pending recheck |
 | Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
 | Read by this project (page 153 pair and message 2305) | 3, described above |
 | Read with a published key from two blind readings of the page, with open positions marked | 13, one of them for its first 87 positions only |

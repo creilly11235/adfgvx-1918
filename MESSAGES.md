@@ -3,6 +3,23 @@
 One row per log entry, in log order. Columns are the entry id, Childs's printed page, the date, the key, how it was read, unread symbols, a confidence word and the credit.
 Each entry id links to its page under `messages`, which follows the message from the printed page to the English translation.
 
+## Where the entries stand
+
+Every entry is in exactly one group.
+
+| Group | Entries | Not in the solved by others list |
+|---|---|---|
+| Read with Lasry's published keys, exactly, after a length repair, after a known key repair, or from two blind readings of the page | 569 | 22 |
+| Read by this project with a key of its own | 3 | 3 |
+| Possible, not confirmed. Partial repairs, repairs pending recheck, fills of unread symbols and repairs that clear their shuffled nulls but give no text | 48 | 47 |
+| Still open | 63 | 63 |
+| No solution possible. Four entries have no cipher text in the log and one joins two other messages | 5 | 5 |
+| Total | 688 | 140 |
+
+The solved by others list is the accounting table kept with this project. It counts a message as solved by others when it decrypts under a published period key or a named solver is credited. It is not the 2017 list of readings, which was never published, so not being in it says nothing about what anyone read. A row marked pending recheck is never counted as read.
+
+## The table
+
 | Entry | Page | Date | Key | How | Unread | Confidence | Credit |
 |---|---|---|---|---|---|---|---|
 | [p059A](messages/p059A.md) | 56 | 19 September | sep19 | period key, length repaired | 1 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
