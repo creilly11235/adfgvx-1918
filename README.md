@@ -378,6 +378,8 @@ The decoded text of each entry is under [readings](readings).
 | Clears its shuffled nulls under a known key but does not read, so no text is given | 16 |
 | Not read | 74 |
 
+Twenty six rows are marked pending recheck in the confidence column. A blind re-read of the printed pages found that the log row we used differs from the page by more than 5 symbols for those records, so any repair outcome shown for them was computed on the wrong ciphertext. They will be scored again on the page symbols. The earlier confidence stays in brackets.
+
 The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
 differently, so the two counts cannot be matched one to one.
 
