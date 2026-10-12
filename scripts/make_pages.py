@@ -186,7 +186,7 @@ def page(e, keys, msgs, trans, want_plain=False):
         name, part = OURS_SOURCE[e['id']]
         printed2, rep, plain, m = ours_parts(msgs[name], part); key = m['key']
         assert printed2 == printed, rid
-    elif plain and e['method'].startswith(('period key', 'known-key repair')):
+    elif plain and e['method'].startswith(('period key', 'known key repair')):
         rep = reencrypt(plain, key['square'], key['transposition'])
     elif e['ciphertext'].replace(' ', '') != printed or plain:
         rep = e['ciphertext'].replace(' ', '')
