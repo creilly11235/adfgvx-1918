@@ -10,7 +10,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p059B.2](readings/sep19.md#p059b2-childs-page-56-19-september-1918) | 56 | 19 September | sep19 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p060A1](readings/sep19.md#p060a1-childs-page-57-20-september-1918) | 57 | 20 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p060A2](readings/sep19.md#p060a2-childs-page-57-20-september-1918) | 57 | 20 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p060A3](readings/leads.md#p060a3-childs-page-57-20-september-1918) | 57 | 20 September | sep19 | known-key repair (3 edits) | 22 | reads, repaired (score 104, null max 19, vocabulary coverage 0.33) | Read with Lasry's published keys |
+| [p060A3](readings/leads.md#p060a3-childs-page-57-20-september-1918) | 57 | 20 September | sep19 | known-key repair (3 edits) | 22 | pending recheck (was reads, repaired (score 104, null max 19, vocabulary coverage 0.33)) | Read with Lasry's published keys |
 | p061_ | 58 | 21 September |  | not read | 0 | none |  |
 | p061_.2 | 58 | 21 September |  | not read | 0 | none |  |
 | p061_.3 | 58 | 21 September |  | not read | 0 | none |  |
@@ -21,7 +21,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p062B](readings/sep19.md#p062b-childs-page-59-21-september-1918) | 59 | 21 September | sep19 | period key, length repaired | 1 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p063A1](readings/sep19.md#p063a1-childs-page-60-21-september-1918) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p063A2](readings/sep19.md#p063a2-childs-page-60-21-september-1918) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p063B2 | 60 | 21 September |  | not read | 2 | none |  |
+| p063B2 | 60 | 21 September |  | not read | 2 | pending recheck |  |
 | [p063B](readings/sep19.md#p063b-childs-page-60-21-september-1918) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p064A](readings/sep19.md#p064a-childs-page-61-21-september-1918) | 61 | 21 September | sep19 | period key, as transcribed | 5 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p065A](readings/oct04.md#p065a-childs-page-62-4-october-1918) | 62 | 4 October | oct04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -39,7 +39,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p070C](readings/oct04.md#p070c-childs-page-67-5-october-1918) | 67 | 5 October | oct04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p071A1](readings/leads.md#p071a1-childs-page-68-5-october-1918) | 68 | 5 October | oct04 | known-key fill on a page image re-read | 21 | weak lead (margin 11.7) | Read with Lasry's published keys |
 | [p071A2](readings/leads.md#p071a2-childs-page-68-5-october-1918) | 68 | 5 October | oct04 | known-key fill of unread symbols | 41 | strong lead (margin 43.6) | Read with Lasry's published keys |
-| p072A | 69 | 5 October | oct04 | known-key repair attempt, text withheld | 7 | clears nulls, does not read (score 61, null max 28) |  |
+| p072A | 69 | 5 October | oct04 | known-key repair attempt, text withheld | 7 | pending recheck (was clears nulls, does not read (score 61, null max 28)) |  |
 | [p072B1](readings/leads.md#p072b1-childs-page-69-5-october-1918) | 69 | 5 October | oct04 | known-key fill on a page image re-read | 1 | weak lead (margin 2.1) | Read with Lasry's published keys |
 | [p072B3](readings/oct04.md#p072b3-childs-page-69-5-october-1918) | 69 | 5 October | oct04 | period key, length repaired | 3 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p073A1](readings/leads.md#p073a1-childs-page-70-6-october-1918) | 70 | 6 October | oct04 | known-key repair (2 edits) | 5 | reads, repaired (score 277, null max 30, vocabulary coverage 0.36) | Read with Lasry's published keys |
@@ -47,14 +47,14 @@ Each entry id with a decoded text links to that text in the files under `reading
 | p073B | 70 | 6 October |  | not read | 7 | none | No reading found |
 | [p074A](readings/oct04.md#p074a-childs-page-71-6-october-1918) | 71 | 6 October | oct04 | period key, as transcribed | 12 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p074A.2 | 71 | 6 October |  | not read | 0 | none |  |
-| [p075A1](readings/leads.md#p075a1-childs-page-72-6-october-1918) | 72 | 6 October | oct04 | known-key repair (1 edits) | 4 | partial reading (score 102, null max 17, vocabulary coverage 0.22) | Read with Lasry's published keys |
+| [p075A1](readings/leads.md#p075a1-childs-page-72-6-october-1918) | 72 | 6 October | oct04 | known-key repair (1 edits) | 4 | pending recheck (was partial reading (score 102, null max 17, vocabulary coverage 0.22)) | Read with Lasry's published keys |
 | [p075A2](readings/leads.md#p075a2-childs-page-72-6-october-1918) | 72 | 6 October | oct04 | known-key repair (1 edits) | 4 | partial reading (score 111, null max 23, vocabulary coverage 0.16) | Read with Lasry's published keys |
 | [p075A3](readings/oct04.md#p075a3-childs-page-72-6-october-1918) | 72 | 6 October | oct04 | period key, as transcribed | 2 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p075B | 72 | 6 October | oct04 | known-key repair attempt, text withheld | 1 | clears nulls, does not read (score 28, null max 20) |  |
 | p076A | 73 | 26 October |  | not read | 2 | none | No reading found |
 | [p077A](readings/oct28.md#p077a-childs-page-74-28-october-1918) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p077B](readings/oct28.md#p077b-childs-page-74-28-october-1918) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p077C | 74 | 28 October |  | not read | 0 | none |  |
+| p077C | 74 | 28 October |  | not read | 0 | pending recheck |  |
 | [p077C2](readings/oct28.md#p077c2-childs-page-74-28-october-1918) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p078A](readings/oct28.md#p078a-childs-page-75-28-october-1918) | 75 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p078B](readings/oct28.md#p078b-childs-page-75-28-october-1918) | 75 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -72,7 +72,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | p083B | 80 | 30 October |  | not read | 1 | none |  |
 | [p084A](readings/oct28.md#p084a-childs-page-81-30-october-1918) | 81 | 30 October | oct28 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p084B](readings/oct28.md#p084b-childs-page-81-30-october-1918) | 81 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p084C | 81 | 30 October | oct28 | known-key repair attempt, text withheld | 13 | clears nulls, does not read (score 55, null max 31) |  |
+| p084C | 81 | 30 October | oct28 | known-key repair attempt, text withheld | 13 | pending recheck (was clears nulls, does not read (score 55, null max 31)) |  |
 | [p085A1](readings/oct28.md#p085a1-childs-page-82-30-october-1918) | 82 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p085A2](readings/oct28.md#p085a2-childs-page-82-30-october-1918) | 82 | 30 October | oct28 | period key, length repaired | 1 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p085A3](readings/oct28.md#p085a3-childs-page-82-30-october-1918) | 82 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -118,7 +118,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | p101B | 98 | 1 November |  | not read | 0 | none |  |
 | p102A | 99 | 1 November |  | not read | 21 | none |  |
 | [p102B](readings/nov01.md#p102b-childs-page-99-1-november-1918) | 99 | 1 November | nov01 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p102C | 99 | 1 November |  | not read | 1 | none |  |
+| p102C | 99 | 1 November |  | not read | 1 | pending recheck |  |
 | [p102C3](readings/nov01.md#p102c3-childs-page-99-1-november-1918) | 99 | 1 November | nov01 | period key, as transcribed | 5 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p102D](readings/nov01.md#p102d-childs-page-99-1-november-1918) | 99 | 1 November | nov01 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p103A](readings/nov01.md#p103a-childs-page-100-1-november-1918) | 100 | 1 November | nov01 | known-key repair (2 edits) | 1 | reads, repaired (score 87, null max 24, vocabulary coverage 0.50) | Armin, 1 Mar 2017 blog comment, after fixing one block (claimed, not verified by us). Our decode reads under the key too |
@@ -172,7 +172,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p114A](readings/leads.md#p114a-childs-page-111-3-november-1918) | 111 | 3 November | nov01 | known-key fill on a page image re-read | 15 | weak lead (margin 1.3) | Read with Lasry's published keys |
 | [p114B](readings/nov01.md#p114b-childs-page-111-3-november-1918) | 111 | 3 November | nov01 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p115A1](readings/nov01.md#p115a1-childs-page-112-3-november-1918) | 112 | 3 November | nov01 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p115A2 | 112 | 3 November | nov01 | known-key repair attempt, text withheld | 6 | clears nulls, does not read (score 66, null max 15) |  |
+| p115A2 | 112 | 3 November | nov01 | known-key repair attempt, text withheld | 6 | pending recheck (was clears nulls, does not read (score 66, null max 15)) |  |
 | [p115A2.2](readings/nov01.md#p115a22-childs-page-112-3-november-1918) | 112 | 3 November | nov01 | period key, as transcribed | 7 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p115B](readings/nov04.md#p115b-childs-page-112-3-november-1918) | 112 | 3 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p1154 | 112 | 4 November |  | not read | 0 | none |  |
@@ -208,7 +208,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p125B](readings/leads.md#p125b-childs-page-122-4-november-1918) | 122 | 4 November | nov04 | known-key fill on a page image re-read | 34 | strong lead (margin 126.0) | Read with Lasry's published keys |
 | [p125C](readings/nov04.md#p125c-childs-page-122-4-november-1918) | 122 | 4 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p125D1 | 122 | 4 November |  | not read | 0 | none |  |
-| p126A2 | 123 | 4 November | nov04 | known-key repair attempt, text withheld | 3 | clears nulls, does not read (score 71, null max 23) |  |
+| p126A2 | 123 | 4 November | nov04 | known-key repair attempt, text withheld | 3 | pending recheck (was clears nulls, does not read (score 71, null max 23)) |  |
 | [p126A3](readings/nov04.md#p126a3-childs-page-123-4-november-1918) | 123 | 4 November | nov04 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p126B](readings/nov04.md#p126b-childs-page-123-4-november-1918) | 123 | 4 November | nov04 | period key, as transcribed | 10 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p127B1](readings/nov04.md#p127b1-childs-page-124-4-november-1918) | 124 | 4 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -224,7 +224,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p129B](readings/nov04.md#p129b-childs-page-126-4-november-1918) | 126 | 4 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p130A3](readings/nov04.md#p130a3-childs-page-127-4-november-1918) | 127 | 4 November | nov04 | period key, length repaired | 7 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p130B1](readings/nov04.md#p130b1-childs-page-127-4-november-1918) | 127 | 4 November | nov04 | period key, as transcribed | 4 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p130B2 | 127 | 4 November |  | not read | 12 | none |  |
+| p130B2 | 127 | 4 November |  | not read | 12 | pending recheck |  |
 | [p131A1](readings/nov04.md#p131a1-childs-page-128-5-november-1918) | 128 | 5 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p131A2](readings/nov04.md#p131a2-childs-page-128-5-november-1918) | 128 | 5 November | nov04 | period key, as transcribed | 7 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p131B1](readings/nov04.md#p131b1-childs-page-128-5-november-1918) | 128 | 5 November | nov04 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -284,7 +284,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p148B.3](readings/nov04.md#p148b3-childs-page-145-6-november-1918) | 145 | 6 November | nov04 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p149A1](readings/nov04.md#p149a1-childs-page-146-6-november-1918) | 146 | 6 November | nov04 | period key, length repaired | 4 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p149B](readings/nov04.md#p149b-childs-page-146-6-november-1918) | 146 | 6 November | nov04 | known-key repair (2 edits) | 0 | reads, repaired (score 214, null max 35, vocabulary coverage 0.55) | Norbert, 1 Mar 2017 blog comment. Our decode reads under the key too |
-| [p149C1](readings/leads.md#p149c1-childs-page-146-6-november-1918) | 146 | 6 November | nov04 | known-key repair (2 edits) | 6 | reads, repaired (score 207, null max 35, vocabulary coverage 0.70) | Read with Lasry's published keys |
+| [p149C1](readings/leads.md#p149c1-childs-page-146-6-november-1918) | 146 | 6 November | nov04 | known-key repair (2 edits) | 6 | pending recheck (was reads, repaired (score 207, null max 35, vocabulary coverage 0.70)) | Read with Lasry's published keys |
 | [p150A](readings/nov04.md#p150a-childs-page-147-6-november-1918) | 147 | 6 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p150B1](readings/nov04.md#p150b1-childs-page-147-6-november-1918) | 147 | 6 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p150C1](readings/nov04.md#p150c1-childs-page-147-6-november-1918) | 147 | 6 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -298,7 +298,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p153A2](readings/nov04.md#p153a2-childs-page-150-6-november-1918) | 150 | 6 November | nov04 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p153B1](readings/nov04.md#p153b1-childs-page-150-6-november-1918) | 150 | 6 November | nov04 | period key, as transcribed | 4 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p153B2](readings/nov04.md#p153b2-childs-page-150-6-november-1918) | 150 | 6 November | nov04 | period key, as transcribed | 8 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p153B3 | 150 | 6 November |  | not read | 12 | none |  |
+| p153B3 | 150 | 6 November |  | not read | 12 | pending recheck |  |
 | p153B4 | 150 | 6 November |  | not read | 6 | none |  |
 | p153B | 150 | 6 November |  | not read | 8 | none |  |
 | [p153B5](readings/nov04.md#p153b5-childs-page-150-6-november-1918) | 150 | 6 November | nov04 | period key, as transcribed | 6 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -351,7 +351,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p162B.2](readings/nov07.md#p162b2-childs-page-159-8-november-1918) | 159 | 8 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p162_](readings/nov07.md#p162_-childs-page-159-9-november-1918) | 159 | 9 November | nov07 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163A2](readings/nov07.md#p163a2-childs-page-160-8-november-1918) | 160 | 8 November | nov07 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p163B | 160 | 8 November |  | not read | 1 | none |  |
+| p163B | 160 | 8 November |  | not read | 1 | pending recheck |  |
 | [p163B.2](readings/nov07.md#p163b2-childs-page-160-8-november-1918) | 160 | 8 November | nov07 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163C](readings/nov07.md#p163c-childs-page-160-8-november-1918) | 160 | 8 November | nov07 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163C2](readings/nov07.md#p163c2-childs-page-160-8-november-1918) | 160 | 8 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -363,31 +363,31 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p164D1](readings/nov07.md#p164d1-childs-page-161-9-november-1918) | 161 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p164D3](readings/nov07.md#p164d3-childs-page-161-9-november-1918) | 161 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p165A1](readings/leads.md#p165a1-childs-page-162-8-november-1918) | 162 | 8 November | nov07 | known-key repair (1 edits) | 0 | partial reading (score 183, null max 44, vocabulary coverage 0.24) | Read with Lasry's published keys |
-| p165B1 | 162 | 8 November |  | not read | 3 | none |  |
+| p165B1 | 162 | 8 November |  | not read | 3 | pending recheck |  |
 | p165C1 | 162 | 8 November |  | not read | 0 | none |  |
 | [p165C2](readings/nov07.md#p165c2-childs-page-162-8-november-1918) | 162 | 8 November | nov07 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p165D1](readings/nov07.md#p165d1-childs-page-162-8-november-1918) | 162 | 8 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p166A1](readings/nov07.md#p166a1-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, as transcribed | 8 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p166A1.2](readings/nov07.md#p166a12-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, length repaired | 4 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p166A | 163 | 9 November |  | not read | 7 | none |  |
+| p166A | 163 | 9 November |  | not read | 7 | pending recheck |  |
 | p166A.2 | 163 | 9 November |  | not read | 0 | none |  |
 | [p166A1.3](readings/nov07.md#p166a13-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, as transcribed | 6 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p166A1.4](readings/nov07.md#p166a14-childs-page-163-9-november-1918) | 163 | 9 November | nov07 | period key, as transcribed | 24 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p167A | 164 | 9 November |  | not read | 84 | none | Partial reconstruction by Norbert, March 2017 |
+| p167A | 164 | 9 November |  | not read | 84 | pending recheck | Partial reconstruction by Norbert, March 2017 |
 | [p167A4](readings/nov07.md#p167a4-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 14 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p167A5 | 164 | 9 November |  | not read | 42 | none | Partial reconstruction by Norbert, March 2017 |
+| p167A5 | 164 | 9 November |  | not read | 42 | pending recheck | Partial reconstruction by Norbert, March 2017 |
 | [p167_](readings/nov07.md#p167_-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p167C1](readings/nov07.md#p167c1-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 4 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p167D](readings/nov07.md#p167d-childs-page-164-9-november-1918) | 164 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p168A1](readings/nov07.md#p168a1-childs-page-165-9-november-1918) | 165 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p168A](readings/nov07.md#p168a-childs-page-165-9-november-1918) | 165 | 9 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p168A.2](readings/nov07.md#p168a2-childs-page-165-9-november-1918) | 165 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p168A5 | 165 | 9 November | nov07 | known-key repair attempt, text withheld | 0 | clears nulls, does not read (score 161, null max 48) |  |
+| p168A5 | 165 | 9 November | nov07 | known-key repair attempt, text withheld | 0 | pending recheck (was clears nulls, does not read (score 161, null max 48)) |  |
 | [p169A](readings/nov07.md#p169a-childs-page-166-9-november-1918) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p169A2](readings/nov07.md#p169a2-childs-page-166-9-november-1918) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p169A3 | 166 | 9 November | nov07 | known-key repair attempt, text withheld | 0 | clears nulls, does not read (score 26, null max 16) |  |
 | [p169B](readings/nov07.md#p169b-childs-page-166-9-november-1918) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p169B2 | 166 | 9 November |  | not read | 8 | none |  |
+| p169B2 | 166 | 9 November |  | not read | 8 | pending recheck |  |
 | [p169C1](readings/nov07.md#p169c1-childs-page-166-9-november-1918) | 166 | 9 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p169C3](readings/nov07.md#p169c3-childs-page-166-9-november-1918) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p170A](readings/leads.md#p170a-childs-page-167-9-november-1918) | 167 | 9 November | nov07 | known-key fill on a page image re-read | 1 | moderate lead (margin 24.9) | Read with Lasry's published keys |
@@ -438,7 +438,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p178C3](readings/leads.md#p178c3-childs-page-175-10-november-1918) | 175 | 10 November | nov10 | known-key repair (1 edits) | 4 | reads, repaired (score 128, null max 24, vocabulary coverage 0.37) | Read with Lasry's published keys |
 | p179A | 176 | 10 November | nov10 | known-key repair attempt, text withheld | 10 | clears nulls, does not read (score 46, null max 13) | Norbert suggested a reading needing corrections, 2 Mar 2017 blog comment |
 | [p179A3](readings/nov10.md#p179a3-childs-page-176-10-november-1918) | 176 | 10 November | nov10 | period key, as transcribed | 5 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p179A6 | 176 | 10 November |  | not read | 6 | none |  |
+| p179A6 | 176 | 10 November |  | not read | 6 | pending recheck |  |
 | p179B1 | 176 | 10 November | nov10 | new reading, see README, message 2305 | 0 | read, six open letters | This project, October 2026 |
 | [p179B](readings/nov10.md#p179b-childs-page-176-10-november-1918) | 176 | 10 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p179B3](readings/nov10.md#p179b3-childs-page-176-10-november-1918) | 176 | 10 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -455,7 +455,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p182B](readings/leads.md#p182b-childs-page-179-11-november-1918) | 179 | 11 November | nov10 | known-key fill on a page image re-read | 0 | strong lead (margin 86.9) | Read with Lasry's published keys |
 | [p182C](readings/nov10.md#p182c-childs-page-179-11-november-1918) | 179 | 11 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p182D](readings/nov13_16.md#p182d-childs-page-179-11-november-1918) | 179 | 11 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p182D3 | 179 | 11 November |  | not read | 0 | none |  |
+| p182D3 | 179 | 11 November |  | not read | 0 | pending recheck |  |
 | [p182D.2](readings/nov13_16.md#p182d2-childs-page-179-11-november-1918) | 179 | 11 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p183A](readings/nov10.md#p183a-childs-page-180--november-1918) | 180 | ? November | nov10 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p183B2](readings/nov10.md#p183b2-childs-page-180--november-1918) | 180 | ? November | nov10 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -464,11 +464,11 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p183E](readings/nov13_16.md#p183e-childs-page-180--november-1918) | 180 | ? November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p184A](readings/nov10.md#p184a-childs-page-181-12-november-1918) | 181 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p184B](readings/nov10.md#p184b-childs-page-181-12-november-1918) | 181 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p185A | 182 | 12 November |  | not read | 3 | none |  |
+| p185A | 182 | 12 November |  | not read | 3 | pending recheck |  |
 | [p185B](readings/nov10.md#p185b-childs-page-182-12-november-1918) | 182 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p185C | 182 | 12 November |  | not read | 0 | none |  |
 | [p186A](readings/leads.md#p186a-childs-page-183-12-november-1918) | 183 | 12 November | nov10 | known-key fill on a page image re-read | 0 | weak lead (margin 12.9) | Read with Lasry's published keys |
-| p186B | 183 | 12 November |  | not read | 2 | none |  |
+| p186B | 183 | 12 November |  | not read | 2 | pending recheck |  |
 | [p186C](readings/nov10.md#p186c-childs-page-183-12-november-1918) | 183 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p186D | 183 | 12 November |  | not read | 0 | none |  |
 | [p186E](readings/nov10.md#p186e-childs-page-183-12-november-1918) | 183 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -611,7 +611,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p217B](readings/nov22.md#p217b-childs-page-214-22-november-1918) | 214 | 22 November | nov22 | period key, as transcribed | 5 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p217C](readings/nov22.md#p217c-childs-page-214-22-november-1918) | 214 | 22 November | nov22 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p218A](readings/leads.md#p218a-childs-page-215-22-november-1918) | 215 | 22 November | nov22 | known-key fill of unread symbols | 19 | weak lead (margin 13.6) | Read with Lasry's published keys |
-| p218B1 | 215 | 22 November |  | not read | 20 | none |  |
+| p218B1 | 215 | 22 November |  | not read | 20 | pending recheck |  |
 | [p218B4](readings/nov22.md#p218b4-childs-page-215-22-november-1918) | 215 | 22 November | nov22 | period key, as transcribed | 21 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p218B3 | 215 | 22 November |  | not read | 18 | none |  |
 | p218C | 215 | 22 November |  | not read | 12 | none | No reading found, a third party repository calls it probably known |
@@ -628,7 +628,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p220A.3](readings/leads.md#p220a3-childs-page-217-24-november-1918) | 217 | 24 November | nov22 | known-key fill on a page image re-read | 0 | moderate lead (margin 34.6) | Read with Lasry's published keys |
 | [p220B](readings/leads.md#p220b-childs-page-217-24-november-1918) | 217 | 24 November | nov22 | known-key fill of unread symbols | 21 | moderate lead (margin 20.6) | Read with Lasry's published keys |
 | [p220B2](readings/nov22.md#p220b2-childs-page-217-24-november-1918) | 217 | 24 November | nov22 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p220C | 217 | 24 November |  | not read | 2 | none |  |
+| p220C | 217 | 24 November |  | not read | 2 | pending recheck |  |
 | [p220C.2](readings/dec09_history.md#p220c2-childs-page-217-24-november-1918) | 217 | 24 November | dec09_history | period key, as transcribed | 0 | high | Prinz, September 2026, with a key from Childs 1919 typescript. Our decode reads under the key too |
 | [p221A](readings/nov25.md#p221a-childs-page-218-25-november-1918) | 218 | 25 November | nov25 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p221A2](readings/nov25.md#p221a2-childs-page-218-25-november-1918) | 218 | 25 November | nov25 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -677,7 +677,7 @@ Each entry id with a decoded text links to that text in the files under `reading
 | [p230D](readings/nov28.md#p230d-childs-page-227-28-november-1918) | 227 | 28 November | nov28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | p231A | 228 | 30 November |  | not read | 3 | none |  |
 | [p231B1](readings/nov28.md#p231b1-childs-page-228-30-november-1918) | 228 | 30 November | nov28 | period key, as transcribed | 6 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| p231B2 | 228 | 30 November | nov28 | known-key repair attempt, text withheld | 21 | clears nulls, does not read (score 14, null max 4) |  |
+| p231B2 | 228 | 30 November | nov28 | known-key repair attempt, text withheld | 21 | pending recheck (was clears nulls, does not read (score 14, null max 4)) |  |
 | [p231B3](readings/nov28.md#p231b3-childs-page-228-30-november-1918) | 228 | 30 November | nov28 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p231C1](readings/nov28.md#p231c1-childs-page-228-30-november-1918) | 228 | 30 November | nov28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p231C2](readings/nov28.md#p231c2-childs-page-228-30-november-1918) | 228 | 30 November | nov28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |

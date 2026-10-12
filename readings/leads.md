@@ -14,13 +14,13 @@ Length repaired by inserting or removing symbols, edits listed in the repair log
 
 ## p060A3, Childs page 57, 20 September 1918
 
-known-key repair (3 edits). Key sep19. Unread symbols 22. reads, repaired (score 104, null max 19, vocabulary coverage 0.33).
+known-key repair (3 edits). Key sep19. Unread symbols 22. pending recheck (was reads, repaired (score 104, null max 19, vocabulary coverage 0.33)).
 
 ```
 ERKEHRMITXCOSXZUBESTIMMTENZEITENVORHE42NKUENDIGENXXGRUKONACH652ROEMX4XNR439086SIVTFAIE-N
 ```
 
-Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent
+Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent. Pending recheck, the page re-read found the log row differs from the printed page by more than 5 symbols, so any repair outcome here was computed on the wrong ciphertext
 
 ## p067A2, Childs page 64, 4 October 1918
 
@@ -80,13 +80,13 @@ Length repaired by inserting or removing symbols, edits listed in the repair log
 
 ## p075A1, Childs page 72, 6 October 1918
 
-known-key repair (1 edits). Key oct04. Unread symbols 4. partial reading (score 102, null max 17, vocabulary coverage 0.22).
+known-key repair (1 edits). Key oct04. Unread symbols 4. pending recheck (was partial reading (score 102, null max 17, vocabulary coverage 0.22)).
 
 ```
 ZUTEOX30X9XNATESSNRX8557X1DVERSTAER1UNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGX-SKXMXANGSORDNET
 ```
 
-Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent
+Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent. Pending recheck, the page re-read found the log row differs from the printed page by more than 5 symbols, so any repair outcome here was computed on the wrong ciphertext
 
 ## p075A2, Childs page 72, 6 October 1918
 
@@ -180,13 +180,13 @@ Length repaired by inserting or removing symbols, edits listed in the repair log
 
 ## p149C1, Childs page 146, 6 November 1918
 
-known-key repair (2 edits). Key nov04. Unread symbols 6. reads, repaired (score 207, null max 35, vocabulary coverage 0.70).
+known-key repair (2 edits). Key nov04. Unread symbols 6. pending recheck (was reads, repaired (score 207, null max 35, vocabulary coverage 0.70)).
 
 ```
 RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENX-CHLUESSELERSTERDEZEMBERWIEZEHNTEINOVEMBERUSWX
 ```
 
-Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent
+Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent. Pending recheck, the page re-read found the log row differs from the printed page by more than 5 symbols, so any repair outcome here was computed on the wrong ciphertext
 
 ## p151A1, Childs page 148, 6 November 1918
 
