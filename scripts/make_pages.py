@@ -178,7 +178,9 @@ def page(e, keys, msgs, trans, want_plain=False):
           '%s. The message is on printed page %s, which is page %s of the PDF. Open the [PDF](%s) and go to PDF page %s. The index is [here](%s). Page images are not republished here.' % (SOURCE, e['childs_page'], e['pdf_page'], VIEWER, e['pdf_page'], INDEX), '',
           'Heading in the log, %s%s. The heading counts %s symbols and the log shows %s.' % ('`%s`' % e['header'] if e['header'] else 'none', (', part %s' % e['part']) if e['part'] not in (None, 'None') else '', e['count_in_log'] if e['count_in_log'] is not None else 'no count', e['symbols_in_log']), '']
     printed = e['printed']
-    L += ['## 2 Transcribed as printed', '', 'A dash is a symbol missing in the print.', '', '```'] + rows(groups(printed), 59) + ['```', '']
+    nolog = not printed.replace('-', '').strip()
+    if nolog: L += ['## 2 Transcribed as printed', '', 'The log holds no symbols for this entry, so there is nothing to show here.', '']
+    else: L += ['## 2 Transcribed as printed', '', 'A dash is a symbol missing in the print.', '', '```'] + rows(groups(printed), 59) + ['```', '']
     # repaired line, plaintext
     key = keys.get(e['key']) if e['key'] else None
     plain = e['plaintext']; rep = None
@@ -193,6 +195,9 @@ def page(e, keys, msgs, trans, want_plain=False):
     if rep is None or rep == printed:
         L += ['## 3 Repaired or edited transcription', '', 'No edit. The transcription is used as it stands.', '']
         rep, solid, edits, marked = printed, [c != '-' for c in printed], [], printed
+    elif nolog:
+        solid = [False] * len(rep)
+        L += ['## 3 Repaired or edited transcription', '', 'The whole transcription comes from the page reading, in which two blind readers agreed on every letter, because the log holds no symbols for this entry. Nothing in it rests on the print.', '', '```'] + rows(groups(rep), 59) + ['```', '']
     else:
         marked, solid, edits = align(printed, rep)
         L += ['## 3 Repaired or edited transcription', '', 'A lowercase symbol was changed, inserted or filled by the repair.', '', '```'] + rows(groups(marked), 59) + ['```', '']
@@ -204,14 +209,15 @@ def page(e, keys, msgs, trans, want_plain=False):
         return '\n'.join(L)
     sq, rk = key['square'], key['transposition']
     asis = ''.join('_' if c in '-?~' else c for c in A.decrypt(printed, sq, rk))
-    L += ['## 4 Decrypted as it stands', '', 'Key %s, %d columns. The printed transcription is decrypted with no repair. A letter that lost a symbol is `_`.' % (e['key'] or 'of this message', len(rk)), '', '```'] + rows(asis, 60) + ['```', '']
+    if nolog: L += ['## 4 Decrypted as it stands', '', 'The log holds no symbols for this entry, so there is nothing to decrypt as it stands.', '']
+    else: L += ['## 4 Decrypted as it stands', '', 'Key %s, %d columns. The printed transcription is decrypted with no repair. A letter that lost a symbol is `_`.' % (e['key'] or 'of this message', len(rk)), '', '```'] + rows(asis, 60) + ['```', '']
     if plain is None and want_plain: return None
     if plain is None:
         L += ['## 5 Decrypted after repair', '', 'Not read.', '', '## 6 English translation', '', 'Not read, so there is no translation.', '']
         return '\n'.join(L)
     mp = mark_plain(plain, len(rep), solid, rk)
     if want_plain: return mp
-    L += ['## 5 Decrypted after repair', '', 'Uppercase letters rest on symbols that are in the print. Lowercase letters rest on the repair. `_` is a letter not determined and `#` a digit not determined. X stands for a space or a stop.', '', '```'] + rows(mp, 60) + ['```', '']
+    L += ['## 5 Decrypted after repair', '', 'Uppercase letters rest on symbols that are in the print. Lowercase letters rest on the repair. `_` is a letter not determined and `#` a digit not determined. X stands for a space or a stop.' + (' The print holds nothing for this entry, so every letter is lowercase.' if nolog else ''), '', '```'] + rows(mp, 60) + ['```', '']
     L += ['## 6 English translation', '']
     t = trans.get(rid)
     if t:
