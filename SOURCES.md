@@ -29,7 +29,6 @@ returns nothing is a limit of the catalogue, not proof that nothing is there.
 | French Service historique de la Défense, Vincennes | GR 19 N 1416 to 1418, Section du chiffre | New lead. The catalogue says it holds French and German cipher grids and deciphering reports. Not opened yet because the site was down for maintenance |
 | French Service historique de la Défense, Vincennes | GR 7 N 1267 and GR 6 N 21, plus the radio direction finding diary 26 N 28/9 | Inconclusive. GR 7 N 1267 has wireless correspondence between the Allies, August 1914 to April 1919, and the descriptions do not mention ciphers |
 | Gallica | Searches for ADFGVX, ADFGX and Painvin with cryptography | The narrow searches were read in full and returned only secondary works such as de Lastours, no intercept logs. Three broad searches were read to their first pages only and are still to be finished |
-| Authors of the 2017 paper | Their own transcription and decryption archive | We asked once and have not had a reply. Lasry's per message list of what was read has never been published |
 
 ## Messages from outside the log
 
@@ -41,40 +40,12 @@ We have not found a transcribed set of them.
 
 Several 2026 news and blog items claim an AI system read a message from 24 November 1918. They trace back to a
 single post by a writer using the name Prinz, who used a key from Childs's 1919 typescript. That is the message
-on page 217 in our tables, and we count it as read by others. We did not use the news items as sources.
+on page 217 in our tables, and we credit that published solution on its row. We did not use the news items as sources.
 
-## Search for a list of what was read in 2017
+## The 2017 readings
 
-On 11 October 2026 we looked for any per message list of which records the 2017 team read. We found none.
-Checked, with the outcome for each.
-
-| Place | Outcome |
-|---|---|
-| Schmeh's February 2017 post and all its comments | Gives the team's key table with a total of 618 cryptograms recovered, plus Schmeh's list of 22 unsolved entries. No list of the records that were read |
-| Schmeh's separate page of unsolved ADFGVX messages | Already used. It names unsolved entries only, so every other record is unknown, not known read |
-| Lasry's thesis chapter on ADFGVX | Gives the counts and the fourteen keys. No per message list, and 50 unread of 668 is the only total |
-| The Cryptologia paper of 2017 | Not available to us in full text, so its supplements were not checked. This is an access gap |
-| Lasry's 2015 Kassel talk slides | The file text could not be read, so it is unchecked |
-| General web search for a Lasry repository, data set or CrypTool material holding the plaintexts | No hit. A search engine miss is not proof that none exists |
-
-This search is thin, not complete. Until a per message list turns up, no record of ours outside the 22 entries can be called new,
-and the fill leads stay leads.
-
-## What the 2017 paper says about the unread messages
-
-An open copy of the 2017 paper turned up. It says 618 of 668 cryptograms were recovered and about 50 were not.
-Of those 50, 36 had too many groups missing, and 14 had the correct length but fit no key. It gives no list of
-which messages they were. This does not change the search table above, which stays thin until a per message list is found.
-
-Sorting our own 74 not read records by what we can see, without claiming anything about which ones the team read.
-
-| Group | Records |
-|---|---|
-| No ciphertext held in our copy | 5 |
-| Log gives no printed count | 28 |
-| Symbols differ from the printed count | 34 |
-| Count matches but symbols are unknown or the length is odd | 5 |
-| Count matches and complete | 2 |
-
-The 16 records whose repair clears the nulls without reading sort as 14 with a count mismatch, 1 with no printed
-count and 1 with a matching count and unknown symbols. Our unread total of 74 is larger than their 50, so the two groups cannot be the same set. The table makes no claim about which of ours the team read.
+The 2017 paper and the 2018 thesis give the keys and the totals, 618 of 668 cryptograms read,
+36 of the rest with too many groups missing and 14 of the right length that fit no key. Neither
+gives a list of which entries were read, and we found no such list in Schmeh's posts and comments,
+in the Kassel talk slides or on the web. So the status of each entry in this repository is what
+reads here. If a list turns up, the credit column of the table is where it would be applied.
