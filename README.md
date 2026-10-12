@@ -11,7 +11,7 @@ unsolved encrypted messages.
 
 This repository holds readings of two of those messages, the keys and code behind them, and the
 checks. It also holds a row and a page for every one of the 688 entries in Childs's log, including 13
-readings with open positions made with Lasry's published keys, described in [Every message in the log](#every-message-in-the-log).
+readings, open positions marked, made with Lasry's published keys, described in [Every message in the log](#every-message-in-the-log).
 
 | Childs page | Date (1918) | Call signs | What was done | Status |
 |---|---|---|---|---|
