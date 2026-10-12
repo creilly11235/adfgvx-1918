@@ -10,18 +10,18 @@ Every entry is in exactly one row.
 | Status | Entries | No earlier reading known to us | Meaning |
 |---|---|---|---|
 | Read | 468 | 3 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
-| Read after repair | 91 | 9 | decrypts to German under a published key after a length repair or a repair of a few symbols |
+| Read after repair | 91 | 6 | decrypts to German under a published key after a length repair or a repair of a few symbols |
 | Read with open positions | 13 | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
 | Partial | 11 | 10 | German words and phrases among runs that do not read, after a repair under a known key |
 | Lead | 24 | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
-| Inconclusive | 10 | 10 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
-| Pending recheck | 14 | 14 | the log row differs from the printed page by more than five symbols, so the result shown was computed on the wrong ciphertext and will be scored again |
-| Not read | 52 | 52 | no key reads it and no repair clears its nulls |
+| Inconclusive | 10 | 9 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
+| Pending recheck | 14 | 12 | the log row differs from the printed page by more than five symbols, so the result shown was computed on the wrong ciphertext and will be scored again |
+| Not read | 52 | 51 | no key reads it and no repair clears its nulls |
 | No cipher text | 4 | 4 | the log prints no symbols for the entry |
 | Duplicate entry | 1 | 1 | the log row joins the symbols of two other entries |
-| Total | 688 | 140 | |
+| Total | 688 | 133 | |
 
-The third column counts the entries for which we found no earlier reading, in the 2017 paper and thesis, in the comments on Schmeh's posts or on the web. It says what we found, not what anyone read. The 2017 team reported reading 618 of the 668 cryptograms it counted and published no list of which, so an entry read here with a published key may well have been read then. The log is split into 688 entries here, so the two totals cannot be matched one to one.
+The third column counts the entries for which we found no earlier reading or partial reading, in the 2017 paper and thesis, in the comments on Schmeh's posts or on the web. It says what we found, not what anyone read, and for the rows that are not read here it only says that nobody else is known to have read them either. The 2017 team reported reading 618 of the 668 cryptograms it counted and published no list of which, so an entry read here with a published key may well have been read then. The log is split into 688 entries here, so the two totals cannot be matched one to one.
 
 ## How to read a message page
 
@@ -45,7 +45,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | Entry | Page | Date | Key | Status | Credit |
 |---|---|---|---|---|---|
 | [p059A](messages/p059A.md) | 56 | 19 September | sep19 | Read after repair | Published keys |
-| [p059B](messages/p059B.md) | 56 | 19 September | sep19 | Partial | Published keys |
+| [p059B](messages/p059B.md) | 56 | 19 September | sep19 | Partial |  |
 | [p059B.2](messages/p059B.2.md) | 56 | 19 September | sep19 | Read | Published keys |
 | [p060A1](messages/p060A1.md) | 57 | 20 September | sep19 | Read | Published keys |
 | [p060A2](messages/p060A2.md) | 57 | 20 September | sep19 | Read | Published keys |
@@ -67,19 +67,19 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p065B](messages/p065B.md) | 62 | 5 October | oct04 | Read | Published keys |
 | [p066A](messages/p066A.md) | 63 | 4 October | oct04 | Read | Published keys |
 | [p067A](messages/p067A.md) | 64 | 4 October | oct04 | Read | Published keys |
-| [p067A2](messages/p067A2.md) | 64 | 4 October | oct04 | Lead | Published keys |
+| [p067A2](messages/p067A2.md) | 64 | 4 October | oct04 | Lead |  |
 | [p0674](messages/p0674.md) | 64 | 4 October | oct04 | Read | Published keys |
 | [p068A](messages/p068A.md) | 65 | 4 October | oct04 | Read | Published keys |
 | [p069A](messages/p069A.md) | 66 | 5 October | oct04 | Read | Published keys |
 | [p069B](messages/p069B.md) | 66 | 5 October | oct04 | Read | Published keys |
 | [p069B1](messages/p069B1.md) | 66 | 5 October | oct04 | Read | Published keys |
-| [p070A3](messages/p070A3.md) | 67 | 5 October | oct04 | Lead | Published keys |
+| [p070A3](messages/p070A3.md) | 67 | 5 October | oct04 | Lead |  |
 | [p070B](messages/p070B.md) | 67 | 5 October | oct04 | Read | Published keys |
 | [p070C](messages/p070C.md) | 67 | 5 October | oct04 | Read | Published keys |
-| [p071A1](messages/p071A1.md) | 68 | 5 October | oct04 | Lead | Published keys |
-| [p071A2](messages/p071A2.md) | 68 | 5 October | oct04 | Lead | Published keys |
+| [p071A1](messages/p071A1.md) | 68 | 5 October | oct04 | Lead |  |
+| [p071A2](messages/p071A2.md) | 68 | 5 October | oct04 | Lead |  |
 | [p072A](messages/p072A.md) | 69 | 5 October | oct04 | Pending recheck |  |
-| [p072B1](messages/p072B1.md) | 69 | 5 October | oct04 | Lead | Published keys |
+| [p072B1](messages/p072B1.md) | 69 | 5 October | oct04 | Lead |  |
 | [p072B3](messages/p072B3.md) | 69 | 5 October | oct04 | Read after repair | Published keys |
 | [p073A1](messages/p073A1.md) | 70 | 6 October | oct04 | Read after repair | Published keys |
 | [p073A2](messages/p073A2.md) | 70 | 6 October | oct04 | Read | Published keys |
@@ -87,7 +87,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p074A](messages/p074A.md) | 71 | 6 October | oct04 | Read | Published keys |
 | [p074A.2](messages/p074A.2.md) | 71 | 6 October |  | Not read |  |
 | [p075A1](messages/p075A1.md) | 72 | 6 October | oct04 | Read, 1 open | Published keys |
-| [p075A2](messages/p075A2.md) | 72 | 6 October | oct04 | Partial | Published keys |
+| [p075A2](messages/p075A2.md) | 72 | 6 October | oct04 | Partial |  |
 | [p075A3](messages/p075A3.md) | 72 | 6 October | oct04 | Read | Published keys |
 | [p075B](messages/p075B.md) | 72 | 6 October | oct04 | Inconclusive |  |
 | [p076A](messages/p076A.md) | 73 | 26 October |  | Not read |  |
@@ -129,7 +129,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p090A1](messages/p090A1.md) | 87 | 31 October | nov01 | Read | Published keys |
 | [p091A1](messages/p091A1.md) | 88 | 1 November | nov01 | Read, 1 open | Published keys |
 | [p091A3](messages/p091A3.md) | 88 | 1 November | nov01 | Read | Published keys |
-| [p091B](messages/p091B.md) | 88 | 1 November | nov01 | Lead | Published keys |
+| [p091B](messages/p091B.md) | 88 | 1 November | nov01 | Lead |  |
 | [p091C1](messages/p091C1.md) | 88 | 1 November | nov01 | Read | Published keys |
 | [p0924](messages/p0924.md) | 89 | 1 November |  | Not read |  |
 | [p09244](messages/p09244.md) | 89 | 1 November | nov01 | Read | Published keys |
@@ -208,7 +208,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p113A](messages/p113A.md) | 110 | 3 November | nov01 | Read | Published keys |
 | [p113B](messages/p113B.md) | 110 | 3 November | nov01 | Read | Published keys |
 | [p113C](messages/p113C.md) | 110 | 3 November | nov01 | Read | Published keys |
-| [p114A](messages/p114A.md) | 111 | 3 November | nov01 | Lead | Published keys |
+| [p114A](messages/p114A.md) | 111 | 3 November | nov01 | Lead |  |
 | [p114B](messages/p114B.md) | 111 | 3 November | nov01 | Read after repair | Published keys |
 | [p115A1](messages/p115A1.md) | 112 | 3 November | nov01 | Read | Published keys |
 | [p115A2](messages/p115A2.md) | 112 | 3 November | nov01 | Read, 20 open | Published keys |
@@ -244,7 +244,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p124A2](messages/p124A2.md) | 121 | 4 November | nov04 | Read | Published keys |
 | [p124B1](messages/p124B1.md) | 121 | 4 November | nov04 | Read after repair | Published keys |
 | [p125A2](messages/p125A2.md) | 122 | 4 November | nov04 | Read | Published keys |
-| [p125B](messages/p125B.md) | 122 | 4 November | nov04 | Lead | Published keys |
+| [p125B](messages/p125B.md) | 122 | 4 November | nov04 | Lead |  |
 | [p125C](messages/p125C.md) | 122 | 4 November | nov04 | Read | Published keys |
 | [p125D1](messages/p125D1.md) | 122 | 4 November |  | Not read |  |
 | [p126A2](messages/p126A2.md) | 123 | 4 November | nov04 | Read, 18 open | Published keys |
@@ -284,7 +284,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p137B](messages/p137B.md) | 134 | 6 November | nov04 | Read | Published keys |
 | [p138A](messages/p138A.md) | 135 | 5 November | nov04 | Read | Published keys |
 | [p139A1](messages/p139A1.md) | 136 | 5 November | nov04 | Read | Published keys |
-| [p139A2](messages/p139A2.md) | 136 | 5 November | nov04 | Lead | Published keys |
+| [p139A2](messages/p139A2.md) | 136 | 5 November | nov04 | Lead |  |
 | [p139B](messages/p139B.md) | 136 | 6 November | nov04 | Read | Published keys |
 | [p139B3](messages/p139B3.md) | 136 | 6 November | nov04 | Read | Published keys |
 | [p140A4](messages/p140A4.md) | 137 | 6 November | nov04 | Read after repair | Published keys |
@@ -297,7 +297,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p141A](messages/p141A.md) | 138 | 6 November | nov04 | Read after repair | Published keys |
 | [p141A.2](messages/p141A.2.md) | 138 | 6 November | nov04 | Read | Published keys |
 | [p141B](messages/p141B.md) | 138 | 6 November | nov04 | Read after repair | Published keys |
-| [p141B.2](messages/p141B.2.md) | 138 | 6 November | nov04 | Partial | Published keys |
+| [p141B.2](messages/p141B.2.md) | 138 | 6 November | nov04 | Partial |  |
 | [p142A1](messages/p142A1.md) | 139 | 6 November | nov04 | Read | Published keys |
 | [p142A2](messages/p142A2.md) | 139 | 6 November |  | Not read |  |
 | [p142A](messages/p142A.md) | 139 | 6 November |  | Not read |  |
@@ -323,12 +323,12 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p148B.3](messages/p148B.3.md) | 145 | 6 November | nov04 | Read after repair | Published keys |
 | [p149A1](messages/p149A1.md) | 146 | 6 November | nov04 | Read after repair | Published keys |
 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Read after repair | Norbert, 2017 |
-| [p149C1](messages/p149C1.md) | 146 | 6 November | nov04 | Pending recheck | Published keys |
+| [p149C1](messages/p149C1.md) | 146 | 6 November | nov04 | Pending recheck |  |
 | [p150A](messages/p150A.md) | 147 | 6 November | nov04 | Read | Published keys |
 | [p150B1](messages/p150B1.md) | 147 | 6 November | nov04 | Read | Published keys |
 | [p150C1](messages/p150C1.md) | 147 | 6 November | nov04 | Read | Published keys |
 | [p150D1](messages/p150D1.md) | 147 | 6 November | nov04 | Read | Published keys |
-| [p151A1](messages/p151A1.md) | 148 | 6 November | nov04 | Lead | Published keys |
+| [p151A1](messages/p151A1.md) | 148 | 6 November | nov04 | Lead |  |
 | [p151B1](messages/p151B1.md) | 148 | 6 November | nov04 | Read | Published keys |
 | [p151C1](messages/p151C1.md) | 148 | 6 November | nov04 | Read | Published keys |
 | [p152A2](messages/p152A2.md) | 149 | 6 November | nov04 | Read | Published keys |
@@ -374,7 +374,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p159E1](messages/p159E1.md) | 156 | 8 November | nov07 | Read | Published keys |
 | [p160A](messages/p160A.md) | 157 | 7 November |  | Not read |  |
 | [p160A.2](messages/p160A.2.md) | 157 | 7 November | nov07 | Read | Published keys |
-| [p160A3](messages/p160A3.md) | 157 | 7 November | nov07 | Lead | Published keys |
+| [p160A3](messages/p160A3.md) | 157 | 7 November | nov07 | Lead |  |
 | [p160A4](messages/p160A4.md) | 157 | 7 November | nov07 | Read | Published keys |
 | [p160A5](messages/p160A5.md) | 157 | 7 November | nov07 | Read | Published keys |
 | [p160B](messages/p160B.md) | 157 | 7 November | nov07 | Read | Published keys |
@@ -384,9 +384,9 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p161B1](messages/p161B1.md) | 158 | 7 November | nov07 | Read | Published keys |
 | [p161C3](messages/p161C3.md) | 158 | 8 November | nov07 | Read | Published keys |
 | [p161D](messages/p161D.md) | 158 | 8 November |  | Duplicate entry |  |
-| [p161E](messages/p161E.md) | 158 | 8 November | nov07 | Partial | Published keys |
+| [p161E](messages/p161E.md) | 158 | 8 November | nov07 | Partial |  |
 | [p162A](messages/p162A.md) | 159 | 8 November | nov07 | Inconclusive |  |
-| [p162B](messages/p162B.md) | 159 | 8 November | nov07 | Partial | Published keys |
+| [p162B](messages/p162B.md) | 159 | 8 November | nov07 | Partial |  |
 | [p162B.2](messages/p162B.2.md) | 159 | 8 November | nov07 | Read after repair | Published keys |
 | [p162_](messages/p162_.md) | 159 | 9 November | nov07 | Read | Published keys |
 | [p163A2](messages/p163A2.md) | 160 | 8 November | nov07 | Read after repair | Published keys |
@@ -401,7 +401,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p164_2.2](messages/p164_2.2.md) | 161 | 9 November | nov07 | Read | Published keys |
 | [p164D1](messages/p164D1.md) | 161 | 9 November | nov07 | Read | Published keys |
 | [p164D3](messages/p164D3.md) | 161 | 9 November | nov07 | Read | Published keys |
-| [p165A1](messages/p165A1.md) | 162 | 8 November | nov07 | Partial | Published keys |
+| [p165A1](messages/p165A1.md) | 162 | 8 November | nov07 | Partial |  |
 | [p165B1](messages/p165B1.md) | 162 | 8 November |  | Pending recheck |  |
 | [p165C1](messages/p165C1.md) | 162 | 8 November |  | Not read |  |
 | [p165C2](messages/p165C2.md) | 162 | 8 November | nov07 | Read | Published keys |
@@ -429,7 +429,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p169B2](messages/p169B2.md) | 166 | 9 November |  | Pending recheck |  |
 | [p169C1](messages/p169C1.md) | 166 | 9 November | nov07 | Read after repair | Published keys |
 | [p169C3](messages/p169C3.md) | 166 | 9 November | nov07 | Read | Published keys |
-| [p170A](messages/p170A.md) | 167 | 9 November | nov07 | Lead | Published keys |
+| [p170A](messages/p170A.md) | 167 | 9 November | nov07 | Lead |  |
 | [p170B](messages/p170B.md) | 167 | 9 November | nov07 | Read | Published keys |
 | [p170B3](messages/p170B3.md) | 167 | 9 November | nov07 | Read | Published keys |
 | [p170B3.2](messages/p170B3.2.md) | 167 | 9 November | nov07 | Read | Published keys |
@@ -481,7 +481,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p179B1](messages/p179B1.md) | 176 | 10 November | nov10 | Read, 6 open | This project |
 | [p179B](messages/p179B.md) | 176 | 10 November | nov10 | Read | Published keys |
 | [p179B3](messages/p179B3.md) | 176 | 10 November | nov10 | Read | Published keys |
-| [p180A](messages/p180A.md) | 177 | 11 November | nov10 | Lead | Published keys |
+| [p180A](messages/p180A.md) | 177 | 11 November | nov10 | Lead |  |
 | [p180B](messages/p180B.md) | 177 | 11 November | nov10 | Read | Published keys |
 | [p180B.2](messages/p180B.2.md) | 177 | 11 November | nov10 | Read after repair | Published keys |
 | [p180B3](messages/p180B3.md) | 177 | 11 November | nov10 | Read | Published keys |
@@ -491,7 +491,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p181A4](messages/p181A4.md) | 178 | 11 November | nov10 | Read | Published keys |
 | [p181A5](messages/p181A5.md) | 178 | 11 November | nov10 | Read after repair | Published keys |
 | [p182A](messages/p182A.md) | 179 | 11 November | nov10 | Read after repair | Published keys |
-| [p182B](messages/p182B.md) | 179 | 11 November | nov10 | Lead | Published keys |
+| [p182B](messages/p182B.md) | 179 | 11 November | nov10 | Lead |  |
 | [p182C](messages/p182C.md) | 179 | 11 November | nov10 | Read | Published keys |
 | [p182D](messages/p182D.md) | 179 | 11 November | nov13_16 | Read | Published keys |
 | [p182D3](messages/p182D3.md) | 179 | 11 November | nov13_16 | Read, 19 undetermined | Published keys |
@@ -499,14 +499,14 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p183A](messages/p183A.md) | 180 | ? November | nov10 | Read | Published keys |
 | [p183B2](messages/p183B2.md) | 180 | ? November | nov10 | Read after repair | Published keys |
 | [p183B](messages/p183B.md) | 180 | ? November | nov10 | Read | Published keys |
-| [p183D1](messages/p183D1.md) | 180 | ? November | nov10 | Lead | Published keys |
+| [p183D1](messages/p183D1.md) | 180 | ? November | nov10 | Lead |  |
 | [p183E](messages/p183E.md) | 180 | ? November | nov13_16 | Read | Published keys |
 | [p184A](messages/p184A.md) | 181 | 12 November | nov10 | Read | Published keys |
 | [p184B](messages/p184B.md) | 181 | 12 November | nov10 | Read | Published keys |
 | [p185A](messages/p185A.md) | 182 | 12 November |  | Pending recheck |  |
 | [p185B](messages/p185B.md) | 182 | 12 November | nov10 | Read | Published keys |
 | [p185C](messages/p185C.md) | 182 | 12 November |  | Not read |  |
-| [p186A](messages/p186A.md) | 183 | 12 November | nov10 | Lead | Published keys |
+| [p186A](messages/p186A.md) | 183 | 12 November | nov10 | Lead |  |
 | [p186B](messages/p186B.md) | 183 | 12 November | nov10 | Read, 7 open | Published keys |
 | [p186C](messages/p186C.md) | 183 | 12 November | nov10 | Read | Published keys |
 | [p186D](messages/p186D.md) | 183 | 12 November |  | Not read |  |
@@ -520,7 +520,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p187C](messages/p187C.md) | 184 | 13 November | nov13_20 | Read | Published keys |
 | [p187C3](messages/p187C3.md) | 184 | 13 November |  | Not read |  |
 | [p188_2](messages/p188_2.md) | 185 | 13 November | nov13_20 | Read | Published keys |
-| [p188_](messages/p188_.md) | 185 | 13 November | nov13_20 | Partial | Published keys |
+| [p188_](messages/p188_.md) | 185 | 13 November | nov13_20 | Partial |  |
 | [p188_.2](messages/p188_.2.md) | 185 | 13 November | nov13_16 | Read | Published keys |
 | [p188_.3](messages/p188_.3.md) | 185 | 13 November | nov13_16 | Read after repair | Published keys |
 | [p189A](messages/p189A.md) | 186 | 13 November | nov13_16 | Read | Published keys |
@@ -531,8 +531,8 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
 | [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
 | [p190B](messages/p190B.md) | 187 | 13 November |  | Not read |  |
-| [p190G](messages/p190G.md) | 187 | 13 November | nov13_20 | Partial | Published keys |
-| [p190D1](messages/p190D1.md) | 187 | 13 November | nov13_20 | Partial | Published keys |
+| [p190G](messages/p190G.md) | 187 | 13 November | nov13_20 | Partial |  |
+| [p190D1](messages/p190D1.md) | 187 | 13 November | nov13_20 | Partial |  |
 | [p191A](messages/p191A.md) | 188 | 13 November | nov13_16 | Read after repair | Published keys |
 | [p191B2](messages/p191B2.md) | 188 | 13 November | nov13_16 | Read | Published keys |
 | [p191_1](messages/p191_1.md) | 188 | 13 November | nov13_16 | Read | Published keys |
@@ -545,9 +545,9 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p193B](messages/p193B.md) | 190 | 14 November | nov13_16 | Read | Published keys |
 | [p193C](messages/p193C.md) | 190 | 14 November | nov13_16 | Read | Published keys |
 | [p193D](messages/p193D.md) | 190 | 14 November | nov13_20 | Read | Published keys |
-| [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Partial | Published keys |
+| [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Partial |  |
 | [p194A](messages/p194A.md) | 191 | 14 November | nov13_16 | Read | Published keys |
-| [p194A.2](messages/p194A.2.md) | 191 | 14 November | nov13_16 | Lead | Published keys |
+| [p194A.2](messages/p194A.2.md) | 191 | 14 November | nov13_16 | Lead |  |
 | [p195A2](messages/p195A2.md) | 192 | 14 November | nov13_16 | Read | Published keys |
 | [p195A](messages/p195A.md) | 192 | 14 November | nov13_16 | Read after repair | Published keys |
 | [p195A.2](messages/p195A.2.md) | 192 | 14 November | nov13_16 | Read | Published keys |
@@ -577,7 +577,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p201C](messages/p201C.md) | 198 | 15 November | nov13_16 | Read | Published keys |
 | [p201D](messages/p201D.md) | 198 | 15 November |  | Not read |  |
 | [p201E](messages/p201E.md) | 198 | 15 November |  | Not read |  |
-| [p202A1](messages/p202A1.md) | 199 | 15 November | nov13_16 | Lead | Published keys |
+| [p202A1](messages/p202A1.md) | 199 | 15 November | nov13_16 | Lead |  |
 | [p202A3](messages/p202A3.md) | 199 | 15 November | nov13_16 | Read | Published keys |
 | [p202A](messages/p202A.md) | 199 | 15 November | nov13_16 | Read | Published keys |
 | [p202_](messages/p202_.md) | 199 | 15 November | nov13_16 | Read | Published keys |
@@ -645,11 +645,11 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p216A7](messages/p216A7.md) | 213 | 22 November | nov22 | Read | Published keys |
 | [p216_1](messages/p216_1.md) | 213 | 23 November | nov22 | Read | Published keys |
 | [p216_2](messages/p216_2.md) | 213 | 23 November | nov22 | Read | Published keys |
-| [p216_3](messages/p216_3.md) | 213 | 23 November | nov22 | Lead | Published keys |
+| [p216_3](messages/p216_3.md) | 213 | 23 November | nov22 | Lead |  |
 | [p217A1](messages/p217A1.md) | 214 | 22 November | nov22 | Read | Published keys |
 | [p217B](messages/p217B.md) | 214 | 22 November | nov22 | Read | Published keys |
 | [p217C](messages/p217C.md) | 214 | 22 November | nov22 | Read | Published keys |
-| [p218A](messages/p218A.md) | 215 | 22 November | nov22 | Lead | Published keys |
+| [p218A](messages/p218A.md) | 215 | 22 November | nov22 | Lead |  |
 | [p218B1](messages/p218B1.md) | 215 | 22 November |  | Pending recheck |  |
 | [p218B4](messages/p218B4.md) | 215 | 22 November | nov22 | Read | Published keys |
 | [p218B3](messages/p218B3.md) | 215 | 22 November |  | Not read |  |
@@ -664,8 +664,8 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p220A.2](messages/p220A.2.md) | 217 | 24 November | nov22 | Read | Published keys |
 | [p220A3](messages/p220A3.md) | 217 | 24 November | nov22 | Read | Published keys |
 | [p220A4](messages/p220A4.md) | 217 | 24 November | nov22 | Read | Published keys |
-| [p220A.3](messages/p220A.3.md) | 217 | 24 November | nov22 | Lead | Published keys |
-| [p220B](messages/p220B.md) | 217 | 24 November | nov22 | Lead | Published keys |
+| [p220A.3](messages/p220A.3.md) | 217 | 24 November | nov22 | Lead |  |
+| [p220B](messages/p220B.md) | 217 | 24 November | nov22 | Lead |  |
 | [p220B2](messages/p220B2.md) | 217 | 24 November | nov22 | Read | Published keys |
 | [p220C](messages/p220C.md) | 217 | 24 November |  | Pending recheck |  |
 | [p220C.2](messages/p220C.2.md) | 217 | 24 November | dec09_history | Read | Prinz, 2026 |
@@ -702,8 +702,8 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p227A2](messages/p227A2.md) | 224 | 27 November | nov25 | Read | Published keys |
 | [p227B](messages/p227B.md) | 224 | 26 November | nov25 | Read | Published keys |
 | [p227C1](messages/p227C1.md) | 224 | 26 November | nov25 | Read | Published keys |
-| [p227C2](messages/p227C2.md) | 224 | 26 November | nov25 | Lead | Published keys |
-| [p228A](messages/p228A.md) | 225 | 28 November | nov28 | Lead | Published keys |
+| [p227C2](messages/p227C2.md) | 224 | 26 November | nov25 | Lead |  |
+| [p228A](messages/p228A.md) | 225 | 28 November | nov28 | Lead |  |
 | [p228B1](messages/p228B1.md) | 225 | 28 November | nov28 | Read | Published keys |
 | [p228B](messages/p228B.md) | 225 | 28 November | nov28 | Read | Published keys |
 | [p229A2](messages/p229A2.md) | 226 | 29 November | nov28 | Read | Published keys |

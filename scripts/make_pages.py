@@ -180,7 +180,7 @@ def page(e, keys, msgs, trans, want_plain=False):
     rid = e['id']; L = ['# %s' % rid, '']
     meta = 'Childs page %s, %s' % (e['childs_page'], e['date'])
     L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if e['credited_to'] else '')).replace('-', ' '), '']
-    detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['credit'] + '.' if e['credit'] else '') + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
+    detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['credit'] + '.' if e['credit'] and e['credited_to'] else '') + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
     L += ['Detail. ' + detail.replace('-', ' '), '']
     # step 1
     L += ['## 1 Printed', '',

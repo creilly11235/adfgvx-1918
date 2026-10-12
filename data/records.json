@@ -36,10 +36,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "AKONA-H70XZURM1NR227Q0VX6X9X18XYGRXOSTWIRDDEMNAECHSTEIGENENDEUTSCHENAKONACHEVHALTEN",
   "confidence": "partial reading (score 123, null max 39, vocabulary coverage 0.45)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p059B.2",
@@ -500,11 +500,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUND#NDERENFIRMENATOMXFERNERWIEVIELBISJETZTGELIEFERTXDIEUELBENDATEQBETREFFENNQVOROSSISKFALLSSOLCHEIHNENBEKANNTXHAGELINXXXLSTARMEEOXQU#####",
   "confidence": "strong lead (margin 170.8)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p0674",
@@ -627,11 +627,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "ALSERSATZISTBEREITSOBERSTLTKARLVONGRUNDHERRXROEM#DES#XCHEVREGTSDORTHINBEORSERTXXBAYRKRIEGSMINISTERIUMNR######P",
   "confidence": "strong lead (margin 100.0)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p070B",
@@ -691,11 +691,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "GENERALOKRESSXTIFLALXX##TSPAUC#NRO###F#MPF#XBZTRWENTN#NDUNG#OFFX#NAUHDTCFSISXZUM#XKAUFVONA#SR#ESTUNASMTSRCKENX",
   "confidence": "weak lead (margin 11.7)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p071A2",
@@ -713,11 +713,11 @@
   "method": "known key fill of unread symbols",
   "plaintext": "UNDARTILLERIST#QITJONFENDONRELIERUNGDORTEINGENANGEOX#ROCHENTAUSE#XENONHGRUKUERM#X#OSTOR#JG#XX",
   "confidence": "strong lead (margin 43.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p072A",
@@ -756,11 +756,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "OUXZWDP#LU#ABARAILA#XLRXMITDXVIOEETUAX#####NIE#HANDGI#NAAENX#WAQE#MAUCHXGEI#WWLIXRUSSQE#X#OAGXMUNXM#TT#LEBEJS#IT#EL##FASTBEO#IN#LISPENCDRIERGEMAEFK##WA#XOUNNFUERMWN",
   "confidence": "weak lead (margin 2.1)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, no second reader",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p072B3",
@@ -926,10 +926,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "2XMITBERICHTV6M8X9X4ANR553ANGEFORDXVEUWXPERSXWIRDMWT-USNAHMEDERGARNISONVERWZBE9MTENVERGLXTELD26XAX16-7X18XGX-X11X",
   "confidence": "partial reading (score 111, null max 23, vocabulary coverage 0.16)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p075A3",
@@ -1811,11 +1811,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "FUERXUKSXGROESSERERXVERKEHRXZUXERWARTENXHABENXSIEXSICHEREXVERBINDUNGMITXUKSXODERXMUSSXOSMXVERMITTELNXX",
   "confidence": "weak lead (margin 14.1)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p091C1",
@@ -3471,11 +3471,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "OKMXOKEXABENDMELDUNGXANSAREXDONAUXR#HEALPXKOSPRERREICHTRAUMSUEDLICHUJVINE#X#JVIDEKR#A####IDUXG#KX####",
   "confidence": "weak lead (margin 1.3)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, no second reader",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p114B",
@@ -4229,11 +4229,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "ERBISTERUECKANTFOTTDURCHFUNDSPRUCHORSIEZUEBESCHAEHTIGUNGIMHANDELSMANISTERGUMXDEMOSIHMACHUNGSURPUPE#ARKOESMLIC#XHANDELTMINISTER",
   "confidence": "strong lead (margin 126.0)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "2 open cells (unread or unknown square cells)",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p125C",
@@ -5071,11 +5071,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "KEINGELDUEBERMITTELNXHEERESGRXKIEWX#CXHRW####X",
   "confidence": "weak lead (margin 4.0)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Weakest of the 15 reread leads, margin fell to 4.0 after the second reader fixed symbols",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p139B",
@@ -5345,10 +5345,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "SEEKR8EGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXPACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERES4RUPPEX-IEHXXO2M-IIEAUSG--ALL1NXA-LESTRLL-NBENACHR-CHTIGEN",
   "confidence": "partial reading (score 164, null max 45, vocabulary coverage 0.25)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p142A1",
@@ -5891,10 +5891,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENX-CHLUESSELERSTERDEZEMBERWIEZEHNTEINOVEMBERUSWX",
   "confidence": "pending recheck (was reads, repaired (score 207, null max 35, vocabulary coverage 0.70))",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent. Pending recheck, the page reread found the log row differs from the printed page by more than 5 symbols, so any repair outcome here was computed on the wrong ciphertext",
   "status": "Pending recheck",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p150A",
@@ -5996,11 +5996,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "DEUTSCHEBETSCHAFTXKONSTANTINOPEFXD#TERSC#RXAUSWAERTIGXRMX#XDX####",
   "confidence": "moderate lead (margin 26.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p151B1",
@@ -6964,11 +6964,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "NACHSIEBENBUERGENXOBKDOXHATZRSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPRECHUNGUEBERDIESEANGELEGENHEIT",
   "confidence": "strong lead (margin 131.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p160A4",
@@ -7175,10 +7175,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "ANENMELDUNGXSE-BXKAVALLERITPETERWADE2NUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND5XRXDNACHNOYDENOHNEFEINBELUEHRUNG",
   "confidence": "partial reading (score 175, null max 40, vocabulary coverage 0.27)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p162A",
@@ -7217,10 +7217,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "UEBERLEBAYRXGENE-DOXMUENCX-NXXAN7XRS-XDIVXXLA3-SBERGXAN0-ECHXXNICHTDURCH-AFELXARMEESLHLUESSELDHW-ELTXEMPHA-GBESTXXSXHDLXRMX1LNRX11338GDHXWRX",
   "confidence": "partial reading (score 84, null max 43, vocabulary coverage 0.16)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p162B.2",
@@ -7533,10 +7533,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "ANI-GENIEURIN-PEKTIONMU-NCSEN0GEF-XGERAUSUN-2ELDGRXMAHRERALSKURIERMITFUNKBETRIEBSUNTERLAGQNFUERGRUKBNACH502X7UHRABDSNACHDORTABGEFAHREN",
   "confidence": "partial reading (score 183, null max 44, vocabulary coverage 0.24)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p165B1",
@@ -8122,11 +8122,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "BEREITGESTELLTX###XX###XUND#X#XDXSETZSN#X##XMARSCWINLINENAGIBESKEREKXWERSCHETZFORTXOXKXMX#AXNO#####OPX",
   "confidence": "moderate lead (margin 24.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "2 open cells (unread or unknown square cells)",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p170B",
@@ -9215,11 +9215,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXME#DUNGGESLHEHENENTELEFONISCH",
   "confidence": "strong lead (margin 140.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "1 open cells (unread or unknown square cells)",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p180B",
@@ -9426,11 +9426,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENGORTFESTSETZENXKMX####X##GXANCH",
   "confidence": "strong lead (margin 86.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "3 open cells (unread or unknown square cells)",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p182C",
@@ -9596,11 +9596,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "RNOHLX#B#NDMELJUN#XRUMAEIXULTIMATUMFORD#ATERAEUMENG##STUNDENVORDE#WAFFENKURECKUN#MNICHTBU#NTW#RTEA",
   "confidence": "strong lead (margin 63.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Zero substitution fill of the corrected symbols. An error tolerant fill suggests 14 symbol changes on this jammed message, a hypothesis only. Ranked 1 of 1001, reproduced twice",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p183E",
@@ -9744,11 +9744,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "GUTANGEKOMMENXISTDORTWASLOSXSEIF",
   "confidence": "weak lead (margin 12.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p186B",
@@ -10040,10 +10040,10 @@
   "method": "known key repair (3 edits)",
   "plaintext": "FUSK?NFTXUEBERESCHICKSALEHEIRESANGNHOERIGERXHNX?AKUXERPET?NXKRIEFSMINISTERNUMXABTGILUNGXFUERXVXRBDENDENEEHEEREXNR????STRIC?A?XGEHXAXWX",
   "confidence": "partial reading (score 153, null max 55, vocabulary coverage 0.27)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p188_.2",
@@ -10271,10 +10271,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "BITTEXSOFORTXBX?CHEIDXOBEVERPINDUNGXMISXARMEXXMAKENSENEEINWA?DFR-IX",
   "confidence": "partial reading (score 70, null max 50, vocabulary coverage 0.17)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p190D1",
@@ -10292,10 +10292,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "OXKX-ACKENSENX-UXWORTXRM-?XDX?????-UXRMX?XAX-????XVERBINDUNGXMITXRXODERXGXFLUGZEUGINXZXZTXAUSX?ECHNISCHEIXGRUENDENXUEMOEGLICHX",
   "confidence": "partial reading (score 109, null max 68, vocabulary coverage 0.29)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p191A",
@@ -10565,10 +10565,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "WELCHE-TATION-ANNNKJBEIBETRIEBSTTOERUNG?ERTRETENXXVIELLEICHTSEWA-TOPOLXDRINGBISCHEI-ANLP",
   "confidence": "partial reading (score 130, null max 35, vocabulary coverage 0.35)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
   "status": "Partial",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p194A",
@@ -10607,11 +10607,11 @@
   "method": "known key fill of unread symbols",
   "plaintext": "UFTERAORVELDUHGMFJST#RNEPPEKLEIDN#AUFAHR#IBEREIT#KELLENMA#RAHTF#CNUNKANT#URTERUE#ENXXA#OEJX#J",
   "confidence": "moderate lead (margin 23.2)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p195A2",
@@ -11238,11 +11238,11 @@
   "method": "known key fill of unread symbols",
   "plaintext": "#NIZM#CDANFEIGENHAU#SE##SHUKDEBIACHGZEDZXHELKUEESMELDETNWOEZFTE#NOVEMBZ#DASSNIT#LAJZWM#BREREDACPFER#EB#LKAKAUP##SERZUSAVPERTTTE#ZIRNA##FTONZENEENG",
   "confidence": "strong lead (margin 57.9)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p202A3",
@@ -12667,11 +12667,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "FUEREUCHWIRDMITALLENKRAEFTENGESORGTXROHAVALXXKMXALLGX#RIEFSDEPXNZYLY#XYYXYNKANCHX",
   "confidence": "moderate lead (margin 22.4)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "1 open cells (unread or unknown square cells)",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p217A1",
@@ -12752,11 +12752,11 @@
   "method": "known key fill of unread symbols",
   "plaintext": "DOU#EQENDZ#GPIARSY#XUNDRUERX#SXARTVEDSI#XNBE#CPT#GSVRXJ#GK#BP#QDHULEVSONW#H#KNAK#R##GDUF#YEGELM#GSCHCAUKN#PXEL#Y#C#UU#UMBERPLKAUXREBEZR#VRK#OGING#XDA#KNNLA#U#DE#BTDX#KB#ALK#XER#IO#ELF#XNR#I##WP##",
   "confidence": "weak lead (margin 13.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p218B1",
@@ -13068,11 +13068,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "MASSOWBUDAPESTISTERSUCHUXLETZTEREFRAGENZUKLAEHENXOKMYAYY#YMOP",
   "confidence": "moderate lead (margin 34.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p220B",
@@ -13090,11 +13090,11 @@
   "method": "known key fill of unread symbols",
   "plaintext": "YBENDMELUF#ALPXKOEPLAHPITEREZUE#RABGEROFL#QSY#XIDUQV#B#ENDERTN##KDANFANDARRCWAZAX#Y#XAXGANGBEKR#ZCOBAZ",
   "confidence": "moderate lead (margin 20.6)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p220B2",
@@ -13868,11 +13868,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "DEMGENERALKDOX#XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEILUNGANGENREALKDOX##AKEGBETENXXXCHEFDESGENERALSTABSDXFELDHEERES#####X",
   "confidence": "strong lead (margin 132.3)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p228A",
@@ -13890,11 +13890,11 @@
   "method": "known key fill on a page image reread",
   "plaintext": "STATIHNUKSCHIFFRABERSTENDEZMITNSLNOVYDEDEZTAFELNNOCHNICGTEINGEGANGANYBITTETELEGDANUNSEBENFALLSMITNSLNOVSCHLUESSELNYY",
   "confidence": "strong lead (margin 131.2)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Symbols reread from the page image by one reader, second blind reader confirmed",
   "text_marks": "# marks a digit cell, - an unknown letter",
   "status": "Lead",
-  "credited_to": "Published keys"
+  "credited_to": ""
  },
  {
   "id": "p228B1",
