@@ -10,7 +10,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p059B.2](messages/p059B.2.md) | 56 | 19 September | sep19 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p060A1](messages/p060A1.md) | 57 | 20 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p060A2](messages/p060A2.md) | 57 | 20 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p060A3](messages/p060A3.md) | 57 | 20 September | sep19 | known key repair (3 edits) | 22 | pending recheck (was reads, repaired (score 104, null max 19, vocabulary coverage 0.33)) | Read with Lasry's published keys |
+| [p060A3](messages/p060A3.md) | 57 | 20 September | sep19 | known key reading from two blind readings of the page | 0 | reading with 0 open positions | Read with Lasry's published keys |
 | [p061_](messages/p061_.md) | 58 | 21 September |  | not read | 0 | none |  |
 | [p061_.2](messages/p061_.2.md) | 58 | 21 September |  | not read | 0 | none |  |
 | [p061_.3](messages/p061_.3.md) | 58 | 21 September |  | not read | 0 | none |  |
@@ -21,7 +21,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p062B](messages/p062B.md) | 59 | 21 September | sep19 | period key, length repaired | 1 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p063A1](messages/p063A1.md) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p063A2](messages/p063A2.md) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p063B2](messages/p063B2.md) | 60 | 21 September |  | not read | 2 | pending recheck |  |
+| [p063B2](messages/p063B2.md) | 60 | 21 September | sep19 | known key reading from two blind readings of the page | 1 | reading with 1 open position | Read with Lasry's published keys |
 | [p063B](messages/p063B.md) | 60 | 21 September | sep19 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p064A](messages/p064A.md) | 61 | 21 September | sep19 | period key, as transcribed | 5 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p065A](messages/p065A.md) | 62 | 4 October | oct04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -47,14 +47,14 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p073B](messages/p073B.md) | 70 | 6 October |  | not read | 7 | none | No reading found |
 | [p074A](messages/p074A.md) | 71 | 6 October | oct04 | period key, as transcribed | 12 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p074A.2](messages/p074A.2.md) | 71 | 6 October |  | not read | 0 | none |  |
-| [p075A1](messages/p075A1.md) | 72 | 6 October | oct04 | known key repair (1 edits) | 4 | pending recheck (was partial reading (score 102, null max 17, vocabulary coverage 0.22)) | Read with Lasry's published keys |
+| [p075A1](messages/p075A1.md) | 72 | 6 October | oct04 | known key reading from two blind readings of the page | 1 | reading with 1 open position | Read with Lasry's published keys |
 | [p075A2](messages/p075A2.md) | 72 | 6 October | oct04 | known key repair (1 edits) | 4 | partial reading (score 111, null max 23, vocabulary coverage 0.16) | Read with Lasry's published keys |
 | [p075A3](messages/p075A3.md) | 72 | 6 October | oct04 | period key, as transcribed | 2 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p075B](messages/p075B.md) | 72 | 6 October | oct04 | known key repair attempt, text withheld | 1 | clears nulls, does not read (score 28, null max 20) |  |
 | [p076A](messages/p076A.md) | 73 | 26 October |  | not read | 2 | none | No reading found |
 | [p077A](messages/p077A.md) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p077B](messages/p077B.md) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p077C](messages/p077C.md) | 74 | 28 October |  | not read | 0 | pending recheck |  |
+| [p077C](messages/p077C.md) | 74 | 28 October | oct28 | known key reading from two blind readings of the page | 30 | reading with 30 open positions | Read with Lasry's published keys |
 | [p077C2](messages/p077C2.md) | 74 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p078A](messages/p078A.md) | 75 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p078B](messages/p078B.md) | 75 | 28 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -72,7 +72,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p083B](messages/p083B.md) | 80 | 30 October |  | not read | 1 | none |  |
 | [p084A](messages/p084A.md) | 81 | 30 October | oct28 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p084B](messages/p084B.md) | 81 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p084C](messages/p084C.md) | 81 | 30 October | oct28 | known key repair attempt, text withheld | 13 | pending recheck (was clears nulls, does not read (score 55, null max 31)) |  |
+| [p084C](messages/p084C.md) | 81 | 30 October | oct28 | known key reading from two blind readings of the page | 0 | reading with 0 open positions | Read with Lasry's published keys |
 | [p085A1](messages/p085A1.md) | 82 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p085A2](messages/p085A2.md) | 82 | 30 October | oct28 | period key, length repaired | 1 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p085A3](messages/p085A3.md) | 82 | 30 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -88,7 +88,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p089B2](messages/p089B2.md) | 86 | 31 October | oct28 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p089C1](messages/p089C1.md) | 86 | 31 October | oct28 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p090A1](messages/p090A1.md) | 87 | 31 October | nov01 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p091A1](messages/p091A1.md) | 88 | 1 November | nov01 | known key repair (0 edits) | 1 | partial reading (score 144, null max 34, vocabulary coverage 0.29) | Read with Lasry's published keys |
+| [p091A1](messages/p091A1.md) | 88 | 1 November | nov01 | known key reading from two blind readings of the page | 1 | reading with 1 open position | Read with Lasry's published keys |
 | [p091A3](messages/p091A3.md) | 88 | 1 November | nov01 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p091B](messages/p091B.md) | 88 | 1 November | nov01 | known key fill on a page image reread | 0 | weak lead (margin 14.1) | Read with Lasry's published keys |
 | [p091C1](messages/p091C1.md) | 88 | 1 November | nov01 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -172,7 +172,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p114A](messages/p114A.md) | 111 | 3 November | nov01 | known key fill on a page image reread | 15 | weak lead (margin 1.3) | Read with Lasry's published keys |
 | [p114B](messages/p114B.md) | 111 | 3 November | nov01 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p115A1](messages/p115A1.md) | 112 | 3 November | nov01 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p115A2](messages/p115A2.md) | 112 | 3 November | nov01 | known key repair attempt, text withheld | 6 | pending recheck (was clears nulls, does not read (score 66, null max 15)) |  |
+| [p115A2](messages/p115A2.md) | 112 | 3 November | nov01 | known key reading from two blind readings of the page | 20 | reading with 20 open positions | Read with Lasry's published keys |
 | [p115A2.2](messages/p115A2.2.md) | 112 | 3 November | nov01 | period key, as transcribed | 7 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p115B](messages/p115B.md) | 112 | 3 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p1154](messages/p1154.md) | 112 | 4 November |  | not read | 0 | none |  |
@@ -208,7 +208,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p125B](messages/p125B.md) | 122 | 4 November | nov04 | known key fill on a page image reread | 34 | strong lead (margin 126.0) | Read with Lasry's published keys |
 | [p125C](messages/p125C.md) | 122 | 4 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p125D1](messages/p125D1.md) | 122 | 4 November |  | not read | 0 | none |  |
-| [p126A2](messages/p126A2.md) | 123 | 4 November | nov04 | known key repair attempt, text withheld | 3 | pending recheck (was clears nulls, does not read (score 71, null max 23)) |  |
+| [p126A2](messages/p126A2.md) | 123 | 4 November | nov04 | known key reading from two blind readings of the page | 18 | reading with 18 open positions | Read with Lasry's published keys |
 | [p126A3](messages/p126A3.md) | 123 | 4 November | nov04 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p126B](messages/p126B.md) | 123 | 4 November | nov04 | period key, as transcribed | 10 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p127B1](messages/p127B1.md) | 124 | 4 November | nov04 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -298,7 +298,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p153A2](messages/p153A2.md) | 150 | 6 November | nov04 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p153B1](messages/p153B1.md) | 150 | 6 November | nov04 | period key, as transcribed | 4 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p153B2](messages/p153B2.md) | 150 | 6 November | nov04 | period key, as transcribed | 8 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p153B3](messages/p153B3.md) | 150 | 6 November |  | not read | 12 | pending recheck |  |
+| [p153B3](messages/p153B3.md) | 150 | 6 November | nov04 | known key reading from two blind readings of the page | 14 | reading with 13 open positions | Read with Lasry's published keys |
 | [p153B4](messages/p153B4.md) | 150 | 6 November |  | not read | 6 | none |  |
 | [p153B](messages/p153B.md) | 150 | 6 November |  | not read | 8 | none |  |
 | [p153B5](messages/p153B5.md) | 150 | 6 November | nov04 | period key, as transcribed | 6 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -351,7 +351,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p162B.2](messages/p162B.2.md) | 159 | 8 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p162_](messages/p162_.md) | 159 | 9 November | nov07 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163A2](messages/p163A2.md) | 160 | 8 November | nov07 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p163B](messages/p163B.md) | 160 | 8 November |  | not read | 1 | pending recheck |  |
+| [p163B](messages/p163B.md) | 160 | 8 November | nov07 | known key reading from two blind readings of the page | 1 | reading with 2 open positions | Read with Lasry's published keys |
 | [p163B.2](messages/p163B.2.md) | 160 | 8 November | nov07 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163C](messages/p163C.md) | 160 | 8 November | nov07 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p163C2](messages/p163C2.md) | 160 | 8 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
@@ -382,7 +382,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p168A1](messages/p168A1.md) | 165 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p168A](messages/p168A.md) | 165 | 9 November | nov07 | period key, length repaired | 0 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p168A.2](messages/p168A.2.md) | 165 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p168A5](messages/p168A5.md) | 165 | 9 November | nov07 | known key repair attempt, text withheld | 0 | pending recheck (was clears nulls, does not read (score 161, null max 48)) |  |
+| [p168A5](messages/p168A5.md) | 165 | 9 November | nov07 | known key reading from two blind readings of the page | 1 | reading with 2 open positions | Read with Lasry's published keys |
 | [p169A](messages/p169A.md) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p169A2](messages/p169A2.md) | 166 | 9 November | nov07 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p169A3](messages/p169A3.md) | 166 | 9 November | nov07 | known key repair attempt, text withheld | 0 | clears nulls, does not read (score 26, null max 16) |  |
@@ -468,7 +468,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p185B](messages/p185B.md) | 182 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p185C](messages/p185C.md) | 182 | 12 November |  | not read | 0 | none |  |
 | [p186A](messages/p186A.md) | 183 | 12 November | nov10 | known key fill on a page image reread | 0 | weak lead (margin 12.9) | Read with Lasry's published keys |
-| [p186B](messages/p186B.md) | 183 | 12 November |  | not read | 2 | pending recheck |  |
+| [p186B](messages/p186B.md) | 183 | 12 November | nov10 | known key reading from two blind readings of the page | 9 | reading with 7 open positions | Read with Lasry's published keys |
 | [p186C](messages/p186C.md) | 183 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p186D](messages/p186D.md) | 183 | 12 November |  | not read | 0 | none |  |
 | [p186E](messages/p186E.md) | 183 | 12 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |

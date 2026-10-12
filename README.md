@@ -372,13 +372,14 @@ Each entry has its own page under [messages](messages). A page follows the messa
 |---|---|
 | Reads under a published period key exactly as transcribed | 465 |
 | Reads under a published period key after repairing the length | 79 |
-| Reads after a known key repair of a damaged intercept | 14 reads, 13 partly |
+| Reads after a known key repair of a damaged intercept | 13 reads, 11 partly |
 | Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
 | Read by this project (page 153 pair and message 2305) | 3, described above |
-| Clears its shuffled nulls under a known key but does not read, so no text is given | 16 |
-| Not read | 74 |
+| Read with a published key from two blind readings of the page, with open positions marked | 12 |
+| Clears its shuffled nulls under a known key but does not read, so no text is given | 12 |
+| Not read | 69 |
 
-Twenty six rows are marked pending recheck in the confidence column. A blind reread of the printed pages found that the log row we used differs from the page by more than 5 symbols for those records, so any repair outcome shown for them was computed on the wrong ciphertext. They will be scored again on the page symbols. The earlier confidence stays in brackets.
+Fifteen rows are marked pending recheck in the confidence column. A blind reread of the printed pages found that the log row we used differs from the page by more than 5 symbols for those records, so any repair outcome shown for them was computed on the wrong ciphertext. They will be scored again on the page symbols. The earlier confidence stays in brackets.
 
 The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
 differently, so the two counts cannot be matched one to one.
@@ -417,6 +418,7 @@ How to read the confidence column.
   `scripts/verify_all.py` check reproduces all 465 unchanged readings and encrypts them again symbol by symbol.
 - **reads, repaired** and **partial reading** are decodes of damaged intercepts under a published key after
   inserting or removing a few symbols. They are scored against shuffled nulls and read by eye.
+- **reading with N open positions** is a decrypt of a damaged intercept under a published key where the page was read twice by blind readers who agree on every letter, the round trip reproduces every symbol read, and the fit ranks first of 1,001 shuffled keys with no other published key close. N counts the positions still open, which are marked in the text. It is a reading with open positions, not a solve, and whether anyone read it before is not confirmed.
 - **strong, moderate and weak lead** are fills of the unread symbols under the key for that date, scored against a
   thousand shuffled transposition keys with a German letter model. Strong means the margin over the best null
   is at least 40, moderate at least 15. A control test on records others had read showed that about one genuine key
@@ -426,7 +428,7 @@ How to read the confidence column.
 
 Credit. Where the entry reads under a period key, the key was found by Lasry, Niebel, Kopal and Wacker in 2017.
 This table regenerated the decodes and did not check which messages they published, and their team reports having
-left 50 unread. We count 74 not read plus 16 that do not read. Nobody outside that team can say which of those they read. Messages that Norbert, Armin and others read in the 2017 blog comments
+left 50 unread. We count 69 not read plus 12 that do not read. Nobody outside that team can say which of those they read. Messages that Norbert, Armin and others read in the 2017 blog comments
 are credited to them where the accounting records that.
 
 Sources besides Childs are in [SOURCES.md](SOURCES.md).
