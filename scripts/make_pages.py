@@ -171,7 +171,7 @@ def check_segments(rid, segs, plain):
 
 def credit_line(e):
     r = e['credited_to']
-    if r == 'Published keys': return 'Read with the published keys.'
+    if r.startswith('Read with'): return r + '.'
     if r == 'This project': return 'Read by this project.'
     return 'Credited to %s.' % r
 

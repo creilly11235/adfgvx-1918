@@ -353,12 +353,11 @@ Schmeh's list to the log, and the key to the message pages. Each entry has its o
 [messages](messages), which follows it from the printed book to an English translation in six
 steps and carries the detail behind its status, the edits, the scores and the open positions.
 
-The third column counts the entries for which we found no earlier reading or partial reading, in
-the 2017 paper and thesis, in the comments on Schmeh's posts or on the web. It says what we found,
-not what anyone read, and for the rows that are not read here it only says that nobody else is
-known to have read them either. The 2017 team reported reading 618 of the 668 cryptograms it counted and published no list
-of which, so an entry read here with a published key may well have been read then. The log is
-split into 688 entries here, so the two totals cannot be matched one to one.
+The third column counts the entries for which our search of the 2017 paper and thesis, the
+comments on Schmeh's posts and the web found no published reading or partial reading. It records
+the outcome of that search and nothing more. The 2017 paper reports 618 of 668 cryptograms
+recovered and gives no list by entry, and the log is split into 688 entries here, so the two
+totals cannot be matched one to one.
 
 A row marked pending recheck is one where the log row differs from the printed page by more than five
 symbols. Its result was computed on the wrong ciphertext and will be scored again on the page
