@@ -375,11 +375,11 @@ Each entry has its own page under [messages](messages). A page follows the messa
 | Reads after a known key repair of a damaged intercept | 13 reads, 11 partly |
 | Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
 | Read by this project (page 153 pair and message 2305) | 3, described above |
-| Read with a published key from two blind readings of the page, with open positions marked | 12 |
+| Read with a published key from two blind readings of the page, with open positions marked | 13, one of them for its first 87 positions only |
 | Clears its shuffled nulls under a known key but does not read, so no text is given | 12 |
-| Not read | 69 |
+| Not read | 68 |
 
-Fifteen rows are marked pending recheck in the confidence column. A blind reread of the printed pages found that the log row we used differs from the page by more than 5 symbols for those records, so any repair outcome shown for them was computed on the wrong ciphertext. They will be scored again on the page symbols. The earlier confidence stays in brackets.
+Fourteen rows are marked pending recheck in the confidence column. A blind reread of the printed pages found that the log row we used differs from the page by more than 5 symbols for those records, so any repair outcome shown for them was computed on the wrong ciphertext. They will be scored again on the page symbols. The earlier confidence stays in brackets.
 
 The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
 differently, so the two counts cannot be matched one to one.

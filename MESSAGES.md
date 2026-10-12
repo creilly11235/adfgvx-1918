@@ -455,7 +455,7 @@ Each entry id links to its page under `messages`, which follows the message from
 | [p182B](messages/p182B.md) | 179 | 11 November | nov10 | known key fill on a page image reread | 0 | strong lead (margin 86.9) | Read with Lasry's published keys |
 | [p182C](messages/p182C.md) | 179 | 11 November | nov10 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p182D](messages/p182D.md) | 179 | 11 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
-| [p182D3](messages/p182D3.md) | 179 | 11 November |  | not read | 0 | pending recheck |  |
+| [p182D3](messages/p182D3.md) | 179 | 11 November | nov13_16 | known key reading from two blind readings of the page | 0 | reading of the first 87 positions with no open position, then 19 positions that do not read | Read with Lasry's published keys |
 | [p182D.2](messages/p182D.2.md) | 179 | 11 November | nov13_16 | period key, as transcribed | 0 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p183A](messages/p183A.md) | 180 | ? November | nov10 | period key, as transcribed | 1 | high | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
 | [p183B2](messages/p183B2.md) | 180 | ? November | nov10 | period key, length repaired | 2 | high after repair | Read with Lasry's published keys (Lasry, Niebel, Kopal and Wacker 2017) |
