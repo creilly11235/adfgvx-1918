@@ -7,21 +7,21 @@ Each entry id links to its page under `messages`, which follows the message from
 
 Every entry is in exactly one row.
 
-| Status | Entries | Meaning |
-|---|---|---|
-| Read | 468 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
-| Read after repair | 91 | decrypts to German under a published key after a length repair or a repair of a few symbols |
-| Read with open positions | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
-| Partial | 11 | German words and phrases among runs that do not read, after a repair under a known key |
-| Lead | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
-| Inconclusive | 10 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
-| Pending recheck | 14 | the log row differs from the printed page by more than five symbols, so the result shown was computed on the wrong ciphertext and will be scored again |
-| Not read | 52 | no key reads it and no repair clears its nulls |
-| No cipher text | 4 | the log prints no symbols for the entry |
-| Duplicate entry | 1 | the log row joins the symbols of two other entries |
-| Total | 688 | |
+| Status | Entries | No earlier reading known to us | Meaning |
+|---|---|---|---|
+| Read | 468 | 3 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
+| Read after repair | 91 | 9 | decrypts to German under a published key after a length repair or a repair of a few symbols |
+| Read with open positions | 13 | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
+| Partial | 11 | 10 | German words and phrases among runs that do not read, after a repair under a known key |
+| Lead | 24 | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
+| Inconclusive | 10 | 10 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
+| Pending recheck | 14 | 14 | the log row differs from the printed page by more than five symbols, so the result shown was computed on the wrong ciphertext and will be scored again |
+| Not read | 52 | 52 | no key reads it and no repair clears its nulls |
+| No cipher text | 4 | 4 | the log prints no symbols for the entry |
+| Duplicate entry | 1 | 1 | the log row joins the symbols of two other entries |
+| Total | 688 | 140 | |
 
-The 2017 team reported reading 618 of the 668 cryptograms it counted. The table counts what reads here, with the published keys and this project's own, and the log is split into 688 entries, so the two counts cannot be matched one to one.
+The third column counts the entries for which we found no earlier reading, in the 2017 paper and thesis, in the comments on Schmeh's posts or on the web. It says what we found, not what anyone read. The 2017 team reported reading 618 of the 668 cryptograms it counted and published no list of which, so an entry read here with a published key may well have been read then. The log is split into 688 entries here, so the two totals cannot be matched one to one.
 
 ## How to read a message page
 
