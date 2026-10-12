@@ -560,6 +560,31 @@
   "square": "TRUPE4NVSC2H7I8B1G6A0D3F5J9KLMOQWXYZ"
  },
  {
+  "id": "chi_2017_comments",
+  "source": "repair key list",
+  "period": "13 Nov (SU v LP), partial",
+  "width": 16,
+  "transposition": [
+   3,
+   13,
+   2,
+   12,
+   1,
+   11,
+   15,
+   8,
+   9,
+   4,
+   5,
+   14,
+   6,
+   10,
+   7,
+   16
+  ],
+  "square": "AROT?WH??C??SVU?I?DXBP?????NZELFK?G?"
+ },
+ {
   "id": "ours_nov07_18col",
   "source": "this project (October 2026)",
   "period": "7 to 9 Nov (page 153 pair only)",

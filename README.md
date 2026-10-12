@@ -335,10 +335,10 @@ log and the print disagreed, and wrote one row for each entry. Here is where the
 
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
-| Solved | 547 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
+| Solved | 550 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 12 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 1 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 123 |  | no solution is published here |
+| Unsolved | 120 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 4 |  | the log prints no symbols for the entry |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 543 | |
@@ -362,7 +362,8 @@ them. Partially solved means that part of the message reads and the rest is unde
 or a signature letter that could take another value does not make a message partial, since there
 is no word behind it to decide. Leads that have not passed the project's gate, repairs read by eye,
 and rows whose log text differs from the printed page are not published here, so an unsolved row
-says only that no solution is published.
+says only that no solution is published here. Where someone else published a solution, the last
+column of the row names them.
 
 ## Check it yourself
 

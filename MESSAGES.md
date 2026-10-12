@@ -9,10 +9,10 @@ Every entry is in exactly one row.
 
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
-| Solved | 547 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
+| Solved | 550 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 12 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 1 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 123 |  | no solution is published here |
+| Unsolved | 120 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 4 |  | the log prints no symbols for the entry |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 543 | |
@@ -318,7 +318,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p148B.2](messages/p148B.2.md) | 145 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p148B.3](messages/p148B.3.md) | 145 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p149A1](messages/p149A1.md) | 146 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p149B](messages/p149B.md) | 146 | 6 November |  | Unsolved |  | Norbert, 2017 |
+| [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017 |
 | [p149C1](messages/p149C1.md) | 146 | 6 November |  | Unsolved |  |  |
 | [p150A](messages/p150A.md) | 147 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p150B1](messages/p150B1.md) | 147 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -524,8 +524,8 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p189B1](messages/p189B1.md) | 186 | 13 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p189B3](messages/p189B3.md) | 186 | 13 November |  | Unsolved |  |  |
 | [p189C1](messages/p189C1.md) | 186 | 13 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p190A1](messages/p190A1.md) | 187 | 13 November |  | Unsolved |  | Lasry and Norbert, 2017 |
-| [p190A](messages/p190A.md) | 187 | 13 November |  | Unsolved |  | Lasry and Norbert, 2017 |
+| [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
+| [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
 | [p190B](messages/p190B.md) | 187 | 13 November |  | Unsolved |  |  |
 | [p190G](messages/p190G.md) | 187 | 13 November |  | Unsolved |  |  |
 | [p190D1](messages/p190D1.md) | 187 | 13 November |  | Unsolved |  |  |
@@ -740,7 +740,7 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 3 | [p108BB](messages/p108BB.md) | 105 | 2 November |  | Unsolved |  | Norbert and Max Baertl, 2017 |
 | 4 | [p112D](messages/p112D.md) | 109 | 3 November |  | Unsolved |  | Norbert, 2017, in part |
 | 5 | [p135B](messages/p135B.md) | 132 | 5 November |  | Unsolved |  | Thomas and Norbert, 2017, in part |
-| 6 | [p149B](messages/p149B.md) | 146 | 6 November |  | Unsolved |  | Norbert, 2017 |
+| 6 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017 |
 | 7 | [p155E](messages/p155E.md) | 152 | 7 November |  | Unsolved |  |  |
 | 8 and 9 | [p156C3](messages/p156C3.md) | 153 | 7 November | ours_nov07_18col | Solved | This project, 2026 | This project, 2026 |
 | 8 and 9 | [p156C6](messages/p156C6.md) | 153 | 7 November | ours_nov07_18col | Solved, 3 open | This project, 2026 | This project, 2026 |
@@ -752,8 +752,8 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 15 | [p179A](messages/p179A.md) | 176 | 10 November |  | Unsolved |  | Norbert, 2017, in part |
 | 16 | [p179B1](messages/p179B1.md) | 176 | 10 November | nov10 | Solved, 6 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | 17 | [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  |  |
-| 18 and 19 | [p190A1](messages/p190A1.md) | 187 | 13 November |  | Unsolved |  | Lasry and Norbert, 2017 |
-| 18 and 19 | [p190A](messages/p190A.md) | 187 | 13 November |  | Unsolved |  | Lasry and Norbert, 2017 |
+| 18 and 19 | [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
+| 18 and 19 | [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
 | 20 | [p192A](messages/p192A.md) | 189 | 14 November |  | Unsolved |  |  |
 | 21 | [p201D](messages/p201D.md) | 198 | 15 November |  | Unsolved |  |  |
 | 22 | [p220C.2](messages/p220C.2.md) | 217 | 24 November | dec09_history | Solved | Childs, 1919 | Prinz, 2026 |
