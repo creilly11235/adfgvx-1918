@@ -170,17 +170,18 @@ def check_segments(rid, segs, plain):
         raise SystemExit('translation of %s does not cover the plaintext exactly' % rid)
 
 def credit_line(e):
-    r = e['credited_to']
-    if r.startswith('Read with'): return r + '.'
-    if r == 'This project': return 'Read by this project.'
-    return 'Credited to %s.' % r
+    out = []
+    if e.get('key_by'): out.append('Key found by %s.' % e['key_by'])
+    if e.get('published_by'): out.append('Solution published by %s.' % e['published_by'].replace('This project', 'this project'))
+    return ' '.join(out)
 
 
 def page(e, keys, msgs, trans, want_plain=False):
     rid = e['id']; L = ['# %s' % rid, '']
     meta = 'Childs page %s, %s' % (e['childs_page'], e['date'])
-    L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if e['credited_to'] else '')).replace('-', ' '), '']
-    detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['credit'] + '.' if e['credit'] and e['credited_to'] else '') + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
+    L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if credit_line(e) else '')).replace('-', ' '), '']
+    if e['method'] == 'not solved': detail = 'No solution is published here.'
+    else: detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
     L += ['Detail. ' + detail.replace('-', ' '), '']
     # step 1
     L += ['## 1 Printed', '',
@@ -212,9 +213,9 @@ def page(e, keys, msgs, trans, want_plain=False):
         L += ['## 3 Repaired or edited transcription', '', 'A lowercase symbol was changed, inserted or filled by the repair.', '', '```'] + rows(groups(marked), 59) + ['```', '']
         if edits: L += ['Edits.', ''] + ['* ' + x for x in edits] + ['']
     # step 4
-    if (key is None or e['method'] == 'not read') and want_plain: return None
-    if key is None or e['method'] == 'not read':
-        L += ['## 4 Decrypted as it stands', '', 'No key reads this message, so there is nothing to show here.', '', '## 5 Decrypted after repair', '', 'Not read.', '', '## 6 English translation', '', 'Not read, so there is no translation.', '']
+    if (key is None or e['method'] in ('not read', 'not solved')) and want_plain: return None
+    if key is None or e['method'] in ('not read', 'not solved'):
+        L += ['## 4 Decrypted as it stands', '', 'No solution is published here, so there is nothing to show.', '', '## 5 Decrypted after repair', '', 'Unsolved.', '', '## 6 English translation', '', 'Unsolved, so there is no translation.', '']
         return '\n'.join(L)
     sq, rk = key['square'], key['transposition']
     asis = ''.join('_' if c in '-?~' else c for c in A.decrypt(printed, sq, rk))
@@ -222,7 +223,7 @@ def page(e, keys, msgs, trans, want_plain=False):
     else: L += ['## 4 Decrypted as it stands', '', 'Key %s, %d columns. The printed transcription is decrypted with no repair. A letter that lost a symbol is `_`.' % (e['key'] or 'of this message', len(rk)), '', '```'] + rows(asis, 60) + ['```', '']
     if plain is None and want_plain: return None
     if plain is None:
-        L += ['## 5 Decrypted after repair', '', 'Not read.', '', '## 6 English translation', '', 'Not read, so there is no translation.', '']
+        L += ['## 5 Decrypted after repair', '', 'Unsolved.', '', '## 6 English translation', '', 'Unsolved, so there is no translation.', '']
         return '\n'.join(L)
     mp = mark_plain(plain, len(rep), solid, rk)
     if want_plain: return mp

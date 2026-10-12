@@ -40,7 +40,7 @@ We have not found a transcribed set of them.
 
 Several 2026 news and blog items claim an AI system read a message from 24 November 1918. They trace back to a
 single post by a writer using the name Prinz, who used a key from Childs's 1919 typescript. That is the message
-on page 217 in our tables, and we credit that published reading on its row. We did not use the news items as sources.
+on page 217 in our tables, and we credit that published solution on its row. We did not use the news items as sources.
 
 ## The 2017 readings
 

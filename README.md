@@ -1,23 +1,23 @@
-# New readings of German ADFGVX messages from November 1918
+# German ADFGVX messages from November 1918, solved and accounted for
 
 In the last months of the First World War, the German army enciphered its radio traffic between
 Berlin and its outposts in the Balkans, the Black Sea and the Middle East with the ADFGVX cipher.
 British and American listening posts intercepted hundreds of these messages. James Rives Childs,
 the American officer who worked on them, kept the intercept logs, and they were published as an
 appendix to his book in 2000. In 2017 George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker
-recovered the keys by computer and read 618 of the 668 cryptograms. A few dozen stayed unread.
+recovered the keys by computer and solved 618 of the 668 cryptograms. A few dozen stayed unsolved.
 Klaus Schmeh lists the remaining ones, 22 messages in all, as #46 on his list of the Top 50
 unsolved encrypted messages.
 
-This repository holds readings of two of those messages, the keys and code behind them, and the
+This repository holds solutions of two of those messages, the keys and code behind them, and the
 checks. It also holds a row and a page for every one of the 688 entries in Childs's log, so that
 every message can be followed in one place from the printed page to a translation, with its
-status and its credit.
+status, who found the key and who published the solution.
 
 | Childs page | Date (1918) | Call signs | What was done | Status |
 |---|---|---|---|---|
-| 176, message B part 1 ("2305") | sent 10 Nov at 23.05, intercepted 11 Nov at 03.38 | LP v ZON | Under the known key for 10 to 12 Nov, with four groups (20 symbols) lost in transmission. We located the gap and filled the missing letters back in | **Read.** No earlier published reading found |
-| 153, message C parts 5 and 6 | logged under 7 Nov (its header says 3 Nov) | FKR v CGH | Found a new 18 column key that no published key list contains | **Read**, apart from three letters of the signature. No earlier published reading found |
+| 176, message B part 1 ("2305") | sent 10 Nov at 23.05, intercepted 11 Nov at 03.38 | LP v ZON | Under the known key for 10 to 12 Nov, with four groups (20 symbols) lost in transmission. We located the gap and filled the missing letters back in | **Solved.** No earlier published solution found |
+| 153, message C parts 5 and 6 | logged under 7 Nov (its header says 3 Nov) | FKR v CGH | Found a new 18 column key that no published key list contains | **Solved**, apart from three letters of the signature. No earlier published solution found |
 
 ## Contents
 
@@ -318,54 +318,51 @@ artillery of the rear guard still has.
   the reading is encrypted again. The other five are the two corrected symbols and the three open
   letters.
 
-### Has anyone read it before?
+### Has anyone solved it before?
 
-We looked for an earlier reading of this pair and found none. Schmeh lists it as unsolved, the
+We looked for an earlier solution of this pair and found none. Schmeh lists it as unsolved, the
 2017 comments on his post only suggest trying a key search on it, the 2018 thesis that expands
 the 2017 paper holds none of its phrases, and a web search for phrases from the reading found
-nothing. Not every source was checked, so this is a reading with no earlier reading found, not a
+nothing. Not every source was checked, so this is a solution with no earlier solution found, not a
 claim to be the first.
 
 ## Every message in the log
 
-The two readings above are two entries out of 688 in Childs's log. In October 2026 we decrypted
+The two solutions above are two entries out of 688 in Childs's log. In October 2026 we decrypted
 every entry we could with the published keys and with our own, repaired the damaged intercepts
 where a repair could be scored against shuffled copies of itself, read the pages again where the
 log and the print disagreed, and wrote one row for each entry. Here is where the entries stand.
 
-| Status | Entries | No earlier reading known to us | Meaning |
+| Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
-| Read | 468 | 3 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
-| Read after repair | 79 | 0 | decrypts to German under a published key after a length repair, a symbol put back or taken out where the log count and the symbols disagree |
-| Read with open positions | 13 | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
-| Repaired, reads by eye | 12 | 6 | a repair of a few symbols under a known key that scores above its shuffled nulls and reads as German by eye, not yet through the second witness and round trip gate, so a lead with text |
-| Partial | 11 | 10 | German words and phrases among runs that do not read, after a repair under a known key |
-| Lead | 24 | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
-| Inconclusive | 10 | 9 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
-| Pending recheck | 14 | 12 | the log row differs from the printed page by more than five symbols, so the result shown was computed on the wrong ciphertext and will be scored again |
-| Not read | 52 | 51 | no key reads it and no repair clears its nulls |
-| No cipher text | 4 | 4 | the log prints no symbols for the entry |
-| Duplicate entry | 1 | 1 | the log row joins the symbols of two other entries |
-| Total | 688 | 133 | |
+| Solved | 547 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
+| Solved with open letters | 12 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Partially solved | 1 | 0 | part of the message reads and the rest is undetermined |
+| Unsolved | 123 |  | no solution is published here |
+| No cipher text | 4 |  | the log prints no symbols for the entry |
+| Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
+| Total | 688 | 543 | |
 
 [MESSAGES.md](MESSAGES.md) has the row for every entry, a section that matches the 22 entries on
-Schmeh's list to the log, and the key to the message pages. Each entry has its own page under
-[messages](messages), which follows it from the printed book to an English translation in six
-steps and carries the detail behind its status, the edits, the scores and the open positions.
+Schmeh's list to the log, and the key to the message pages. Each row names who found the key and
+who published the solution. Each entry has its own page under [messages](messages), which follows
+it from the printed book to an English translation in six steps and carries the detail behind its
+status, the edits, the scores and the open letters.
 
-The third column counts the entries for which our search of the 2017 paper and thesis, the
-comments on Schmeh's posts and the web found no published reading or partial reading. It records
-the outcome of that search and nothing more. The 2017 paper reports 618 of 668 cryptograms
-recovered and gives no list by entry, and the log is split into 688 entries here, so the two
-totals cannot be matched one to one.
+The third column counts the solved entries for which our search of the 2017 paper and thesis, the
+comments on Schmeh's posts and the web found no published solution. It records the outcome of that
+search and nothing more. The 2017 paper reports 618 of 668 cryptograms recovered and gives no list
+by entry, and the log is split into 688 entries here, so the two totals cannot be matched one to
+one. All but three of the solved entries use a key from the 2017 paper, and the key column on each
+row says so.
 
-A row marked pending recheck is one where the log row differs from the printed page by more than five
-symbols. Its result was computed on the wrong ciphertext and will be scored again on the page
-symbols, with the earlier result kept in brackets on its page. A lead is a fill of the unread
-symbols under the key of the period, scored against a thousand shuffled transposition keys. A
-control on entries that others had read showed that about one genuine key in nine does not come
-first, and that a margin below about 20 cannot be told from chance by the score alone, so a lead
-is not a confirmed reading.
+Solved means that every surviving symbol decrypts under the key and the text reads as German. Where
+a reader filled or left open a few letters, the row says how many, and the text on the page marks
+them. Partially solved means that part of the message reads and the rest is undetermined. A digit
+or a signature letter that could take another value does not make a message partial, since there
+is no word behind it to decide. Leads that have not passed the project's gate, repairs read by eye,
+and rows whose log text differs from the printed page are not published here, so an unsolved row
+says only that no solution is published.
 
 ## Check it yourself
 
@@ -375,7 +372,7 @@ python3 scripts/verify_all.py
 python3 scripts/make_pages.py .
 ```
 
-The first script reproduces the two readings above. The second checks every decode in
+The first script reproduces the two solutions above. The second checks every decode in
 `data/records.json` against its key in `data/keys.json`. The third rebuilds the message pages
 from the data files.
 
@@ -384,7 +381,7 @@ under the stated key, print the reading in the rows of the transposition block, 
 and check that every surviving intercepted symbol comes back.
 
 `scripts/adfgvx.py` is the cipher itself (about 60 lines), and `data/messages.json` holds the two
-readings' intercepts as transcribed from Childs's log, with their keys. Every key in `data/keys.json`
+solutions' intercepts as transcribed from Childs's log, with their keys. Every key in `data/keys.json`
 comes from Lasry's 2017 table or Childs's appendix, except the page 153 key.
 
 The searches that found the page 153 key used the letter count score described above and long
@@ -393,18 +390,18 @@ They are described above but are not packaged here.
 
 ## What this does and does not establish
 
-- **Message 2305 is read.** The gap's position and the message are not in doubt. A few of the
+- **Message 2305 is solved.** The gap's position and the message are not in doubt. A few of the
   restored letters and three digits (which depend on the blank cells of the square) could take
   other values without changing the meaning; a second copy of the message would settle them.
-- **Page 153 is read, apart from three letters of the signature.** The key is new and the text reads as German.
+- **Page 153 is solved, apart from three letters of the signature.** The key is new and the text reads as German.
   Two letters rest on corrections to the log and twelve lost letters were filled by reading; all
   are listed in `data/messages.json`. The prior publication check covered the obvious sources but
   not every possible one.
-- **The table is an account of what reads, not of who read it first.** A row that reads under a
-  published key is credited to that key. Whether anyone read a given entry before is not
-  confirmed for any row except where a named reading is credited.
+- **The table is an account of what is solved, not of who solved it first.** Each row names who
+  found its key. Whether anyone published the solution of a given entry is confirmed only where
+  a name stands in the last column.
 - **Encrypting again proves consistency, not correctness.** Any reading that uses the key and the
-  candidates passes it. The evidence that the readings are right is that they read, beat every
+  candidates passes it. The evidence that the solutions are right is that they read, beat every
   control, and, for page 153, were found twice independently.
 
 ## Sources and credits
@@ -414,18 +411,18 @@ They are described above but are not packaged here.
   is the free PDF offered through [Richard Bean's index of Aegean Park Press books](https://richardbean.id.au/misc/kryptos/aegean-park-press.html).
 - George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker, "Deciphering ADFGVX messages from the
   Eastern Front of World War I", *Cryptologia* volume 41, issue 2 (2017). Every period key in the
-  table comes from its key table, and every entry that reads under one is credited to it.
+  table comes from its key table, and every entry solved under one names the authors as the finders of its key.
 - Klaus Schmeh, ["The Top 50 unsolved encrypted messages, 46. Unsolved ADFGVX cryptograms from
   World War 1"](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/)
   (2017) and its comments, including the digit completion;
   ["Unsolved ADFGVX messages from World War I"](https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/).
-  Readings of entries on that list published in its comments in 2017 by Norbert, Armin, Thomas,
+  Solutions of entries on that list published in its comments in 2017 by Norbert, Armin, Thomas,
   Max Baertl and George Lasry, and in 2026 by Prinz, are credited to them on their rows.
 
 Other sources, and the archives where more messages could still be found, are in [SOURCES.md](SOURCES.md).
 
 The project was run by Colin Reilly as an amateur experiment in AI assisted codebreaking. Claude
-(Anthropic) wrote the search code and found the readings; a second, independent Claude run
+(Anthropic) wrote the search code and found the solutions; a second, independent Claude run
 reproduced the page 153 key blind.
 
 ## License
