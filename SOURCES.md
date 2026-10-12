@@ -1,6 +1,6 @@
 # Where else could ADFGVX messages come from
 
-Colin Reilly asked whether any messages exist beyond the ones in Childs's log. This page records what we
+We asked whether any messages exist beyond the ones in Childs's log. This page records what we
 found as of 11 October 2026. Short answer, Childs's Appendix B is the only large surviving set we know of.
 Everything else is either a handful of worked examples or an archive lead that nobody has opened yet.
 

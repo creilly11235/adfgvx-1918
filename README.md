@@ -366,7 +366,7 @@ In October 2026 we decoded everything in Childs's log that we could, with the pu
 one row for each of the 688 log entries. We did this because George Lasry's list of which messages his team
 read in 2017 was never published, so nobody outside that team can say which messages are still unread. The
 numbers below come from `data/records.json`, and the one line per entry table is [MESSAGES.md](MESSAGES.md).
-The decoded text of each entry is under [readings](readings).
+Each entry has its own page under [messages](messages). A page follows the message from the printed book to an English translation, in six steps that are explained in the next section.
 
 | Result | Entries |
 |---|---|
@@ -382,6 +382,33 @@ Twenty six rows are marked pending recheck in the confidence column. A blind rer
 
 The log has 688 entries here, while the 2017 paper counts 668 cryptograms. We split a few multipart messages
 differently, so the two counts cannot be matched one to one.
+
+## How each message page is laid out
+
+Every one of the 688 entries has a page in [messages](messages), named by the entry id, for example `messages/p156C3.md`. Each page has the same six steps.
+
+1. **Printed.** The book, the printed page, the PDF page and the heading that Childs's log gives the message.
+2. **Transcribed as printed.** The intercept symbols exactly as the log prints them, in groups of five. A dash is a symbol that is missing or unreadable in the print.
+3. **Repaired or edited transcription.** The symbols after any repair we made, such as a symbol put back, a symbol taken out, or a block moved. A symbol that the repair changed, inserted or filled is written in lowercase, and the edits are listed in words under the line. If nothing was edited the page says so.
+4. **Decrypted as it stands.** The printed transcription decrypted with the key and no repair. This is shown so that a reader can see what the repair bought.
+5. **Decrypted after repair.** The reading from the repaired transcription.
+6. **English translation.** A machine translation of the German by Claude, not yet checked by a German reader. The German is repeated in phrases above the English.
+
+Entries that no key reads show steps 1 to 3 only.
+
+### How uncertainty is marked
+
+One convention is used on every page.
+
+- In the ciphertext, a dash is a symbol missing in the print. In step 3 a lowercase symbol was changed, inserted or filled by the repair.
+- In the German plaintext, an UPPERCASE letter has both of its symbols in the print and unedited. A lowercase letter has one or both symbols supplied by the repair, so it rests on the repair and not on the print. An underscore is a letter that could not be determined. A hash mark is a digit that could not be determined. X stands for a space or a full stop, as the German operators used it.
+- In the English translation, a phrase in square brackets followed by a question mark contains at least one lowercase, underscore or hash character, so the translation of that phrase is uncertain.
+
+The pages are written by `scripts/make_pages.py` from `data/records.json`, `data/keys.json`, `data/messages.json` and `data/translations.json`. Run it with `python3 scripts/make_pages.py .` to rebuild them.
+
+### Where the printed text comes from
+
+All 688 entries come from J. Rives Childs, *General Solution of the ADFGVX Cipher System*, Aegean Park Press, Cryptographic Series 88, ISBN 0894122843, Appendix B (printed pages 55 to 230). The scan we used is the free PDF of 248 pages offered through [Richard Bean's index of Aegean Park Press books](https://richardbean.id.au/misc/kryptos/aegean-park-press.html), which is also available [here](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view?usp=sharing). Its SHA 256 is `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`. The PDF page is the printed page plus 3, and each message page gives both numbers. Page images are not republished here.
 
 How to read the confidence column.
 
