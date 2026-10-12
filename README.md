@@ -10,7 +10,8 @@ Klaus Schmeh lists the remaining ones, 22 messages in all, as #46 on his list of
 unsolved encrypted messages.
 
 This repository holds readings of two of those messages, the keys and code behind them, and the
-checks.
+checks. It also holds a row and a page for every one of the 688 entries in Childs's log, including 13
+readings, open positions marked, made with Lasry's published keys, described in [Every message in the log](#every-message-in-the-log).
 
 | Childs page | Date (1918) | Call signs | What was done | Status |
 |---|---|---|---|---|
@@ -24,6 +25,7 @@ checks.
 - [Page 153, a new key](#page-153-a-new-key)
 - [Where the 22 messages stand](#where-the-22-messages-stand)
 - [Every message in the log](#every-message-in-the-log)
+- [How each message page is laid out](#how-each-message-page-is-laid-out)
 - [Check it yourself](#check-it-yourself)
 - [What this does and does not establish](#what-this-does-and-does-not-establish)
 - [Sources and credits](#sources-and-credits)
@@ -357,7 +359,7 @@ Readings marked "claimed" were reported in 2017 blog comments or a 2026 reposito
 been checked here.
 
 Outside Schmeh's list, every other message in Childs's log that reads under one of Lasry's 14
-published keys does so in our own run (543 of 688 records). Most of the rest are damaged intercepts
+published keys does so in our own run (544 of 688 records). Most of the rest are damaged intercepts
 with groups jammed or missing.
 
 ## Every message in the log
@@ -368,11 +370,24 @@ read in 2017 was never published, so nobody outside that team can say which mess
 numbers below come from `data/records.json`, and the one line per entry table is [MESSAGES.md](MESSAGES.md).
 Each entry has its own page under [messages](messages). A page follows the message from the printed book to an English translation, in six steps that are explained in the next section.
 
+Every entry is in exactly one of the groups below. The last column counts the entries that are not in the solved by others list, which is the accounting table kept with this project. That table counts a message as solved by others when it decrypts under a published period key or a named solver is credited. It is not the 2017 list of readings, which was never published, so not being in it says nothing about what anyone read. A row marked pending recheck is never counted as read.
+
+| Group | Entries | Not in the solved by others list |
+|---|---|---|
+| Read with Lasry's published keys, exactly, after a length repair, after a known key repair, or from two blind readings of the page | 569 | 22 |
+| Read by this project with a key of its own | 3 | 3 |
+| Possible, not confirmed. Partial repairs, repairs pending recheck, fills of unread symbols and repairs that clear their shuffled nulls but give no text | 48 | 47 |
+| Still open | 63 | 63 |
+| No solution possible. Four entries have no cipher text in the log and one joins two other messages | 5 | 5 |
+| Total | 688 | 140 |
+
+The same counts are at the top of [MESSAGES.md](MESSAGES.md). The next table splits the same 688 entries by how they were read.
+
 | Result | Entries |
 |---|---|
 | Reads under a published period key exactly as transcribed | 465 |
 | Reads under a published period key after repairing the length | 79 |
-| Reads after a known key repair of a damaged intercept | 13 reads, 11 partly |
+| Reads after a known key repair of a damaged intercept | 12 reads, 11 partly, 1 pending recheck |
 | Leads from filling unread symbols under the window key, some after rereading the page image | 24 |
 | Read by this project (page 153 pair and message 2305) | 3, described above |
 | Read with a published key from two blind readings of the page, with open positions marked | 13, one of them for its first 87 positions only |
@@ -395,7 +410,7 @@ Every one of the 688 entries has a page in [messages](messages), named by the en
 5. **Decrypted after repair.** The reading from the repaired transcription.
 6. **English translation.** A machine translation of the German by Claude, not yet checked by a German reader. The German is repeated in phrases above the English.
 
-Entries that no key reads show steps 1 to 3 only.
+Entries that no key reads show steps 1 to 3 only. Where the log holds no symbols for an entry, steps 2 and 4 say so and step 3 comes from the page reading.
 
 ### How uncertainty is marked
 
@@ -418,7 +433,7 @@ How to read the confidence column.
   `scripts/verify_all.py` check reproduces all 465 unchanged readings and encrypts them again symbol by symbol.
 - **reads, repaired** and **partial reading** are decodes of damaged intercepts under a published key after
   inserting or removing a few symbols. They are scored against shuffled nulls and read by eye.
-- **reading with N open positions** is a decrypt of a damaged intercept under a published key where the page was read twice by blind readers who agree on every letter, the round trip reproduces every symbol read, and the fit ranks first of 1,001 shuffled keys with no other published key close. N counts the positions still open, which are marked in the text. It is a reading with open positions, not a solve, and whether anyone read it before is not confirmed.
+- **reading with N open positions** is a decrypt of a damaged intercept under a published key where the page was read twice by blind readers who agree on every letter, the round trip reproduces every symbol read, and the fit ranks first of 1,001 shuffled keys with no other published key close. N counts the positions still open, which are marked in the text. It is a reading with open positions, not a solve, and whether anyone read it before is not confirmed. One entry, p182D3, reads for its first 87 positions with no open position and then has 19 positions that do not read. Those 19 are shown as undetermined and nothing is claimed about them.
 - **strong, moderate and weak lead** are fills of the unread symbols under the key for that date, scored against a
   thousand shuffled transposition keys with a German letter model. Strong means the margin over the best null
   is at least 40, moderate at least 15. A control test on records others had read showed that about one genuine key
@@ -428,7 +443,7 @@ How to read the confidence column.
 
 Credit. Where the entry reads under a period key, the key was found by Lasry, Niebel, Kopal and Wacker in 2017.
 This table regenerated the decodes and did not check which messages they published, and their team reports having
-left 50 unread. We count 69 not read plus 12 that do not read. Nobody outside that team can say which of those they read. Messages that Norbert, Armin and others read in the 2017 blog comments
+left 50 unread. We count 68 not read plus 12 that do not read. Nobody outside that team can say which of those they read. Messages that Norbert, Armin and others read in the 2017 blog comments
 are credited to them where the accounting records that.
 
 Sources besides Childs are in [SOURCES.md](SOURCES.md).
