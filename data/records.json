@@ -799,10 +799,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "ANWESTERNHAGENXXBESTAETGGENTELEGRX38X9XEUERFR5EHERESTELE-RXNI3HTERHALTEJZDAVONEUCHOHNEBER-CHTUNDKENN5NISDORTUGERMAR-TKAGEGELAS-ENKOENNENPREISJREYZENNICHTAUFGEBEN",
   "confidence": "reads, repaired (score 277, null max 30, vocabulary coverage 0.36)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p073A2",
@@ -1158,10 +1158,10 @@
   "method": "known key repair (2 edits)",
   "plaintext": "ITWOLTERSNICHTMEHRERFORDERLICHERSUCHENIHNANZUWEISENNACHKIEWABZUREISENUNDSICH3ORTBEILEDERZENTRALEMAGNUSZU-ELDENA5ENEE-1X",
   "confidence": "reads, repaired (score 267, null max 38, vocabulary coverage 0.44)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p080A",
@@ -2465,7 +2465,7 @@
   "confidence": "reads, repaired (score 87, null max 24, vocabulary coverage 0.50)",
   "credit": "Armin, 1 Mar 2017 blog comment, after fixing one block (claimed, not verified by us). Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Armin, 2017"
  },
  {
@@ -3704,10 +3704,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "EILVESEXOUIXSENDETABX3X13X12XNACHTSXUNGEDAENPFTANSIEMITWELLE9500XOUIEMPFAENGTSIEWELLEX4250XTOENENDXXVORLAUFIGEVERKEHRSZEITENXXOUIXSENDET12NACHTSBIX0100X0330BIS0345X0530BIS0600X",
   "confidence": "reads, repaired (score 207, null max 37, vocabulary coverage 0.45)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p117A1",
@@ -4905,7 +4905,7 @@
   "confidence": "reads, repaired (score 97, null max 36, vocabulary coverage 0.40)",
   "credit": "Partial readings by Thomas and Norbert, 2017 blog comments. Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Thomas and Norbert, 2017"
  },
  {
@@ -5872,7 +5872,7 @@
   "confidence": "reads, repaired (score 214, null max 35, vocabulary coverage 0.55)",
   "credit": "Norbert, 1 Mar 2017 blog comment. Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Norbert, 2017"
  },
  {
@@ -6754,10 +6754,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "DAACHTERTEILDESALFCHISX26X10XXLEITFTELLE727POTNRX1002-NSEKTIONPOLITIKBERLINNICHTZUENTZIF-ERNX",
   "confidence": "reads, repaired (score 122, null max 42, vocabulary coverage 0.30)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p158C3",
@@ -8482,7 +8482,7 @@
   "confidence": "reads, repaired (score 284, null max 48, vocabulary coverage 0.34)",
   "credit": "Norbert, 1 Mar 2017 blog comment, transcript corrupted (claimed, not verified by us). Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Norbert, 2017"
  },
  {
@@ -9068,10 +9068,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "OKJXG-HTHEUTENACHTVONDONAU-UND-ERE-HFR-NTA-FGE-IRG-QURUECK-WIRDUEBERXKRONSTADTXHERMANNSTADTXRIWHTUNGXKLUZENBUR0",
   "confidence": "reads, repaired (score 128, null max 24, vocabulary coverage 0.37)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p179A",
@@ -10210,7 +10210,7 @@
   "confidence": "reads, repaired (score 235, null max 25, vocabulary coverage 0.67)",
   "credit": "George Lasry, 3 May 2017 blog comment, improved by Norbert. Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Lasry and Norbert, 2017"
  },
  {
@@ -10231,7 +10231,7 @@
   "confidence": "reads, repaired (score 114, null max 31, vocabulary coverage 0.41)",
   "credit": "George Lasry, 3 May 2017 blog comment, improved by Norbert. Our decode reads under the key too",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
+  "status": "Repaired, reads by eye",
   "credited_to": "Lasry and Norbert, 2017"
  },
  {
@@ -13259,10 +13259,10 @@
   "method": "known key repair (1 edits)",
   "plaintext": "DAWAHRSCHEINLICHALLETRUPPENAUFSEETRANSPORTANGEWIESENXGENXKDOX-XBXVX72XGENXKDOXZXBXNX72XJAXNR42XJ2GEH",
   "confidence": "reads, repaired (score 131, null max 28, vocabulary coverage 0.48)",
-  "credit": "Read with Lasry's published keys",
+  "credit": "",
   "note": "Length repaired by inserting or removing symbols, edits listed in the repair log. A leading hand read is not independent",
-  "status": "Read after repair",
-  "credited_to": "Published keys"
+  "status": "Repaired, reads by eye",
+  "credited_to": ""
  },
  {
   "id": "p222A1",

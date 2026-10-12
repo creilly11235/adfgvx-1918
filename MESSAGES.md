@@ -10,8 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No earlier reading known to us | Meaning |
 |---|---|---|---|
 | Read | 468 | 3 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
-| Read after repair | 91 | 6 | decrypts to German under a published key after a length repair or a repair of a few symbols |
+| Read after repair | 79 | 0 | decrypts to German under a published key after a length repair, a symbol put back or taken out where the log count and the symbols disagree |
 | Read with open positions | 13 | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
+| Repaired, reads by eye | 12 | 6 | a repair of a few symbols under a known key that scores above its shuffled nulls and reads as German by eye, not yet through the second witness and round trip gate, so a lead with text |
 | Partial | 11 | 10 | German words and phrases among runs that do not read, after a repair under a known key |
 | Lead | 24 | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
 | Inconclusive | 10 | 9 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
@@ -81,7 +82,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p072A](messages/p072A.md) | 69 | 5 October | oct04 | Pending recheck |  |
 | [p072B1](messages/p072B1.md) | 69 | 5 October | oct04 | Lead |  |
 | [p072B3](messages/p072B3.md) | 69 | 5 October | oct04 | Read after repair | Published keys |
-| [p073A1](messages/p073A1.md) | 70 | 6 October | oct04 | Read after repair | Published keys |
+| [p073A1](messages/p073A1.md) | 70 | 6 October | oct04 | Repaired, reads by eye |  |
 | [p073A2](messages/p073A2.md) | 70 | 6 October | oct04 | Read | Published keys |
 | [p073B](messages/p073B.md) | 70 | 6 October |  | Not read |  |
 | [p074A](messages/p074A.md) | 71 | 6 October | oct04 | Read | Published keys |
@@ -98,7 +99,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p078A](messages/p078A.md) | 75 | 28 October | oct28 | Read | Published keys |
 | [p078B](messages/p078B.md) | 75 | 28 October | oct28 | Read | Published keys |
 | [p078B.2](messages/p078B.2.md) | 75 | 28 October | oct28 | Read | Published keys |
-| [p07943](messages/p07943.md) | 76 | 28 October | oct28 | Read after repair | Published keys |
+| [p07943](messages/p07943.md) | 76 | 28 October | oct28 | Repaired, reads by eye |  |
 | [p080A](messages/p080A.md) | 77 | 29 October | oct28 | Read | Published keys |
 | [p080B](messages/p080B.md) | 77 | 29 October | oct28 | Read | Published keys |
 | [p081A](messages/p081A.md) | 78 | 29 October | oct28 | Read | Published keys |
@@ -160,7 +161,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p102C](messages/p102C.md) | 99 | 1 November |  | Pending recheck |  |
 | [p102C3](messages/p102C3.md) | 99 | 1 November | nov01 | Read | Published keys |
 | [p102D](messages/p102D.md) | 99 | 1 November | nov01 | Read | Published keys |
-| [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Read after repair | Armin, 2017 |
+| [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Repaired, reads by eye | Armin, 2017 |
 | [p103B](messages/p103B.md) | 100 | 1 November | nov01 | Read | Published keys |
 | [p103C](messages/p103C.md) | 100 | 1 November | nov01 | Read | Published keys |
 | [p103D1](messages/p103D1.md) | 100 | 1 November | nov01 | Read | Published keys |
@@ -219,7 +220,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p116A](messages/p116A.md) | 113 | 3 November | nov01 | Read | Published keys |
 | [p116B9](messages/p116B9.md) | 113 | 3 November | nov01 | Read | Published keys |
 | [p116C](messages/p116C.md) | 113 | 3 November | nov01 | Read | Published keys |
-| [p116D1](messages/p116D1.md) | 113 | 3 November | nov01 | Read after repair | Published keys |
+| [p116D1](messages/p116D1.md) | 113 | 3 November | nov01 | Repaired, reads by eye |  |
 | [p117A1](messages/p117A1.md) | 114 | 3 November | nov01 | Read | Published keys |
 | [p117A4](messages/p117A4.md) | 114 | 3 November | nov01 | Read | Published keys |
 | [p118A5](messages/p118A5.md) | 115 | 3 November | nov01 | Read | Published keys |
@@ -276,7 +277,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p134A4](messages/p134A4.md) | 131 | 5 November | nov04 | Read | Published keys |
 | [p134B](messages/p134B.md) | 131 | 5 November | nov04 | Read | Published keys |
 | [p135_](messages/p135_.md) | 132 | 5 November | nov04 | Read | Published keys |
-| [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Read after repair | Thomas and Norbert, 2017 |
+| [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Repaired, reads by eye | Thomas and Norbert, 2017 |
 | [p135C](messages/p135C.md) | 132 | 5 November | nov04 | Read | Published keys |
 | [p136A2](messages/p136A2.md) | 133 | 5 November | nov04 | Inconclusive |  |
 | [p136A3](messages/p136A3.md) | 133 | 5 November | nov04 | Read | Published keys |
@@ -322,7 +323,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p148B.2](messages/p148B.2.md) | 145 | 6 November | nov04 | Read | Published keys |
 | [p148B.3](messages/p148B.3.md) | 145 | 6 November | nov04 | Read after repair | Published keys |
 | [p149A1](messages/p149A1.md) | 146 | 6 November | nov04 | Read after repair | Published keys |
-| [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Read after repair | Norbert, 2017 |
+| [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Repaired, reads by eye | Norbert, 2017 |
 | [p149C1](messages/p149C1.md) | 146 | 6 November | nov04 | Pending recheck |  |
 | [p150A](messages/p150A.md) | 147 | 6 November | nov04 | Read | Published keys |
 | [p150B1](messages/p150B1.md) | 147 | 6 November | nov04 | Read | Published keys |
@@ -364,7 +365,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p158A](messages/p158A.md) | 155 | 7 November | nov07 | Read | Published keys |
 | [p158A2](messages/p158A2.md) | 155 | 7 November | nov07 | Read after repair | Published keys |
 | [p158B](messages/p158B.md) | 155 | 7 November | nov07 | Read | Published keys |
-| [p158C1](messages/p158C1.md) | 155 | 7 November | nov07 | Read after repair | Published keys |
+| [p158C1](messages/p158C1.md) | 155 | 7 November | nov07 | Repaired, reads by eye |  |
 | [p158C3](messages/p158C3.md) | 155 | 7 November | nov07 | Read | Published keys |
 | [p158D](messages/p158D.md) | 155 | 7 November | nov07 | Read | Published keys |
 | [p159A](messages/p159A.md) | 156 | 7 November | nov07 | Read | Published keys |
@@ -446,7 +447,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p173A](messages/p173A.md) | 170 | 9 November |  | Not read |  |
 | [p173B](messages/p173B.md) | 170 | 9 November | nov07 | Read | Published keys |
 | [p173B.2](messages/p173B.2.md) | 170 | 9 November | nov07 | Read | Published keys |
-| [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Read after repair | Norbert, 2017 |
+| [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Repaired, reads by eye | Norbert, 2017 |
 | [p174A3](messages/p174A3.md) | 171 | 9 November |  | Not read |  |
 | [p174A3.2](messages/p174A3.2.md) | 171 | 9 November | nov07 | Read | Published keys |
 | [p174B1](messages/p174B1.md) | 171 | 9 November | nov07 | Read | Published keys |
@@ -474,7 +475,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p178B2](messages/p178B2.md) | 175 | 10 November | nov07 | Read | Published keys |
 | [p178C](messages/p178C.md) | 175 | 10 November | nov10 | Read | Published keys |
 | [p178C2](messages/p178C2.md) | 175 | 10 November | nov10 | Read | Published keys |
-| [p178C3](messages/p178C3.md) | 175 | 10 November | nov10 | Read after repair | Published keys |
+| [p178C3](messages/p178C3.md) | 175 | 10 November | nov10 | Repaired, reads by eye |  |
 | [p179A](messages/p179A.md) | 176 | 10 November | nov10 | Inconclusive | Norbert, 2017 |
 | [p179A3](messages/p179A3.md) | 176 | 10 November | nov10 | Read | Published keys |
 | [p179A6](messages/p179A6.md) | 176 | 10 November |  | Pending recheck |  |
@@ -528,8 +529,8 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p189B1](messages/p189B1.md) | 186 | 13 November | nov13_16 | Read after repair | Published keys |
 | [p189B3](messages/p189B3.md) | 186 | 13 November |  | Not read |  |
 | [p189C1](messages/p189C1.md) | 186 | 13 November | nov13_16 | Read | Published keys |
-| [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
-| [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
+| [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Repaired, reads by eye | Lasry and Norbert, 2017 |
+| [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Repaired, reads by eye | Lasry and Norbert, 2017 |
 | [p190B](messages/p190B.md) | 187 | 13 November |  | Not read |  |
 | [p190G](messages/p190G.md) | 187 | 13 November | nov13_20 | Partial |  |
 | [p190D1](messages/p190D1.md) | 187 | 13 November | nov13_20 | Partial |  |
@@ -673,7 +674,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p221A2](messages/p221A2.md) | 218 | 25 November | nov25 | Read | Published keys |
 | [p221A6](messages/p221A6.md) | 218 | 25 November | nov25 | Read | Published keys |
 | [p221B2](messages/p221B2.md) | 218 | 25 November | nov25 | Read | Published keys |
-| [p221B3](messages/p221B3.md) | 218 | 25 November | nov25 | Read after repair | Published keys |
+| [p221B3](messages/p221B3.md) | 218 | 25 November | nov25 | Repaired, reads by eye |  |
 | [p222A1](messages/p222A1.md) | 219 | 25 November | nov25 | Read | Published keys |
 | [p222A2](messages/p222A2.md) | 219 | 25 November | nov25 | Read | Published keys |
 | [p222B](messages/p222B.md) | 219 | 25 November | nov25 | Read | Published keys |
@@ -740,11 +741,11 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | Schmeh | Entry | Page | Date | Key | Status | Credit |
 |---|---|---|---|---|---|---|
 | 1 | [p076A](messages/p076A.md) | 73 | 26 October |  | Not read |  |
-| 2 | [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Read after repair | Armin, 2017 |
+| 2 | [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Repaired, reads by eye | Armin, 2017 |
 | 3 | [p108BB](messages/p108BB.md) | 105 | 2 November | nov01 | Partial | Norbert and Max Baertl, 2017 |
 | 4 | [p112D](messages/p112D.md) | 109 | 3 November |  | Not read | Norbert, 2017 |
-| 5 | [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Read after repair | Thomas and Norbert, 2017 |
-| 6 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Read after repair | Norbert, 2017 |
+| 5 | [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Repaired, reads by eye | Thomas and Norbert, 2017 |
+| 6 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Repaired, reads by eye | Norbert, 2017 |
 | 7 | [p155E](messages/p155E.md) | 152 | 7 November |  | Not read |  |
 | 8 and 9 | [p156C3](messages/p156C3.md) | 153 | 7 November | ours_nov07_18col | Read | This project |
 | 8 and 9 | [p156C6](messages/p156C6.md) | 153 | 7 November | ours_nov07_18col | Read, 3 open | This project |
@@ -752,12 +753,12 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 11 and 12 | [p167A](messages/p167A.md) | 164 | 9 November |  | Pending recheck | Norbert, 2017 |
 | 11 and 12 | [p167A5](messages/p167A5.md) | 164 | 9 November |  | Pending recheck | Norbert, 2017 |
 | 13 | [p173A](messages/p173A.md) | 170 | 9 November |  | Not read |  |
-| 14 | [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Read after repair | Norbert, 2017 |
+| 14 | [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Repaired, reads by eye | Norbert, 2017 |
 | 15 | [p179A](messages/p179A.md) | 176 | 10 November | nov10 | Inconclusive | Norbert, 2017 |
 | 16 | [p179B1](messages/p179B1.md) | 176 | 10 November | nov10 | Read, 6 open | This project |
 | 17 | [p218C](messages/p218C.md) | 215 | 22 November |  | Not read |  |
-| 18 and 19 | [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
-| 18 and 19 | [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Read after repair | Lasry and Norbert, 2017 |
+| 18 and 19 | [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Repaired, reads by eye | Lasry and Norbert, 2017 |
+| 18 and 19 | [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Repaired, reads by eye | Lasry and Norbert, 2017 |
 | 20 | [p192A](messages/p192A.md) | 189 | 14 November |  | Not read |  |
 | 21 | [p201D](messages/p201D.md) | 198 | 15 November |  | Not read |  |
 | 22 | [p220C.2](messages/p220C.2.md) | 217 | 24 November | dec09_history | Read | Prinz, 2026 |

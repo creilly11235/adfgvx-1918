@@ -336,8 +336,9 @@ log and the print disagreed, and wrote one row for each entry. Here is where the
 | Status | Entries | No earlier reading known to us | Meaning |
 |---|---|---|---|
 | Read | 468 | 3 | decrypts to German under a published period key exactly as transcribed, or from two blind readings of the page with no open position |
-| Read after repair | 91 | 6 | decrypts to German under a published key after a length repair or a repair of a few symbols |
+| Read after repair | 79 | 0 | decrypts to German under a published key after a length repair, a symbol put back or taken out where the log count and the symbols disagree |
 | Read with open positions | 13 | 13 | reads as German with the open positions marked in the text, from two blind readings of the page or from this project's own readings |
+| Repaired, reads by eye | 12 | 6 | a repair of a few symbols under a known key that scores above its shuffled nulls and reads as German by eye, not yet through the second witness and round trip gate, so a lead with text |
 | Partial | 11 | 10 | German words and phrases among runs that do not read, after a repair under a known key |
 | Lead | 24 | 24 | a fill of the unread symbols under the key of the period that scores above its shuffled nulls, read by eye, not a confirmed reading |
 | Inconclusive | 10 | 9 | a repair that scores above its shuffled nulls but gives no readable text, so no text is shown |
