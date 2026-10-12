@@ -736,7 +736,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 
 ## The 22 entries on Schmeh's list
 
-Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched to an entry of the log by its opening groups. Entry 10 turned out to be a log row that joins two other messages, and entries 18 and 19 were read by George Lasry and Norbert in the comments on Schmeh's post in May 2017.
+Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched to an entry of the log by its opening groups. Entry 10 turned out to be a log row that joins two other messages. A reading of entries 18 and 19 under a new key was published in the comments on Schmeh's post in May 2017, by George Lasry and Norbert.
 
 | Schmeh | Entry | Page | Date | Key | Status | Credit |
 |---|---|---|---|---|---|---|

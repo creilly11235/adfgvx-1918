@@ -40,7 +40,7 @@ We have not found a transcribed set of them.
 
 Several 2026 news and blog items claim an AI system read a message from 24 November 1918. They trace back to a
 single post by a writer using the name Prinz, who used a key from Childs's 1919 typescript. That is the message
-on page 217 in our tables, and we count it as read by others. We did not use the news items as sources.
+on page 217 in our tables, and we credit that published reading on its row. We did not use the news items as sources.
 
 ## The 2017 readings
 
@@ -48,5 +48,4 @@ The 2017 paper and the 2018 thesis give the keys and the totals, 618 of 668 cryp
 36 of the rest with too many groups missing and 14 of the right length that fit no key. Neither
 gives a list of which entries were read, and we found no such list in Schmeh's posts and comments,
 in the Kassel talk slides or on the web. So the status of each entry in this repository is what
-reads here, and whether a given entry was read in 2017 is not known to us either way. If a list
-turns up, the credit column of the table is where it would be applied.
+reads here. If a list turns up, the credit column of the table is where it would be applied.

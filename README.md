@@ -306,7 +306,7 @@ artillery of the rear guard still has.
   by words that repeat in part 5 (ANORDNUNGEN and GESCHEHEN fix G, VOM fixes M and V, BEZIEHEN
   fixes B).
 - **The same method finds known keys.** Page 187 has a two part message of 13 November, also on
-  call signs outside the main network, that George Lasry read in 2017 with a new 16 column key.
+  call signs outside the main network, whose reading George Lasry published in 2017 with a new 16 column key.
   Run blind on that pair, with nothing to go on but the ciphertext, the search returned Lasry's key
   exactly, with the same column order (`3 13 2 12 1 11 15 8 9 4 5 14 6 10 7 16`) and the same 22
   square cells he published, scoring −283.4 against −429.0 for the next key.
@@ -419,8 +419,8 @@ They are described above but are not packaged here.
   World War 1"](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/)
   (2017) and its comments, including the digit completion;
   ["Unsolved ADFGVX messages from World War I"](https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/).
-  The entries on that list that Norbert, Armin, Thomas, Max Baertl and George Lasry read in its
-  comments in 2017, and the one that Prinz read in 2026, are credited to them on their rows.
+  Readings of entries on that list published in its comments in 2017 by Norbert, Armin, Thomas,
+  Max Baertl and George Lasry, and in 2026 by Prinz, are credited to them on their rows.
 
 Other sources, and the archives where more messages could still be found, are in [SOURCES.md](SOURCES.md).
 
