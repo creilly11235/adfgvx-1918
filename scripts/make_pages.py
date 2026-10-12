@@ -169,10 +169,19 @@ def check_segments(rid, segs, plain):
     if joined.upper() != plain.upper().replace('-', '_'):
         raise SystemExit('translation of %s does not cover the plaintext exactly' % rid)
 
+def credit_line(e):
+    r = e['credited_to']
+    if r == 'Published keys': return 'Read with the published keys.'
+    if r == 'This project': return 'Read by this project.'
+    return 'Credited to %s.' % r
+
+
 def page(e, keys, msgs, trans, want_plain=False):
     rid = e['id']; L = ['# %s' % rid, '']
     meta = 'Childs page %s, %s' % (e['childs_page'], e['date'])
-    L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key found') + '. ' + e['method'][0].upper() + e['method'][1:] + '. Confidence %s.' % e['confidence'] + (' ' + e['credit'] + '.' if e['credit'] else '')).replace('-', ' '), '']
+    L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if e['credited_to'] else '')).replace('-', ' '), '']
+    detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['credit'] + '.' if e['credit'] else '') + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
+    L += ['Detail. ' + detail.replace('-', ' '), '']
     # step 1
     L += ['## 1 Printed', '',
           '%s. The message is on printed page %s, which is page %s of the PDF. Open the [PDF](%s) and go to PDF page %s. The index is [here](%s). Page images are not republished here.' % (SOURCE, e['childs_page'], e['pdf_page'], VIEWER, e['pdf_page'], INDEX), '',
