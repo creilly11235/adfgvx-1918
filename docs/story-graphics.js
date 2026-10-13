@@ -398,7 +398,6 @@
     hold() { this.inner.show(this.stageOf(this.state) ? Math.min(this.stageOf(this.state), this.firstStage()) : 0); }
     firstStage() { return Math.min(...Object.values(this.stages)); }
     restart() { this.go(this.state); }
-    replay() { this.go(this.state); }
     pause() {}
     resume() {}
     frame() {}

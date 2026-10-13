@@ -15,7 +15,7 @@
 <meta property="article:author" content="Colin Reilly">
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
 <style>
 /* One serif for the article, one monospace for cipher data, the same as the
    Wood cryptogram article. Each chapter keeps its own pinned graphic beside
@@ -25,10 +25,10 @@
   --bone:#000; --bone-2:#5e5b54; --bone-3:var(--bone-2); --ink:var(--room);
   --candle:#315f7d; --candle-soft:rgba(49,95,125,.10); --ember:#a64642;
   --dot-g:#8d9ba8; --dot-p:#26796c; --dot-b:var(--candle); --dot-v:var(--ember); --dot-s:#c6ced6;
-  --label-bg:rgba(235,232,224,.96); --cipher-card-radius:0;
+  --label-bg:rgba(235,232,224,.96); --card-bg:#fff; --cipher-card-radius:0;
   --cipher-encoded-bg:#000; --cipher-encoded-fg:#ebe8e0; --cipher-encoded-border:#000;
-  --cipher-decoded-bg:#fff; --cipher-decoded-fg:#18584f; --cipher-decoded-border:#26796c;
-  --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif; --display:"Cormorant Garamond","EB Garamond",Garamond,Georgia,serif; --mono:"Courier Prime","Courier New",Courier,monospace;
+  --cipher-decoded-bg:transparent; --cipher-decoded-fg:#000; --cipher-decoded-border:#000;
+  --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif; --display:"Cormorant Garamond","EB Garamond",Garamond,Georgia,serif; --mono:"IBM Plex Mono","Courier New",Courier,monospace;
   --t-body:400 1.3125rem/1.6 var(--body);
   --t-note:400 1.1875rem/1.5 var(--body); --t-data:400 1rem/1.5 var(--mono);
   --t-heading:400 clamp(1.75rem,2.8vw,2.125rem)/1.3 var(--display);
@@ -42,7 +42,7 @@ a:hover{color:var(--bone);text-decoration-thickness:1.5px}
 a:focus-visible{outline:2px solid var(--candle);outline-offset:4px}
 .cipher,code{font-family:var(--mono);font-size:.9em}
 /* A compact article opening; sources and detailed credits follow the story. */
-.sitehead{max-width:1184px;margin:0 auto;padding:36px 24px 0;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 32px}
+.sitehead{max-width:1184px;margin:0 auto;padding:calc(36px + env(safe-area-inset-top,0px)) 24px 0;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 32px}
 .sitehead .name{font:400 1.9375rem/1.4 var(--display);text-decoration:none;white-space:nowrap}
 .sitehead nav{display:flex;gap:36px;font:var(--t-note)}
 .sitehead nav a{text-decoration:none;padding:10px 0 2px;border-bottom:1px solid transparent;white-space:nowrap}
@@ -50,8 +50,6 @@ a:focus-visible{outline:2px solid var(--candle);outline-offset:4px}
 .sitehead .name:hover{text-decoration:none}
 .hero{max-width:780px;margin:0 auto;padding-block:113px 16px;padding-inline:24px;text-align:center}
 .hero h1{font:400 clamp(2.25rem,4.2vw,2.875rem)/1.2 var(--display);margin:0 auto;text-wrap:balance;max-width:26ch;letter-spacing:.005em}
-.hero .byline{display:grid;justify-items:center;gap:2px;font:var(--t-note);color:var(--bone-2);margin:28px 0 0}
-.hero .byline-author{color:var(--bone)}
 .hero .hero-links{display:none;flex-wrap:wrap;justify-content:center;align-items:center;gap:0 20px;margin:6px 0 0;font:var(--t-note)}
 .hero .hero-links a{display:inline-flex;align-items:center;min-height:44px;padding-block:8px}
 .cipher-row{--tw:28px;margin:48px 0 0;padding:6px 0 12px;display:flex;flex-direction:column;align-items:center}
@@ -60,35 +58,29 @@ a:focus-visible{outline:2px solid var(--candle);outline-offset:4px}
 .cipher-row .grp{display:flex;gap:3px}
 .cipher-row .t{width:var(--tw);height:calc(var(--tw) * 1.25);font-size:calc(var(--tw) * .65)}
 .cipher-row figcaption{font:var(--t-note);color:var(--bone-2);margin-top:14px;max-width:58ch;text-wrap:pretty}
-.hero .answer,.hero .lede{max-width:640px;margin-inline:auto;text-align:left}
-.hero .answer{margin-top:8px;padding-top:28px;border-top:1px solid var(--veil-2)}
-.hero .answer p{margin:0 0 .8em}
-.hero .answer .answer-status{font:var(--t-note);color:var(--bone-2);margin:0;text-wrap:pretty}
-.hero .lede{margin-top:28px}
+.hero .lede{max-width:640px;margin-inline:auto;text-align:left}
+.hero .answer-status{max-width:640px;margin:28px auto 0;font:var(--t-note);color:var(--bone-2);text-align:left;text-wrap:pretty}
+.hero .answer-status a{color:var(--bone)}
+.hero .lede{margin-top:20px}
 /* scrolly: one chapter = one graphic that sticks while the chapter's text scrolls, then lets go */
 .scrolly{max-width:1184px;margin:0 auto;padding-inline:24px}
-.chapter{display:grid;grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:0 64px;align-items:start}
+/* Every width reads the same way: one column, the graphic pinned full screen
+   with the passages rising over it. Chapter geometry lives in story-layout.css. */
+.chapter>*{min-width:0}
 .chapter+.chapter,.endmatter+.chapter{border-top:1px solid var(--veil-2)}
-.chapter+.chapter:not(:has(h2)),.chapter.run-on{border-top:0}
+.chapter+.chapter:not(:has(h2,h3)),.chapter.run-on{border-top:0}
 .chapter.run-on>.text.text-before{padding-top:0}
 .chapter.runs-on>.text.text-after,.chapter.runs-on>.text.text-after>.step:last-child{padding-bottom:0}
-.graphic{order:2;position:sticky;top:env(safe-area-inset-top,0px);height:100vh;height:100dvh;display:flex;flex-direction:column;padding:16px 0 10px;min-width:0;background:var(--room)}
-.replay:focus-visible{outline:2px solid var(--bone);outline-offset:2px}
-.replay{display:inline-flex;align-items:center;justify-content:center;font:var(--t-note);min-height:44px;margin-top:8px;padding:8px 14px;border:1px solid var(--veil-2);background:transparent;color:var(--bone);border-radius:2px;cursor:pointer;max-width:100%}
-.replay:hover{border-color:var(--candle);color:var(--bone)}
-.t{position:relative;min-width:0;aspect-ratio:1/1.2;display:grid;place-items:center;padding-top:.09em;background:var(--room);border:1px solid var(--bone);font:400 clamp(11px,1.7vw,20px)/1 var(--mono);color:var(--bone);border-radius:4px;transition:background .45s,color .45s,border-color .45s,box-shadow .45s}
+.graphic{position:sticky;top:0;height:100vh;height:100dvh;display:flex;flex-direction:column;min-width:0;background:var(--room)}
+.t{position:relative;min-width:0;aspect-ratio:1/1.2;display:grid;place-items:center;padding-top:.09em;background:var(--room);border:1px solid var(--bone);font:400 clamp(11px,1.7vw,20px)/1 var(--mono);color:var(--bone);border-radius:0;transition:background .45s,color .45s,border-color .45s,box-shadow .45s}
 .t.encoded,.cipher-token.encoded{background:var(--cipher-encoded-bg);color:var(--cipher-encoded-fg);border:1px solid var(--cipher-encoded-border);box-shadow:inset 0 1px 0 rgb(255 255 255 / 8%)}
 .t.decoded,.cipher-token.decoded{background:var(--cipher-decoded-bg);color:var(--cipher-decoded-fg);border:1px solid var(--cipher-decoded-border);box-shadow:inset 0 -2px 0 var(--cipher-decoded-border)}
-.cipher-token{font-family:var(--mono);font-size:.9em;font-weight:400;padding:.1em .25em;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.legend{display:flex;flex-wrap:wrap;gap:4px 16px;font:var(--t-note);color:var(--bone-2);margin-top:8px;min-height:1.4em}
+.cipher-token{font-family:var(--mono);font-size:.9em;font-weight:400;padding:.1em .25em;border-radius:0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.legend{display:flex;flex-wrap:wrap;align-content:flex-start;gap:4px 16px;font:var(--t-note);color:var(--bone-2);margin-top:8px;min-height:44px}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:-1px}
 .text{min-width:0}
 .beats,.beatcap{display:none}
-/* article column */
-.text{padding-block:113px 113px}
-.chapter:first-child .text{padding-top:113px}
-.step{min-height:52vh;padding:0 0 64px;scroll-margin-top:32px}
-.step+.step{padding-top:24px}
+/* article column; spacing is set in story-layout.css */
 .step h2{font:var(--t-heading);color:var(--bone);margin:0 0 24px;text-wrap:balance;letter-spacing:.005em}
 .step h3{font:500 1em/1.5 var(--body);color:var(--bone);margin:1.8em 0 .75em;text-wrap:balance}
 .step>h3:first-child{margin-top:0}
@@ -106,30 +98,18 @@ th{font:var(--t-note);color:var(--bone-2);border-bottom:1px solid var(--bone)}
 td.num,th.num{text-align:right}
 tr.is-ours td{color:var(--ember)}
 @media (max-width:600px){th{font-size:.75rem;line-height:1.4;overflow-wrap:normal!important}td{font-size:.75rem}}
-pre{font:var(--t-data);background:var(--room-2);padding:12px 14px;border-radius:2px;overflow-x:auto;margin:0 0 1em}
+pre{font:var(--t-data);background:var(--room-2);padding:12px 14px;border-radius:0;overflow-x:auto;margin:0 0 1em}
 /* footer */
 footer{max-width:1184px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--veil-2);color:var(--bone-2);font:var(--t-note)}
 footer>p{max-width:72ch}
 footer p{margin:0 0 .7em}
-.counter{display:inline-block;font:var(--t-data);line-height:1;letter-spacing:3px;padding:5px 8px 4px;border:1px solid var(--veil-2);border-radius:1px;background:var(--room-2);color:var(--bone)}
+.counter{display:inline-block;font:var(--t-data);line-height:1;letter-spacing:3px;padding:5px 8px 4px;border:1px solid var(--veil-2);border-radius:0;background:var(--room-2);color:var(--bone)}
 .small{color:var(--bone-3)}
-@media (min-width:901px) and (max-width:1100px){
-  .chapter{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:0 40px}
-}
 @media (max-width:900px){
   .hero{padding-top:64px}
-  .sitehead{padding:24px 24px 0}
+  .sitehead{padding:calc(24px + env(safe-area-inset-top,0px)) 24px 0}
   .sitehead nav{gap:22px}
-  .chapter{display:flex;flex-direction:column}
-  .chapter>*{width:100%;max-width:100%;min-width:0}
-  .chapter>.text{max-width:640px;margin-inline:auto}
-  .text{order:1;padding-block:40px 24px}
-  .chapter:first-child .text{padding-top:40px}
-  .step{min-height:0;padding:0 0 32px}
-  .step+.step{padding-top:16px}
   th,td{padding:8px 4px}
-  .graphic{order:2;height:100vh;height:100dvh;z-index:2;padding:12px 0 12px;border-top:1px solid var(--veil);border-bottom:1px solid var(--veil)}
-  .legend{min-height:44px;align-content:flex-start}
 }
 @media (max-width:600px){
   .cipher-row{--tw:clamp(20px,calc((100vw - 104px) / 11),26px)}
@@ -143,15 +123,14 @@ footer p{margin:0 0 .7em}
 .endmatter h2{margin-top:0}
 .endmatter.step{min-height:0}
 </style>
-<link rel="stylesheet" href="story-layout.css?v=2">
+<link rel="stylesheet" href="story-layout.css?v=3">
 <link rel="stylesheet" href="story-graphics.css?v=2">
 </head>
 <body>
 
-<header class="sitehead"><a class="name" href="./">Colin Reilly</a><nav><a href="https://github.com/creilly11235/adfgvx-1918">Code and data</a><a href="https://github.com/creilly11235/adfgvx-1918/blob/main/MESSAGES.md">Every message in the log</a></nav></header>
+<header class="sitehead"><a class="name" href="https://www.linkedin.com/in/colin-r-10680960/" rel="me">Colin Reilly</a><nav><a href="https://github.com/creilly11235/adfgvx-1918">Code and data</a><a href="https://github.com/creilly11235/adfgvx-1918/blob/main/MESSAGES.md">Every message in the log</a></nav></header>
 <div class="hero">
 <h1>Reading German radio messages from the last week of the First World War</h1>
-<p class="byline"><span class="byline-author">By <a href="https://www.linkedin.com/in/colin-r-10680960/">Colin Reilly</a></span> <time datetime="2026-10-13">October 13, 2026</time></p>
 <p class="hero-links"><a href="https://github.com/creilly11235/adfgvx-1918">Code and data</a> <a href="https://github.com/creilly11235/adfgvx-1918/blob/main/MESSAGES.md">Every message in the log</a></p>
 <figure class="cipher-row" aria-label="The opening groups of message 2305, GGDAA FXAVD FFFDG XXAGV">
   <p class="intro">Intercepted at 03.38 on 11 November 1918, the morning of the Armistice</p>
@@ -163,9 +142,7 @@ footer p{margin:0 0 .7em}
   </div>
   <figcaption>The first four of 44 groups of message 2305, from the intercept log in J. Rives Childs, <em>General Solution of the ADFGVX Cipher System</em> (2000), printed page 176.</figcaption>
 </figure>
-<div class="answer">
 <p class="answer-status">Where the log stands as of <time data-n="generated-long">October 13, 2026</time>. <span data-n="counts.readable">562</span> of its <span data-n="counts.total">688</span> entries read, <span data-n="counts.ours">16</span> of them first published here, and <span data-n="counts.schmehUnsolved">14</span> entries on Schmeh&rsquo;s list still unread.</p>
-</div>
 <p class="lede">In the last months of the First World War the German army enciphered its radio traffic between Berlin and its outposts in the Balkans, the Black Sea and the Middle East with the ADFGVX cipher. British and American listening posts intercepted hundreds of the messages, and most of them were finally read by computer in 2017. A few dozen stayed unread, and Klaus Schmeh lists them as #46 on his Top 50 unsolved encrypted messages. This article is about two of them, one with four groups lost in transmission and one under a key nobody had recovered, and about an account of every entry in the log.</p>
 </div>
 <main class="scrolly">
@@ -345,8 +322,8 @@ python3 scripts/verify_all.py</pre>
 </footer>
 
 <script src="story-data.js?v=2"></script>
-<script src="story-graphics.js?v=2"></script>
-<script src="story-scroll.js?v=2"></script>
+<script src="story-graphics.js?v=3"></script>
+<script src="story-scroll.js?v=3"></script>
 <script>
 /* Numbers and tables in the prose come from the data file, so the article
    follows the repository when a result changes. */
