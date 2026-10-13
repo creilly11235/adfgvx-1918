@@ -36,7 +36,7 @@
 .sq{display:grid;grid-template-columns:repeat(7,var(--sqw,30px));gap:3px;--sqw:clamp(22px,6cqw,32px);font:var(--t-data)}
 .sq span{display:grid;place-items:center;height:var(--sqw);font-size:calc(var(--sqw) * .5)}
 .sq-label{color:var(--bone-2)}
-.sq-cell{background:var(--room-2);border:1px solid var(--veil-2);border-radius:2px;color:var(--bone);transition:background .4s,color .4s}
+.sq-cell{background:var(--room);border:1px solid var(--bone);border-radius:0;color:var(--bone);transition:background .4s,color .4s}
 .sq-cell.is-unknown{color:var(--bone-3);background:transparent;border-style:dashed}
 .sq-cell.is-row,.sq-cell.is-col{background:var(--candle-soft)}
 .sq-cell.is-hit{background:var(--candle);color:var(--room);border-color:var(--candle)}
