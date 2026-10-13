@@ -191,7 +191,7 @@
     layout();
     requestAnimationFrame(paint);
     root.dataset.storyReady = 'true';
-    window.WoodStoryController = {records};
+    window.StoryController = {records};
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once: true});
   else start();
