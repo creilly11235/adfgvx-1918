@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 12 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 14 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 119 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 117 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 543 | |
@@ -41,7 +41,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | Entry | Page | Date | Key | Status | Key found by | Solution published by |
 |---|---|---|---|---|---|---|
 | [p059A](messages/p059A.md) | 56 | 19 September | sep19 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p059B](messages/p059B.md) | 56 | 19 September |  | Unsolved |  |  |
+| [p059B](messages/p059B.md) | 56 | 19 September | sep19 | Solved, 3 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p059B.2](messages/p059B.2.md) | 56 | 19 September | sep19 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p060A1](messages/p060A1.md) | 57 | 20 September | sep19 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p060A2](messages/p060A2.md) | 57 | 20 September | sep19 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -541,7 +541,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p193B](messages/p193B.md) | 190 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193C](messages/p193C.md) | 190 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193D](messages/p193D.md) | 190 | 14 November | nov13_20 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p193_](messages/p193_.md) | 190 | 14 November |  | Unsolved |  |  |
+| [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Solved, 10 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p194A](messages/p194A.md) | 191 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p194A.2](messages/p194A.2.md) | 191 | 14 November |  | Unsolved |  |  |
 | [p195A2](messages/p195A2.md) | 192 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
