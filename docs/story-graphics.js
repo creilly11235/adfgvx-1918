@@ -150,6 +150,7 @@
         const el = node('span', 'logcell');
         el.dataset.group = row.group;
         if (row.ours) el.dataset.ours = '1';
+        if (row.oursKey) el.dataset.ourskey = '1';
         if (row.schmeh) el.dataset.schmeh = '1';
         el.title = row.id + ', page ' + row.page + ', ' + row.date + ', ' + row.status;
         this.grid.append(el);
@@ -166,7 +167,8 @@
       const items = [];
       if (stage >= 2) items.push(['solved', 'read with a published key']);
       if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list of unsolved messages']);
-      if (stage >= 4) items.push(['ours', 'first published here']);
+      if (stage === 4) items.push(['ours', 'first published here']);
+      if (stage >= 5) items.push(['ours', 'read here under a published key'], ['newkey', 'read here under a new key']);
       items.push(['unsolved', stage >= 2 ? 'no solution published here' : 'one entry']);
       this.legend.replaceChildren(...items.map(([k, text]) => {
         const item = node('span');
@@ -174,7 +176,8 @@
         item.append(dot, text);
         return item;
       }));
-      this.label.textContent = stage >= 4 ? c.ours + ' entries first read here, among ' + c.total + ' in the log'
+      this.label.textContent = stage >= 5 ? c.oursKey + ' of the ' + c.ours + ' read here under one of the published keys'
+        : stage >= 4 ? c.ours + ' entries first read here, among ' + c.total + ' in the log'
         : stage >= 3 ? c.schmehRecords + ' entries on Schmeh’s list, among ' + c.total + ' in the log'
         : stage >= 2 ? c.readable + ' of the ' + c.total + ' entries read under a published key'
         : 'The ' + c.total + ' entries of the log, in order';

@@ -12,6 +12,7 @@
 .legend i[data-group="open"]{background:var(--dot-p)}
 .legend i[data-group="unsolved"]{background:var(--veil-2)}
 .legend i[data-group="ours"]{background:var(--ember)}
+.legend i[data-group="newkey"]{background:transparent;box-shadow:inset 0 0 0 2px var(--ember)}
 .legend i[data-group="schmeh"]{background:transparent;box-shadow:inset 0 0 0 2px var(--candle)}
 .legend i[data-kind="row"]{background:var(--candle)}
 .legend i[data-kind="col"]{background:var(--dot-p)}
@@ -69,10 +70,12 @@
 /* The 688 entry grid. */
 .loggrid{display:grid;grid-template-columns:repeat(32,1fr);gap:2px;width:100%;max-width:520px}
 .logcell{aspect-ratio:1;border-radius:1px;background:var(--veil);transition:background .5s,box-shadow .5s}
-.g-log[data-stage="2"] .logcell[data-group="solved"],.g-log[data-stage="3"] .logcell[data-group="solved"],.g-log[data-stage="4"] .logcell[data-group="solved"],
-.g-log[data-stage="2"] .logcell[data-group="open"],.g-log[data-stage="3"] .logcell[data-group="open"],.g-log[data-stage="4"] .logcell[data-group="open"]{background:var(--dot-p)}
-.g-log[data-stage="3"] .logcell[data-schmeh],.g-log[data-stage="4"] .logcell[data-schmeh]{box-shadow:inset 0 0 0 2px var(--candle)}
+.g-log[data-stage="2"] .logcell[data-group="solved"],.g-log[data-stage="3"] .logcell[data-group="solved"],.g-log[data-stage="4"] .logcell[data-group="solved"],.g-log[data-stage="5"] .logcell[data-group="solved"],
+.g-log[data-stage="2"] .logcell[data-group="open"],.g-log[data-stage="3"] .logcell[data-group="open"],.g-log[data-stage="4"] .logcell[data-group="open"],.g-log[data-stage="5"] .logcell[data-group="open"]{background:var(--dot-p)}
+.g-log[data-stage="3"] .logcell[data-schmeh],.g-log[data-stage="4"] .logcell[data-schmeh],.g-log[data-stage="5"] .logcell[data-schmeh]{box-shadow:inset 0 0 0 2px var(--candle)}
 .g-log[data-stage="4"] .logcell[data-ours]{background:var(--ember)}
+.g-log[data-stage="5"] .logcell[data-ours]{background:var(--card-bg);box-shadow:inset 0 0 0 2px var(--ember)}
+.g-log[data-stage="5"] .logcell[data-ourskey]{background:var(--ember);box-shadow:none}
 /* Score lines. */
 .nline{width:100%;display:flex;flex-direction:column;gap:6px}
 .nline-track{position:relative;height:170px;border-bottom:1px solid var(--veil-2);margin-top:8px}

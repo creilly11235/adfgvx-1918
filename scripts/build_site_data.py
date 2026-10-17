@@ -63,12 +63,14 @@ for row in records:
         'key': row['key'] or '',
         'schmeh': schmeh_of.get(row['id'], ''),
         'ours': row['published_by'] == OURS,
+        'oursKey': row['published_by'] == OURS and row['key_by'].startswith('Lasry, Niebel'),
     })
 
 counts = count_groups(records)
 counts['total'] = len(records)
 counts['ours'] = sum(1 for row in records if row['published_by'] == OURS)
 counts['oursNewKey'] = sum(1 for row in records if row['key_by'] == OURS)
+counts['oursKey'] = sum(1 for row in records if row['published_by'] == OURS and row['key_by'].startswith('Lasry, Niebel'))
 counts['noPublished'] = sum(1 for row in records if status_group(row['status']) in ('solved', 'open') and not row['published_by'])
 counts['lasryKey'] = sum(1 for row in records if row['key_by'].startswith('Lasry, Niebel'))
 counts['schmehEntries'] = len(schmeh['entries'])
