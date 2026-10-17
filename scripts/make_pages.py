@@ -180,6 +180,7 @@ def page(e, keys, msgs, trans, want_plain=False):
     rid = e['id']; L = ['# %s' % rid, '']
     meta = 'Childs page %s, %s' % (e['childs_page'], e['date'])
     L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if credit_line(e) else '')).replace('-', ' '), '']
+    if e.get('note') and e['method'] == 'not solved': L += [e['note'], '']   # PUBLIC_NOTE, the one line of explanation
     if e['method'] == 'not solved': detail = 'No solution is published here.'
     else: detail = e['method'][0].upper() + e['method'][1:] + ', confidence %s.' % e['confidence'] + (' ' + e['note'][0].upper() + e['note'][1:].rstrip('.') + '.' if e.get('note') else '')
     L += ['Detail. ' + detail.replace('-', ' '), '']
