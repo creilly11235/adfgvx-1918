@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reading German radio messages from the last week of the First World War</title>
+<meta name="description" content="How two of the unread ADFGVX messages in Childs's 1918 intercept log, #46 on Klaus Schmeh's Top 50 unsolved list, were read, and where every one of the 688 entries stands.">
+<link rel="canonical" href="https://creilly11235.github.io/adfgvx-1918/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reading German radio messages from the last week of the First World War">
+<meta property="og:description" content="How two of the unread ADFGVX messages in Childs's 1918 intercept log, #46 on Klaus Schmeh's Top 50 unsolved list, were read, and where every one of the 688 entries stands.">
+<meta property="og:url" content="https://creilly11235.github.io/adfgvx-1918/">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-13">
+<meta property="article:author" content="Colin Reilly">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* One serif for the article, one monospace for cipher data, the same as the
+   Wood cryptogram article. Each chapter keeps its own pinned graphic beside
+   the reading column. */
+:root{
+  --room:#ebe8e0; --room-2:#e2dfd6; --veil:#d3cfc4; --veil-2:#bcb7aa;
+  --bone:#000; --bone-2:#5e5b54; --bone-3:var(--bone-2); --ink:var(--room);
+  --candle:#315f7d; --candle-soft:rgba(49,95,125,.10); --ember:#a64642;
+  --dot-g:#8d9ba8; --dot-p:#26796c; --dot-b:var(--candle); --dot-v:var(--ember); --dot-s:#c6ced6;
+  --label-bg:rgba(235,232,224,.96); --card-bg:#fff; --cipher-card-radius:0;
+  --cipher-encoded-bg:#000; --cipher-encoded-fg:#ebe8e0; --cipher-encoded-border:#000;
+  --cipher-decoded-bg:transparent; --cipher-decoded-fg:#000; --cipher-decoded-border:#000;
+  --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif; --display:"Cormorant Garamond","EB Garamond",Garamond,Georgia,serif; --mono:"IBM Plex Mono","Courier New",Courier,monospace;
+  --t-body:400 1.3125rem/1.6 var(--body);
+  --t-note:400 1.1875rem/1.5 var(--body); --t-data:400 1rem/1.5 var(--mono);
+  --t-heading:400 clamp(1.75rem,2.8vw,2.125rem)/1.3 var(--display);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:var(--room)}
+body{margin:0;background:var(--room);color:var(--bone);font:var(--t-body)}
+a{color:var(--bone);text-decoration-line:underline;text-decoration-color:currentColor;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-skip-ink:auto}
+a:hover{color:var(--bone);text-decoration-thickness:1.5px}
+a:focus-visible{outline:2px solid var(--candle);outline-offset:4px}
+.cipher,code{font-family:var(--mono);font-size:.9em}
+/* A compact article opening; sources and detailed credits follow the story. */
+.sitehead{max-width:1184px;margin:0 auto;padding:calc(36px + env(safe-area-inset-top,0px)) 24px 0;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 32px}
+.sitehead .name{font:400 1.9375rem/1.4 var(--display);text-decoration:none;white-space:nowrap}
+.sitehead nav{display:flex;gap:36px;font:var(--t-note)}
+.sitehead nav a{text-decoration:none;padding:10px 0 2px;border-bottom:1px solid transparent;white-space:nowrap}
+.sitehead nav a:hover,.sitehead nav a:focus-visible{border-bottom-color:currentColor;outline:0}
+.sitehead .name:hover{text-decoration:none}
+.hero{max-width:780px;margin:0 auto;padding-block:113px 16px;padding-inline:24px;text-align:center}
+.hero h1{font:400 clamp(2.25rem,4.2vw,2.875rem)/1.2 var(--display);margin:0 auto;text-wrap:balance;max-width:26ch;letter-spacing:.005em}
+.cipher-row{--tw:28px;margin:48px 0 0;padding:6px 0 12px;display:flex;flex-direction:column;align-items:center}
+.cipher-row .intro{font:var(--t-note);color:var(--bone-2);margin:0 0 14px}
+.cipher-row .line{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px}
+.cipher-row .grp{display:flex;gap:3px}
+.cipher-row .t{width:var(--tw);height:calc(var(--tw) * 1.25);font-size:calc(var(--tw) * .65)}
+.cipher-row figcaption{font:var(--t-note);color:var(--bone-2);margin-top:14px;max-width:58ch;text-wrap:pretty}
+.hero .lede{max-width:640px;margin-inline:auto;text-align:left}
+.hero .answer-status{max-width:640px;margin:28px auto 0;font:var(--t-note);color:var(--bone-2);text-align:left;text-wrap:pretty}
+.hero .answer-status a{color:var(--bone)}
+.hero .lede{margin-top:20px}
+/* scrolly: one chapter = one graphic that sticks while the chapter's text scrolls, then lets go */
+.scrolly{max-width:1184px;margin:0 auto;padding-inline:24px}
+/* Every width reads the same way: one column, the graphic pinned full screen
+   with the passages rising over it. Chapter geometry lives in story-layout.css. */
+.chapter>*{min-width:0}
+.chapter+.chapter,.endmatter+.chapter{border-top:1px solid var(--veil-2)}
+.chapter+.chapter:not(:has(h2,h3)),.chapter.run-on{border-top:0}
+.chapter.run-on>.text.text-before{padding-top:0}
+.chapter.runs-on>.text.text-after,.chapter.runs-on>.text.text-after>.step:last-child{padding-bottom:0}
+.graphic{position:sticky;top:0;height:100vh;height:100dvh;display:flex;flex-direction:column;min-width:0;background:var(--room)}
+.t{position:relative;min-width:0;aspect-ratio:1/1.2;display:grid;place-items:center;padding-top:.09em;background:var(--room);border:1px solid var(--bone);font:400 clamp(11px,1.7vw,20px)/1 var(--mono);color:var(--bone);border-radius:0;transition:background .45s,color .45s,border-color .45s,box-shadow .45s}
+.t.encoded,.cipher-token.encoded{background:var(--cipher-encoded-bg);color:var(--cipher-encoded-fg);border:1px solid var(--cipher-encoded-border);box-shadow:inset 0 1px 0 rgb(255 255 255 / 8%)}
+.t.decoded,.cipher-token.decoded{background:var(--cipher-decoded-bg);color:var(--cipher-decoded-fg);border:1px solid var(--cipher-decoded-border);box-shadow:inset 0 -2px 0 var(--cipher-decoded-border)}
+.cipher-token{font-family:var(--mono);font-size:.9em;font-weight:400;padding:.1em .25em;border-radius:0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.legend{display:flex;flex-wrap:wrap;align-content:flex-start;gap:4px 16px;font:var(--t-note);color:var(--bone-2);margin-top:8px;min-height:44px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.text{min-width:0}
+.beats,.beatcap{display:none}
+/* article column; spacing is set in story-layout.css */
+.step h2{font:var(--t-heading);color:var(--bone);margin:0 0 24px;text-wrap:balance;letter-spacing:.005em}
+.step h3{font:500 1em/1.5 var(--body);color:var(--bone);margin:1.8em 0 .75em;text-wrap:balance}
+.step>h3:first-child{margin-top:0}
+.step p,.step li{margin:0 0 1em}
+.step ul,.step ol{padding-left:1.3em;margin:0 0 1em}
+.step li{margin:0 0 .45em}
+.step li::marker{color:var(--bone-3)}
+.step strong,.step b{font-weight:500}
+.quote{color:var(--bone);margin:1.5em 0;padding-left:1em;border-left:2px solid var(--veil-2)}
+.quote small{display:block;font:var(--t-note);color:var(--bone-2);margin-top:8px}
+.table-wrap{overflow-x:auto;margin:0 0 1.2em}
+table{border-collapse:collapse;width:100%;font:var(--t-data);font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--veil);vertical-align:top}
+th{font:var(--t-note);color:var(--bone-2);border-bottom:1px solid var(--bone)}
+td.num,th.num{text-align:right}
+tr.is-ours td{color:var(--ember)}
+@media (max-width:600px){th{font-size:.75rem;line-height:1.4;overflow-wrap:normal!important}td{font-size:.75rem}}
+pre{font:var(--t-data);background:var(--room-2);padding:12px 14px;border-radius:0;overflow-x:auto;margin:0 0 1em}
+/* footer */
+footer{max-width:1184px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--veil-2);color:var(--bone-2);font:var(--t-note)}
+footer>p{max-width:72ch}
+footer p{margin:0 0 .7em}
+.counter{display:inline-block;font:var(--t-data);line-height:1;letter-spacing:3px;padding:5px 8px 4px;border:1px solid var(--veil-2);border-radius:0;background:var(--room-2);color:var(--bone)}
+.small{color:var(--bone-3)}
+@media (max-width:900px){
+  .hero{padding-top:64px}
+  .sitehead{padding:calc(24px + env(safe-area-inset-top,0px)) 24px 0}
+  .sitehead nav{gap:22px}
+  th,td{padding:8px 4px}
+}
+@media (max-width:600px){
+  .cipher-row{--tw:clamp(20px,calc((100vw - 104px) / 11),26px)}
+}
+@media (max-width:360px){
+  .hero,.scrolly,footer{padding-inline:20px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* Sources conclude the reading without keeping a graphic pinned. */
+.endmatter{max-width:720px;margin:0 auto;padding:64px 0 80px;min-height:0;border-top:1px solid var(--veil-2)}
+.endmatter h2{margin-top:0}
+.endmatter.step{min-height:0}
+</style>
+<link rel="stylesheet" href="story-layout.css?v=3">
+<link rel="stylesheet" href="story-graphics.css?v=3">
+</head>
+<body>
+
+<header class="sitehead"><a class="name" href="https://www.linkedin.com/in/colin-r-10680960/" rel="me">Colin Reilly</a><nav><a href="https://github.com/creilly11235/adfgvx-1918">Code and data</a><a href="https://github.com/creilly11235/adfgvx-1918/blob/main/MESSAGES.md">Every message in the log</a></nav></header>
+<div class="hero">
+<h1>Reading German radio messages from the last week of the First World War</h1>
+<figure class="cipher-row" aria-label="The opening groups of message 2305, GGDAA FXAVD FFFDG XXAGV">
+  <p class="intro">Intercepted at 03.38 on 11 November 1918, the morning of the Armistice</p>
+  <div class="line" translate="no">
+    <div class="grp"><span class="t encoded">G</span><span class="t encoded">G</span><span class="t encoded">D</span><span class="t encoded">A</span><span class="t encoded">A</span></div>
+    <div class="grp"><span class="t encoded">F</span><span class="t encoded">X</span><span class="t encoded">A</span><span class="t encoded">V</span><span class="t encoded">D</span></div>
+    <div class="grp"><span class="t encoded">F</span><span class="t encoded">F</span><span class="t encoded">F</span><span class="t encoded">D</span><span class="t encoded">G</span></div>
+    <div class="grp"><span class="t encoded">X</span><span class="t encoded">X</span><span class="t encoded">A</span><span class="t encoded">G</span><span class="t encoded">V</span></div>
+  </div>
+  <figcaption>The first four of 44 groups of message 2305, from the intercept log in J. Rives Childs, <em>General Solution of the ADFGVX Cipher System</em> (2000), printed page 176.</figcaption>
+</figure>
+<p class="answer-status">Where the log stands as of <time data-n="generated-long">October 17, 2026</time>. <span data-n="counts.readable">562</span> of its <span data-n="counts.total">688</span> entries read, <span data-n="counts.ours">15</span> of them first published here, and <span data-n="counts.schmehUnsolved">14</span> entries on Schmeh&rsquo;s list still unread.</p>
+<p class="lede">In the last months of the First World War the German army enciphered its radio traffic between Berlin and its outposts in the Balkans, the Black Sea and the Middle East with the ADFGVX cipher. British and American listening posts intercepted hundreds of the messages, and most of them were finally read by computer in 2017. A few dozen stayed unread, and Klaus Schmeh lists them as #46 on his Top 50 unsolved encrypted messages. This article is about two of them, one with four groups lost in transmission and one under a key nobody had recovered, and about an account of every entry in the log.</p>
+</div>
+<main class="scrolly">
+<section class="chapter" data-ch="1">
+<div class="text text-before">
+<section class="step" id="how-adfgvx-works">
+<h2>How ADFGVX works</h2>
+<p>The cipher is named after the six letters it transmits, and it works in two steps, a substitution and then a transposition. Here is the German word for attack, ANGRIFF, going through the square the army used from 10 to 12 November 1918 and a four column key.</p>
+</section>
+</div>
+<div class="pin">
+<div class="graphic" data-g="how" data-stages='{"square":1,"substituted":2,"block":3,"readoff":4,"cipher":5}'>
+<div class="gbody"></div></div>
+<div class="text">
+<section class="step" data-s="square" data-walk-stage="1" data-cap="Each letter is looked up in a 6 by 6 square. A is in row A, column D, so it becomes AD.">
+<p>Each letter or digit is looked up in a 6 by 6 square and replaced by its row label and its column label. A sits in row A, column D, so it becomes AD.</p>
+</section>
+<section class="step" data-s="substituted" data-walk-stage="2" data-cap="All seven letters become fourteen symbols.">
+<p>All seven letters go the same way, so ANGRIFF becomes fourteen symbols. Only the six letters A, D, F, G, V and X ever appear, chosen because they sound different from one another in Morse code.</p>
+</section>
+<section class="step" data-s="block" data-walk-stage="3" data-cap="The symbols are written in rows under a numbered key, here 3 1 4 2.">
+<p>The symbols are written in rows under a numbered key, here 3 1 4 2. The real keys had 15 to 25 columns and were changed every few days, and each part of a long message was transposed on its own.</p>
+</section>
+<section class="step" data-s="readoff" data-walk-stage="4" data-cap="Each column is read off from top to bottom in the order of the numbers.">
+<p>Each column is read off from top to bottom, in the order of the numbers. Column 1 gives DDDF, column 2 gives XFF, then AXDD and DAD.</p>
+</section>
+<section class="step" data-s="cipher" data-walk-stage="5" data-cap="The cryptogram is sent in groups of five. Reading it needs the column order and the 36 cells of the square.">
+<p>The cryptogram goes out in groups of five. To read it the receiver needs both halves of the key, the order of the columns and the 36 cells of the square. Neither half on its own produces anything readable, which is what made the cipher hard in 1918 and still makes short messages hard now.</p>
+</section>
+</div></div></section>
+<section class="chapter" data-ch="2">
+<div class="text text-before">
+<section class="step" id="the-log">
+<h2>Childs&rsquo;s log</h2>
+<p>James Rives Childs, the American officer who worked on the traffic, kept the intercept logs. They were published in 2000 as an appendix to his book, and in 2017 George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker recovered the keys by computer and read 618 of the 668 cryptograms. The log is split into <span data-n="counts.total">688</span> entries here, one for each row Childs wrote down, and every entry has its own page in the repository.</p>
+</section>
+</div>
+<div class="pin">
+<div class="graphic" data-g="log" data-stages='{"all":1,"read":2,"list":3,"ours":4,"key":5,"checks":5}'>
+<div class="gbody"></div></div>
+<div class="text">
+<section class="step" data-s="all" data-walk-stage="1" data-cap="Each cell is one entry of the log.">
+<p>Each cell is one entry of the log, in the order it was written down, from 19 September 1918 to the weeks after the Armistice. Most are from November, when the traffic was heaviest.</p>
+</section>
+<section class="step" data-s="read" data-walk-stage="2" data-cap="The entries that read under a published key.">
+<p><span data-n="counts.readable">562</span> entries read under a published key, almost all of them one of the fourteen period keys from the 2017 paper. Some needed a small repair to their length first, where the log had dropped or doubled a symbol.</p>
+</section>
+<section class="step" data-s="list" data-walk-stage="3" data-cap="22 entries match Schmeh's list of unsolved messages.">
+<p>Klaus Schmeh&rsquo;s list of unsolved messages has 22 entries, matched here to <span data-n="counts.schmehRecords">22</span> entries of the log by their opening groups. A few have since been read in the comments on his post, and <span data-n="counts.schmehUnsolved">14</span> have no solution published anywhere we could find.</p>
+</section>
+<section class="step" data-s="ours" data-walk-stage="4" data-cap="The entries whose reading is published here for the first time.">
+<p><span data-n="counts.ours">15</span> entries have a reading published here for the first time. Two of them, the subject of this article, needed a new key or a repaired gap. The rest were waiting in the log under keys already known.</p>
+</section>
+<section class="step" data-s="key" data-walk-stage="5" data-cap="The entries read here under one of the published keys.">
+<p><span data-n="counts.oursKey">13</span> read under one of the published keys once the page had been transcribed again. Two readers worked from the scan without seeing each other&rsquo;s work, and only the symbols they agreed on went forward.</p>
+</section>
+<section class="step" data-s="checks" data-walk-stage="5" data-cap="The checks every reading passed.">
+<p>Each then passed the same checks. Encrypted again, it gives back every agreed symbol. Under its key it scores clear of the other keys and of a thousand shuffled copies of itself, and two readers working apart called it German. Where letters are still in doubt, the row says how many stay open.</p>
+</section>
+</div>
+<div class="text text-after">
+<section class="step">
+<p>The table at the end of this article gives the status of every entry on Schmeh&rsquo;s list, and <a href="https://github.com/creilly11235/adfgvx-1918/blob/main/MESSAGES.md">the full table in the repository</a> gives it for all <span data-n="counts.total">688</span>. Leads that have not passed the project&rsquo;s own checks are not published, so an unsolved row says only that no solution is published here.</p>
+</section>
+</div></section>
+<section class="chapter" data-ch="3">
+<div class="text text-before">
+<section class="step" id="message-2305">
+<h2>Message 2305, four lost groups</h2>
+<p>On printed page 176 the log has a three part message from LP to ZON, handed in at 23.05 on 10 November and intercepted at 03.38 the next morning, the morning of the Armistice. Parts 2 and 3 read under the key for 10 to 12 November. Part 1 had stayed unread, and the reason is in the log itself.</p>
+</section>
+</div>
+<div class="pin">
+<div class="graphic" data-g="gap" data-stages='{"log":1,"gap":2,"block":3,"cand":4,"fill":5,"read":6}'>
+<div class="gbody"></div></div>
+<div class="text">
+<section class="step" data-s="log" data-walk-stage="1" data-cap="The header counts 240 symbols and the log shows 220, in 44 groups of five.">
+<p>The header of part 1 promises 240 symbols. The intercept has 220, in 44 groups of five, and nothing marks where the four missing groups fell. A gap like that shifts every later column of the block, so the 220 symbols decrypt to nothing readable.</p>
+</section>
+<section class="step" data-s="gap" data-walk-stage="2" data-cap="Of 194,756 placements of the 20 missing symbols, one stands out, at the start of the fifth line.">
+<p>We tried every position for the 20 missing symbols, one block or four separate groups, 194,756 placements in all, and scored each decryption as German. One placement stands clear, a single block at the start of the fifth line, where the operator skipped half a line. The next best is about 370 times less likely.</p>
+</section>
+<section class="step" data-s="block" data-walk-stage="3" data-cap="The lost symbols are the first letter of every row of the block and the second letter of rows 10 to 14.">
+<p>With the gap in place the damage turns out to be regular. The lost symbols are the first symbol of every row of the block and the second symbol of rows 10 to 14, so 20 letters each lost one of their two symbols.</p>
+</section>
+<section class="step" data-s="cand" data-walk-stage="4" data-cap="Each lost letter kept one symbol, so it has six candidates rather than 36.">
+<p>The surviving symbol still names a row or a column of the square, so each damaged letter has six candidates rather than 36. The first letter of the message kept its row symbol, A, so it is one of 4, A, R, U, T and 1.</p>
+</section>
+<section class="step" data-s="fill" data-walk-stage="5" data-cap="A dynamic program finds the best scoring fill of all 20 letters exactly.">
+<p>Twenty letters with six choices each make about 3.7 million billion combinations. A dynamic program finds the best scoring one exactly, and the score is plain counting, how often each run of five letters occurs in the 544 messages already read and in ordinary German books.</p>
+</section>
+<section class="step" data-s="read" data-walk-stage="6" data-cap="The result reads as German telegram text from start to finish.">
+<p>The result reads as German telegram text from start to finish, the position report of the German 11th Army on the last night of the war as it retreated north out of Serbia across the Danube. X is the operators&rsquo; full stop.</p>
+</section>
+</div>
+<div class="text text-after">
+<section class="step">
+<p>Péterréve and Verbász are in the Bácska, Nagybecskerek and Versecz in the Banat, and part 2 carries on with Fehértemplom and the French following. None of that was given to the search. Several of the place names appear nowhere else in the collection, so the score cannot simply have copied them.</p>
+</section>
+</div></section>
+<section class="chapter" data-ch="4">
+<div class="text text-before">
+<section class="step" id="page-153">
+<h2>Page 153, a new key</h2>
+<p>Printed page 153, under the heading 7 November, has two parts of a message from FKR to CGH, call signs that appear nowhere else in the collection. Parts 1 to 4 are missing, and neither surviving part reads under the 14 published keys or the keys in Childs&rsquo;s own appendix. Lasry&rsquo;s team had reported 14 cryptograms of the right length that no key opened and suspected most were wrongly encrypted. This pair shows that at least some were under a key nobody had recovered.</p>
+</section>
+</div>
+<div class="pin">
+<div class="graphic" data-g="key" data-stages='{"parts":1,"kinds":2,"square":3,"reading":4,"text":5}'>
+<div class="gbody"></div></div>
+<div class="text">
+<section class="step" data-s="parts" data-walk-stage="1" data-cap="The two parts give 120 letters, with 15 symbols lost. Very short for a key search.">
+<p>Together the two parts give 240 symbols, 120 letters, with 15 symbols lost. That is very short for a key search. Lasry&rsquo;s method worked on a day&rsquo;s traffic, often thousands of symbols, and in our tests a plain hill climb over both halves of the key never found a planted key this small.</p>
+</section>
+<section class="step" data-s="kinds" data-walk-stage="2" data-cap="With an even number of columns, every column of the block holds only row labels or only column labels.">
+<p>Our search leans on one structural fact. With an even number of columns, each column of the block holds only row labels or only column labels. German favours some rows and columns of the square, so the two kinds look different and can be sorted apart before anything else about the key is known.</p>
+</section>
+<section class="step" data-s="square" data-walk-stage="3" data-cap="An 18 column order that no published list contains, and the 24 cells of its square that the two parts use.">
+<p>Each row label column sits beside a column label column. We rank the pairings and orders by how repetitive their letter stream is, and a hill climb then finds the square for the best of them. The key is an 18 column order on no published list, and only the 24 cells the two parts use are known.</p>
+</section>
+<section class="step" data-s="reading" data-walk-stage="4" data-cap="Part 5 reads cleanly. In part 6 twelve damaged letters are fixed by the words around them and three stay open.">
+<p>Part 5 reads cleanly, every letter. Part 6 lost one symbol of 15 letters in its three blank groups. The words around them fix twelve, and three near the end stay open. Two more letters rest on a correction to the log, where an A was written for an X.</p>
+</section>
+<section class="step" data-s="text" data-walk-stage="5" data-cap="A routine order from the retreat, to pass on an earlier order and report the rear guard artillery's ammunition.">
+<p>What survives is a routine order from the retreat, to pass on an earlier order and report how much ammunition the rear guard&rsquo;s artillery still has. The closing letters are probably a unit and a signature, and with three letters open we leave them unexpanded.</p>
+</section>
+</div></section>
+<section class="chapter" data-ch="5">
+<div class="text text-before">
+<section class="step" id="how-it-was-checked">
+<h2>How we know it is right</h2>
+<p>A reading that merely looks like German is not enough, so each result was tested against controls built the same way.</p>
+</section>
+</div>
+<div class="pin">
+<div class="graphic" data-g="check" data-stages='{"scores153":1,"scores2305":2,"more":3}'>
+<div class="gbody"></div></div>
+<div class="text">
+<section class="step" data-s="scores153" data-walk-stage="1" data-cap="The page 153 key beats the next key by a wide margin and clears the bar set by planted messages.">
+<p>The page 153 key scores well clear of the next distinct key and far above the best of ten shuffled copies of the pair. We planted 24 messages of the same shape under random 18 column keys. Every exact recovery scored at least the bar shown, and the real pair clears it too.</p>
+</section>
+<section class="step" data-s="scores2305" data-walk-stage="2" data-cap="The fill of message 2305 scores like a genuine message, not like shuffled text.">
+<p>The best fill of message 2305 scores like a genuine message, and under twelve wrong keys or with the symbols shuffled it scores far lower. We damaged sixty messages that already read in the same way and ran the same procedure. It placed the gap correctly 54 times, and the real message scores like those.</p>
+</section>
+<section class="step" data-s="more" data-walk-stage="3" data-cap="A blind second search found the same key, the method recovers a published key, and both readings encrypt back to the intercepts.">
+<p>A second search, written without sight of the first result, recovered the same 18 column order. Run blind on a two part message from 13 November, the method returned the key George Lasry published in 2017. Each reading, encrypted again, gives back every surviving symbol, which rules out arithmetic slips though not a wrong reading.</p>
+</section>
+</div>
+<div class="text text-after">
+<section class="step">
+<p>We looked for an earlier solution of both messages and found none. Schmeh lists them as unsolved, the 2017 comments only suggest trying a key search on page 153, the 2018 thesis behind the paper holds none of the phrases, and a web search for them found nothing. We did not check every source, so this is no claim to be first.</p>
+</section>
+</div></section>
+<section class="endmatter step" id="schmehs-list">
+<h2>Where Schmeh&rsquo;s 22 stand</h2>
+<p>One row per entry on Schmeh&rsquo;s list, matched to the log by its opening groups. The status is the repository&rsquo;s, and it changes as readings pass the project&rsquo;s checks. Rows in red are readings first published here.</p>
+<div class="table-wrap"><table id="schmeh-table"><thead><tr><th scope="col">Schmeh</th><th scope="col">Page</th><th scope="col">Date 1918</th><th scope="col">Status</th><th scope="col">Key found by</th><th scope="col">Solution published by</th></tr></thead><tbody></tbody></table></div>
+<h3>Every entry in the log</h3>
+<div class="table-wrap"><table id="status-table"><thead><tr><th scope="col">Status</th><th scope="col" class="num">Entries</th><th scope="col">Meaning</th></tr></thead><tbody></tbody></table></div>
+<p>Solved means that every surviving symbol decrypts under the key and the text reads as German. Where a reader filled or left open a few letters, the row says how many. A digit or a signature letter that could take another value does not make a message partial, since there is no word behind it to decide.</p>
+<h3>Check it yourself</h3>
+<pre>python3 scripts/verify.py
+python3 scripts/verify_all.py</pre>
+<p>The first script reproduces the two readings above from the intercepts and the keys, and the second checks every decode in the repository against its key. Both need only Python 3. <code>scripts/adfgvx.py</code> is the cipher itself, about 60 lines.</p>
+</section>
+<section class="endmatter step" id="credits">
+<h2>Sources and credits</h2>
+<p>The project was run by Colin Reilly as an amateur experiment in AI assisted codebreaking. Claude (Anthropic) wrote the search code and found the readings, and a second, independent Claude run reproduced the page 153 key blind. Every period key comes from the 2017 paper, and the digit completion of the November key comes from a 2017 comment on Schmeh&rsquo;s post.</p>
+<h3>Sources</h3>
+<ul>
+<li>J. Rives Childs, <em>General Solution of the ADFGVX Cipher System</em>, reprinted with the intercept logs as Appendix B (Aegean Park Press, 2000). The scan is the free PDF offered through <a href="https://richardbean.id.au/misc/kryptos/aegean-park-press.html">Richard Bean&rsquo;s index of Aegean Park Press books</a>.</li>
+<li>George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker, <a href="https://www.tandfonline.com/doi/full/10.1080/01611194.2016.1169461">&ldquo;Deciphering ADFGVX messages from the Eastern Front of World War I&rdquo;</a>, <em>Cryptologia</em> 41, issue 2 (2017).</li>
+<li>Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/">&ldquo;The Top 50 unsolved encrypted messages, 46. Unsolved ADFGVX cryptograms from World War 1&rdquo;</a> (2017) and its comments, and <a href="https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/">&ldquo;Unsolved ADFGVX messages from World War I&rdquo;</a>.</li>
+<li>Klaus Schmeh, <a href="https://klausschmeh.net/adfgvx-top-50-cipher-mystery-solved-by-aiwwi/">on the 2026 reading of page 217 by Prinz</a>, with a key from Childs&rsquo;s 1919 typescript.</li>
+<li>Solutions of entries on Schmeh&rsquo;s list published in its comments in 2017 by Norbert, Armin, Thomas, Max Baertl and George Lasry are credited to them in the table.</li>
+</ul>
+<p>The code is released under the MIT License. The ciphertexts are transcriptions of historical intercepts.</p>
+</section>
+</main>
+<footer>
+<p>You are visitor no. <span class="counter" id="visits">------</span></p>
+<p class="small">Visits counted by <a href="https://www.goatcounter.com/">GoatCounter</a>, no cookies. The number updates every few hours.</p>
+</footer>
+
+<script src="story-data.js?v=3"></script>
+<script src="story-graphics.js?v=4"></script>
+<script src="story-scroll.js?v=3"></script>
+<script>
+/* Numbers and tables in the prose come from the data file, so the article
+   follows the repository when a result changes. */
+(function () {
+  'use strict';
+  var D = window.STORY_DATA;
+  if (!D) return;
+  function get(path) {
+    return path.split('.').reduce(function (o, k) { return o == null ? o : o[k]; }, D);
+  }
+  function longDate(iso) {
+    var d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('en-US', {month: 'long', day: 'numeric', year: 'numeric'});
+  }
+  document.querySelectorAll('[data-n]').forEach(function (el) {
+    var key = el.dataset.n;
+    if (key === 'generated-long') { el.textContent = longDate(D.generated); el.setAttribute('datetime', D.generated); return; }
+    var value = get(key);
+    if (value !== undefined) el.textContent = typeof value === 'number' ? value.toLocaleString('en-GB') : value;
+  });
+  var tbody = document.querySelector('#schmeh-table tbody');
+  D.schmeh.forEach(function (row) {
+    var tr = document.createElement('tr');
+    if (row.group === 'ours') tr.className = 'is-ours';
+    [row.schmeh, String(row.page), row.date, row.status, row.keyBy, row.publishedBy].forEach(function (text) {
+      var td = document.createElement('td'); td.textContent = text; tr.append(td);
+    });
+    tbody.append(tr);
+  });
+  var meaning = {
+    solved: ['Solved', 'every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair'],
+    open: ['Solved with open letters', 'the whole message reads, with the letters that a reader filled or left open marked in the text'],
+    partial: ['Partially solved', 'part of the message reads and the rest is undetermined'],
+    unsolved: ['Unsolved', 'no solution is published here, and the table names a solution published elsewhere where we found one'],
+    none: ['No cipher text or duplicate entry', 'the log prints no symbols for the entry, or the row joins the symbols of two other entries']
+  };
+  var sbody = document.querySelector('#status-table tbody');
+  ['solved', 'open', 'partial', 'unsolved', 'none'].forEach(function (k) {
+    var tr = document.createElement('tr');
+    [meaning[k][0], (D.counts[k] || 0).toLocaleString('en-GB'), meaning[k][1]].forEach(function (text, i) {
+      var td = document.createElement('td'); if (i === 1) td.className = 'num'; td.textContent = text; tr.append(td);
+    });
+    sbody.append(tr);
+  });
+  var total = document.createElement('tr');
+  [['Total', ''], [D.counts.total.toLocaleString('en-GB'), 'num'], ['', '']].forEach(function (c) {
+    var td = document.createElement('td'); td.className = c[1]; td.textContent = c[0]; total.append(td);
+  });
+  sbody.append(total);
+})();
+</script>
+<script data-goatcounter="https://creilly11235.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>
+(function () {
+  fetch("https://creilly11235.goatcounter.com/counter/" + encodeURIComponent("/adfgvx-1918/") + ".json")
+    .then(function (r) { return r.json(); })
+    .then(function (d) { var n = Number(String(d.count).replace(/\D/g, "")) || 0; document.getElementById("visits").textContent = String(n).padStart(6, "0"); })
+    .catch(function () {});
+})();
+</script>
+</body>
+</html>

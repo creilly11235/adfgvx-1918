@@ -1,0 +1,24 @@
+{
+  "source": "Klaus Schmeh, Unsolved ADFGVX messages from World War I, https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/ (22 entries). Each entry is matched to a log entry by its opening groups; see MESSAGES.md.",
+  "entries": [
+    {"schmeh": "1", "ids": ["p076A"]},
+    {"schmeh": "2", "ids": ["p103A"]},
+    {"schmeh": "3", "ids": ["p108BB"]},
+    {"schmeh": "4", "ids": ["p112D"]},
+    {"schmeh": "5", "ids": ["p135B"]},
+    {"schmeh": "6", "ids": ["p149B"]},
+    {"schmeh": "7", "ids": ["p155E"]},
+    {"schmeh": "8 and 9", "ids": ["p156C3", "p156C6"]},
+    {"schmeh": "10", "ids": ["p161D"]},
+    {"schmeh": "11 and 12", "ids": ["p167A", "p167A5"]},
+    {"schmeh": "13", "ids": ["p173A"]},
+    {"schmeh": "14", "ids": ["p174A1"]},
+    {"schmeh": "15", "ids": ["p179A"]},
+    {"schmeh": "16", "ids": ["p179B1"]},
+    {"schmeh": "17", "ids": ["p218C"]},
+    {"schmeh": "18 and 19", "ids": ["p190A1", "p190A"]},
+    {"schmeh": "20", "ids": ["p192A"]},
+    {"schmeh": "21", "ids": ["p201D"]},
+    {"schmeh": "22", "ids": ["p220C.2"]}
+  ]
+}
