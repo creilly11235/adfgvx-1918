@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 28 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 30 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 103 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 101 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -77,7 +77,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p072A](messages/p072A.md) | 69 | 5 October |  | Unsolved |  |  |
 | [p072B1](messages/p072B1.md) | 69 | 5 October |  | Unsolved |  |  |
 | [p072B3](messages/p072B3.md) | 69 | 5 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p073A1](messages/p073A1.md) | 70 | 6 October |  | Unsolved |  |  |
+| [p073A1](messages/p073A1.md) | 70 | 6 October | oct04 | Solved, 20 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p073A2](messages/p073A2.md) | 70 | 6 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p073B](messages/p073B.md) | 70 | 6 October |  | Unsolved |  |  |
 | [p074A](messages/p074A.md) | 71 | 6 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -398,7 +398,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p164D1](messages/p164D1.md) | 161 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p164D3](messages/p164D3.md) | 161 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p165A1](messages/p165A1.md) | 162 | 8 November |  | Unsolved |  |  |
-| [p165B1](messages/p165B1.md) | 162 | 8 November |  | Unsolved |  |  |
+| [p165B1](messages/p165B1.md) | 162 | 8 November | nov07 | Solved, 7 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p165C1](messages/p165C1.md) | 162 | 8 November |  | Unsolved |  |  |
 | [p165C2](messages/p165C2.md) | 162 | 8 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p165D1](messages/p165D1.md) | 162 | 8 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
