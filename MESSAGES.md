@@ -541,7 +541,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p193B](messages/p193B.md) | 190 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193C](messages/p193C.md) | 190 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193D](messages/p193D.md) | 190 | 14 November | nov13_20 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Solved, 9 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
+| [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Solved, 10 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p194A](messages/p194A.md) | 191 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p194A.2](messages/p194A.2.md) | 191 | 14 November |  | Unsolved |  |  |
 | [p195A2](messages/p195A2.md) | 192 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
