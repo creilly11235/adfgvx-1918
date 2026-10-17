@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 24 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 28 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 107 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 103 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -85,7 +85,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p075A1](messages/p075A1.md) | 72 | 6 October | oct04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p075A2](messages/p075A2.md) | 72 | 6 October |  | Unsolved |  |  |
 | [p075A3](messages/p075A3.md) | 72 | 6 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p075B](messages/p075B.md) | 72 | 6 October |  | Unsolved |  |  |
+| [p075B](messages/p075B.md) | 72 | 6 October | oct04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p076A](messages/p076A.md) | 73 | 26 October |  | Unsolved |  |  |
 | [p077A](messages/p077A.md) | 74 | 28 October | oct28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p077B](messages/p077B.md) | 74 | 28 October | oct28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -274,7 +274,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p135_](messages/p135_.md) | 132 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p135B](messages/p135B.md) | 132 | 5 November |  | Unsolved |  | Thomas and Norbert, 2017, in part |
 | [p135C](messages/p135C.md) | 132 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p136A2](messages/p136A2.md) | 133 | 5 November |  | Unsolved |  |  |
+| [p136A2](messages/p136A2.md) | 133 | 5 November | nov04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p136A3](messages/p136A3.md) | 133 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p137A4](messages/p137A4.md) | 134 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p137B](messages/p137B.md) | 134 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -289,7 +289,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p140B](messages/p140B.md) | 137 | 6 November |  | Unsolved |  |  |
 | [p140B4](messages/p140B4.md) | 137 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p140B.2](messages/p140B.2.md) | 137 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p140B.3](messages/p140B.3.md) | 137 | 6 November |  | Unsolved |  |  |
+| [p140B.3](messages/p140B.3.md) | 137 | 6 November | nov04 | Solved, 13 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p141A](messages/p141A.md) | 138 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p141A.2](messages/p141A.2.md) | 138 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p141B](messages/p141B.md) | 138 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -710,7 +710,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p230A4](messages/p230A4.md) | 227 | 29 November | nov28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p230B](messages/p230B.md) | 227 | 28 November | nov28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p230D](messages/p230D.md) | 227 | 28 November | nov28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p231A](messages/p231A.md) | 228 | 30 November |  | Unsolved |  |  |
+| [p231A](messages/p231A.md) | 228 | 30 November | nov28 | Solved, 52 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p231B1](messages/p231B1.md) | 228 | 30 November | nov28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p231B2](messages/p231B2.md) | 228 | 30 November |  | Unsolved |  |  |
 | [p231B3](messages/p231B3.md) | 228 | 30 November | nov28 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
