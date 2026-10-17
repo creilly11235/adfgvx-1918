@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 30 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 32 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 101 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 99 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -425,7 +425,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p169B2](messages/p169B2.md) | 166 | 9 November |  | Unsolved |  |  |
 | [p169C1](messages/p169C1.md) | 166 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p169C3](messages/p169C3.md) | 166 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p170A](messages/p170A.md) | 167 | 9 November |  | Unsolved |  |  |
+| [p170A](messages/p170A.md) | 167 | 9 November | nov07 | Solved, 9 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p170B](messages/p170B.md) | 167 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p170B3](messages/p170B3.md) | 167 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p170B3.2](messages/p170B3.2.md) | 167 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -470,7 +470,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p178B2](messages/p178B2.md) | 175 | 10 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p178C](messages/p178C.md) | 175 | 10 November | nov10 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p178C2](messages/p178C2.md) | 175 | 10 November | nov10 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p178C3](messages/p178C3.md) | 175 | 10 November |  | Unsolved |  |  |
+| [p178C3](messages/p178C3.md) | 175 | 10 November | nov10 | Solved, 9 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p179A](messages/p179A.md) | 176 | 10 November |  | Unsolved |  | Norbert, 2017, in part |
 | [p179A3](messages/p179A3.md) | 176 | 10 November | nov10 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p179A6](messages/p179A6.md) | 176 | 10 November |  | Unsolved |  |  |
