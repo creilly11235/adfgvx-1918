@@ -9,13 +9,13 @@ Every entry is in exactly one row.
 
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
-| Solved | 550 | 543 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
+| Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 14 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
 | Unsolved | 117 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
-| Total | 688 | 543 | |
+| Total | 688 | 542 | |
 
 The third column counts the solved entries for which our search of the 2017 paper and thesis, the comments on Schmeh's posts and the web found no published solution. It records the outcome of that search and nothing more. The 2017 paper reports 618 of 668 cryptograms recovered and gives no list by entry, and the log is split into 688 entries here, so the two totals cannot be matched one to one. Leads and partial repairs that have not passed the project's gate are not published here, so an unsolved row says only that no solution is published.
 
@@ -542,7 +542,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p193C](messages/p193C.md) | 190 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193D](messages/p193D.md) | 190 | 14 November | nov13_20 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p193_](messages/p193_.md) | 190 | 14 November | nov13_20 | Solved, 10 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
-| [p194A](messages/p194A.md) | 191 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
+| [p194A](messages/p194A.md) | 191 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert and Max Baertl, 2017 |
 | [p194A.2](messages/p194A.2.md) | 191 | 14 November |  | Unsolved |  |  |
 | [p195A2](messages/p195A2.md) | 192 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p195A](messages/p195A.md) | 192 | 14 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -649,7 +649,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p218B1](messages/p218B1.md) | 215 | 22 November |  | Unsolved |  |  |
 | [p218B4](messages/p218B4.md) | 215 | 22 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p218B3](messages/p218B3.md) | 215 | 22 November |  | Unsolved |  |  |
-| [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  |  |
+| [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  | Norbert and Max Baertl, 2017, in part |
 | [p219A1](messages/p219A1.md) | 216 | 24 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p219A](messages/p219A.md) | 216 | 24 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p219A.2](messages/p219A.2.md) | 216 | 24 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -751,7 +751,7 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 14 | [p174A1](messages/p174A1.md) | 171 | 9 November |  | Unsolved |  | Norbert, 2017, claimed |
 | 15 | [p179A](messages/p179A.md) | 176 | 10 November |  | Unsolved |  | Norbert, 2017, in part |
 | 16 | [p179B1](messages/p179B1.md) | 176 | 10 November | nov10 | Solved, 6 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
-| 17 | [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  |  |
+| 17 | [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  | Norbert and Max Baertl, 2017, in part |
 | 18 and 19 | [p190A1](messages/p190A1.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
 | 18 and 19 | [p190A](messages/p190A.md) | 187 | 13 November | chi_2017_comments | Solved | Lasry and Norbert, 2017 | Lasry and Norbert, 2017 |
 | 20 | [p192A](messages/p192A.md) | 189 | 14 November |  | Unsolved |  |  |
