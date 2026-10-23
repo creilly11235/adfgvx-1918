@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 41 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 42 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 90 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 89 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -516,7 +516,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p187C](messages/p187C.md) | 184 | 13 November | nov13_20 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p187C3](messages/p187C3.md) | 184 | 13 November |  | Unsolved |  |  |
 | [p188_2](messages/p188_2.md) | 185 | 13 November | nov13_20 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p188_](messages/p188_.md) | 185 | 13 November |  | Unsolved |  |  |
+| [p188_](messages/p188_.md) | 185 | 13 November | nov13_20 | Solved, 32 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p188_.2](messages/p188_.2.md) | 185 | 13 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p188_.3](messages/p188_.3.md) | 185 | 13 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p189A](messages/p189A.md) | 186 | 13 November | nov13_16 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
