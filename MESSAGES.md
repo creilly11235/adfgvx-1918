@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 42 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 43 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 2 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 87 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 86 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -272,7 +272,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p134A4](messages/p134A4.md) | 131 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p134B](messages/p134B.md) | 131 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p135_](messages/p135_.md) | 132 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p135B](messages/p135B.md) | 132 | 5 November |  | Unsolved |  | Thomas and Norbert, 2017, in part |
+| [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Solved, 23 open | Lasry, Niebel, Kopal and Wacker, 2017 | Thomas and Norbert, 2017, in part |
 | [p135C](messages/p135C.md) | 132 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p136A2](messages/p136A2.md) | 133 | 5 November | nov04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p136A3](messages/p136A3.md) | 133 | 5 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -739,7 +739,7 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 2 | [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Solved, 7 open | Lasry, Niebel, Kopal and Wacker, 2017 | Armin, 2017, claimed |
 | 3 | [p108BB](messages/p108BB.md) | 105 | 2 November | nov01 | Solved, 5 open | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert and Max Baertl, 2017 |
 | 4 | [p112D](messages/p112D.md) | 109 | 3 November |  | Unsolved |  | Norbert, 2017, in part |
-| 5 | [p135B](messages/p135B.md) | 132 | 5 November |  | Unsolved |  | Thomas and Norbert, 2017, in part |
+| 5 | [p135B](messages/p135B.md) | 132 | 5 November | nov04 | Solved, 23 open | Lasry, Niebel, Kopal and Wacker, 2017 | Thomas and Norbert, 2017, in part |
 | 6 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017 |
 | 7 | [p155E](messages/p155E.md) | 152 | 7 November |  | Unsolved |  |  |
 | 8 and 9 | [p156C3](messages/p156C3.md) | 153 | 7 November | ours_nov07_18col | Solved | This project, 2026 | This project, 2026 |
