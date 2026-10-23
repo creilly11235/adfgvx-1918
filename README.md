@@ -337,8 +337,8 @@ log and the print disagreed, and wrote one row for each entry. Here is where the
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 42 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
-| Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 89 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Partially solved | 2 | 0 | part of the message reads and the rest is undetermined |
+| Unsolved | 87 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |

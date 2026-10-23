@@ -11,8 +11,8 @@ Every entry is in exactly one row.
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 42 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
-| Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 89 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Partially solved | 2 | 0 | part of the message reads and the rest is undetermined |
+| Unsolved | 87 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -442,7 +442,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p173A](messages/p173A.md) | 170 | 9 November |  | Unsolved |  |  |
 | [p173B](messages/p173B.md) | 170 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p173B.2](messages/p173B.2.md) | 170 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p174A1](messages/p174A1.md) | 171 | 9 November |  | Unsolved |  | Norbert, 2017, claimed |
+| [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Partially solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017, claimed |
 | [p174A3](messages/p174A3.md) | 171 | 9 November |  | Unsolved |  |  |
 | [p174A3.2](messages/p174A3.2.md) | 171 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p174B1](messages/p174B1.md) | 171 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -641,7 +641,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p216A7](messages/p216A7.md) | 213 | 22 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p216_1](messages/p216_1.md) | 213 | 23 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p216_2](messages/p216_2.md) | 213 | 23 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p216_3](messages/p216_3.md) | 213 | 23 November |  | Unsolved |  |  |
+| [p216_3](messages/p216_3.md) | 213 | 23 November | nov22 | Partially solved | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p217A1](messages/p217A1.md) | 214 | 22 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p217B](messages/p217B.md) | 214 | 22 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p217C](messages/p217C.md) | 214 | 22 November | nov22 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -748,7 +748,7 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | 11 and 12 | [p167A](messages/p167A.md) | 164 | 9 November |  | Unsolved |  | Norbert, 2017, in part |
 | 11 and 12 | [p167A5](messages/p167A5.md) | 164 | 9 November |  | Unsolved |  | Norbert, 2017, in part |
 | 13 | [p173A](messages/p173A.md) | 170 | 9 November |  | Unsolved |  |  |
-| 14 | [p174A1](messages/p174A1.md) | 171 | 9 November |  | Unsolved |  | Norbert, 2017, claimed |
+| 14 | [p174A1](messages/p174A1.md) | 171 | 9 November | nov07 | Partially solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017, claimed |
 | 15 | [p179A](messages/p179A.md) | 176 | 10 November |  | Unsolved |  | Norbert, 2017, in part |
 | 16 | [p179B1](messages/p179B1.md) | 176 | 10 November | nov10 | Solved, 6 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | 17 | [p218C](messages/p218C.md) | 215 | 22 November |  | Unsolved |  | Norbert and Max Baertl, 2017, in part |
