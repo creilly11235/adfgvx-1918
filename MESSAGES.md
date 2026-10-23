@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 33 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 35 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 98 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 96 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -156,7 +156,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p102C](messages/p102C.md) | 99 | 1 November |  | Unsolved |  |  |
 | [p102C3](messages/p102C3.md) | 99 | 1 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p102D](messages/p102D.md) | 99 | 1 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p103A](messages/p103A.md) | 100 | 1 November |  | Unsolved |  | Armin, 2017, claimed |
+| [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Solved, 7 open | Lasry, Niebel, Kopal and Wacker, 2017 | Armin, 2017, claimed |
 | [p103B](messages/p103B.md) | 100 | 1 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p103C](messages/p103C.md) | 100 | 1 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p103D1](messages/p103D1.md) | 100 | 1 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -182,7 +182,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p107D](messages/p107D.md) | 104 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p107E3](messages/p107E3.md) | 104 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p108A](messages/p108A.md) | 105 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
-| [p108BB](messages/p108BB.md) | 105 | 2 November |  | Unsolved |  | Norbert and Max Baertl, 2017 |
+| [p108BB](messages/p108BB.md) | 105 | 2 November | nov01 | Solved, 5 open | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert and Max Baertl, 2017 |
 | [p108C](messages/p108C.md) | 105 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p109A](messages/p109A.md) | 106 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p109A3](messages/p109A3.md) | 106 | 2 November | nov01 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
@@ -736,8 +736,8 @@ Klaus Schmeh's list of unsolved ADFGVX messages has 22 entries. Each was matched
 | Schmeh | Entry | Page | Date | Key | Status | Key found by | Solution published by |
 |---|---|---|---|---|---|---|---|
 | 1 | [p076A](messages/p076A.md) | 73 | 26 October |  | Unsolved |  |  |
-| 2 | [p103A](messages/p103A.md) | 100 | 1 November |  | Unsolved |  | Armin, 2017, claimed |
-| 3 | [p108BB](messages/p108BB.md) | 105 | 2 November |  | Unsolved |  | Norbert and Max Baertl, 2017 |
+| 2 | [p103A](messages/p103A.md) | 100 | 1 November | nov01 | Solved, 7 open | Lasry, Niebel, Kopal and Wacker, 2017 | Armin, 2017, claimed |
+| 3 | [p108BB](messages/p108BB.md) | 105 | 2 November | nov01 | Solved, 5 open | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert and Max Baertl, 2017 |
 | 4 | [p112D](messages/p112D.md) | 109 | 3 November |  | Unsolved |  | Norbert, 2017, in part |
 | 5 | [p135B](messages/p135B.md) | 132 | 5 November |  | Unsolved |  | Thomas and Norbert, 2017, in part |
 | 6 | [p149B](messages/p149B.md) | 146 | 6 November | nov04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 | Norbert, 2017 |
