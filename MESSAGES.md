@@ -10,9 +10,9 @@ Every entry is in exactly one row.
 | Status | Entries | No published solution found | Meaning |
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
-| Solved with open letters | 32 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
+| Solved with open letters | 33 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
 | Partially solved | 0 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 99 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Unsolved | 98 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -381,7 +381,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p161C3](messages/p161C3.md) | 158 | 8 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p161D](messages/p161D.md) | 158 | 8 November |  | Duplicate entry |  |  |
 | [p161E](messages/p161E.md) | 158 | 8 November |  | Unsolved |  |  |
-| [p162A](messages/p162A.md) | 159 | 8 November |  | Unsolved |  |  |
+| [p162A](messages/p162A.md) | 159 | 8 November | nov07 | Solved, 19 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p162B](messages/p162B.md) | 159 | 8 November |  | Unsolved |  |  |
 | [p162B.2](messages/p162B.2.md) | 159 | 8 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p162_](messages/p162_.md) | 159 | 9 November | nov07 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
