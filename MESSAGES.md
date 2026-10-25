@@ -11,8 +11,8 @@ Every entry is in exactly one row.
 |---|---|---|---|
 | Solved | 550 | 542 | every surviving symbol decrypts under the key and the text reads as German, as transcribed or after a length repair |
 | Solved with open letters | 44 | 0 | the whole message reads, with the letters that a reader filled or left open marked in the text |
-| Partially solved | 3 | 0 | part of the message reads and the rest is undetermined |
-| Unsolved | 84 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
+| Partially solved | 4 | 0 | part of the message reads and the rest is undetermined |
+| Unsolved | 83 |  | no solution is published here, and the last column names a solution published elsewhere where we found one |
 | No cipher text | 6 |  | the log prints no cipher block for the entry, or only a header that quotes a few symbols of another entry's block |
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
@@ -83,7 +83,7 @@ The pages are written by `scripts/make_pages.py` from `data/records.json`, `data
 | [p074A](messages/p074A.md) | 71 | 6 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p074A.2](messages/p074A.2.md) | 71 | 6 October |  | Unsolved |  |  |
 | [p075A1](messages/p075A1.md) | 72 | 6 October | oct04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
-| [p075A2](messages/p075A2.md) | 72 | 6 October |  | Unsolved |  |  |
+| [p075A2](messages/p075A2.md) | 72 | 6 October | oct04 | Partially solved | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p075A3](messages/p075A3.md) | 72 | 6 October | oct04 | Solved | Lasry, Niebel, Kopal and Wacker, 2017 |  |
 | [p075B](messages/p075B.md) | 72 | 6 October | oct04 | Solved, 1 open | Lasry, Niebel, Kopal and Wacker, 2017 | This project, 2026 |
 | [p076A](messages/p076A.md) | 73 | 26 October |  | Unsolved |  |  |
