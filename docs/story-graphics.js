@@ -175,10 +175,10 @@
       const oursRead = oursRows.filter(read).length, oursPart = oursRows.length - oursRead;
       const oursKeyRead = oursRows.filter(row => row.oursKey && read(row)).length;
       const items = [];
-      if (stage >= 2) items.push(['solved', 'read (' + n.solved + ')'], ['since', 'read since (' + n.since + ')']);
+      if (stage >= 2) items.push(['solved', 'read (' + n.solved + ')'], ['since', 'read or copied since (' + n.since + ')']);
       if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list']);
-      if (stage === 4) items.push(['ours', 'first read here (' + n.ours + ')']);
-      if (stage >= 5) items.push(['ours', 'first read here, published key (' + n.ours + ')'], ['newkey', 'first read here, new key (' + n.newkey + ')']);
+      if (stage === 4) items.push(['ours', 'first read here, whole or part (' + n.ours + ')']);
+      if (stage >= 5) items.push(['ours', 'first read, whole or part, published key (' + n.ours + ')'], ['newkey', 'first read, whole or part, new key (' + n.newkey + ')']);
       items.push(['unsolved', stage >= 2 ? 'not read, or in part (' + n.unsolved + ')' : 'one entry']);
       this.legend.replaceChildren(...items.map(([k, text]) => {
         const item = node('span');
