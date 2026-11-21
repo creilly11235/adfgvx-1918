@@ -165,7 +165,7 @@
       this.root.dataset.stage = stage;
       const c = D.counts;
       const items = [];
-      if (stage >= 2) items.push(['solved', 'read with a published key (' + c.readable + ')']);
+      if (stage >= 2) items.push(['solved', 'read (' + c.readable + ')']);
       if (stage >= 2) items.push(['since', 'read or copied since this table (' + c.since + ')']);
       if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list of unsolved messages']);
       if (stage === 4) items.push(['ours', 'first published here']);
@@ -180,7 +180,7 @@
       this.label.textContent = stage >= 5 ? c.oursKey + ' of the ' + c.ours + ' read here under one of the published keys'
         : stage >= 4 ? c.ours + ' entries first read here, among ' + c.total + ' in the log'
         : stage >= 3 ? c.schmehRecords + ' entries on Schmeh’s list, among ' + c.total + ' in the log'
-        : stage >= 2 ? c.readable + ' of the ' + c.total + ' entries read under a published key'
+        : stage >= 2 ? c.readable + ' of the ' + c.total + ' entries read'
         : 'The ' + c.total + ' entries of the log, in order';
     }
     foot() { return this.legend.getBoundingClientRect().bottom; }

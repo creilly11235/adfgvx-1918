@@ -5,7 +5,7 @@ Each entry label links to its page under `messages`, which follows the message f
 
 ## Printed page and entry id
 
-Cite an entry by its printed page and block, for example `p.153 C3`. That is the page number in Childs's book, the one that Schmeh's list and other researchers use. Each entry also has an internal id, here `p156C3`, which is the page of the scanned PDF plus the block. The PDF page is exactly 3 more than the printed page on all 688 entries, so the id `p156C3` is on printed page 153. The id is the file name, the link target and the key in the data files, and it never changes. A block shown as `?` is one whose letter the log does not show, and a digit in brackets such as `(4)` is a block whose letter the log's heading reads as a digit. `python3 scripts/verify_labels.py` checks that the 688 labels are distinct and map one to one to the ids.
+Cite an entry by its printed page and block, for example `p.153 C3`. That is the page number in Childs's book, the one that Schmeh's list and other researchers use. Each entry also has an internal id, here `p156C3`, which is the page of the scanned PDF plus the block. The PDF page is exactly 3 more than the printed page on all 688 entries, so the id `p156C3` is on printed page 153. The id is the file name, the link target and the key in the data files, and it never changes. A `?` in place of a block letter stands for the `_` that the id uses where it records no block letter; the log's heading for that entry may still show a mark, and step 1 of its page gives the heading, and a digit in brackets such as `(4)` is a block whose letter the log's heading reads as a digit. `python3 scripts/verify_labels.py` checks that the 688 labels are distinct and map one to one to the ids.
 
 ## Where the entries stand
 

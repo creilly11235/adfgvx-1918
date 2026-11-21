@@ -8,8 +8,10 @@ that Schmeh's list, outside researchers and the book itself use. The label puts 
 
 `childs_page` comes from data/records.json. `block` is the id with its `p` and three PDF-page digits removed
 (`p156C3` -> `C3`, `p059B.2` -> `B.2`, `p108BB` -> `BB`), with two shapes handled so the label does not mislead:
-  * a leading `_` marks a block letter that the log does not show, and is written `?` (`p188_` -> `p.185 ?`,
-    `p216_3` -> `p.213 ?3`, `p220A.3` is unchanged); a bare underscore would also read as Markdown italics;
+  * a leading `_` is the id's placeholder where no block letter was recorded in the id, and is written `?`
+    (`p188_` -> `p.185 ?`, `p216_3` -> `p.213 ?3`, `p220A.3` is unchanged). It does not say the log shows no
+    mark: most of these headings do show one, which step 1 of the entry's page gives. A bare underscore would
+    also read as Markdown italics;
   * a suffix of digits only (`p0924`, `p09244`) is a block whose letter the log's heading reads as a digit; that
     first digit is put in brackets, so it is not read as a number (`p0924` -> `p.89 (4)`, `p09244` -> `p.89 (4)4`,
     block `(4)` and part 4, as `p156C3` is block C and part 3).

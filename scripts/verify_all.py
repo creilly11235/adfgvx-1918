@@ -65,6 +65,10 @@ for i, m, p, n in align:
 import subprocess
 stale = subprocess.run([sys.executable, os.path.join(HERE, 'build_site_data.py'), '--check'], capture_output=True, text=True)
 print('docs/story-data.js matches the generator: %s' % ('yes' if stale.returncode == 0 else 'NO'))
+labels = subprocess.run([sys.executable, os.path.join(HERE, 'verify_labels.py')], capture_output=True, text=True)
+print('printed-page labels are unique and one to one with the ids: %s' % ('yes' if labels.returncode == 0 else 'NO'))
+if labels.returncode:
+    bad.append('verify_labels.py failed')
 if stale.returncode:
     bad.append('docs/story-data.js is stale: run python3 scripts/build_site_data.py')
 if bad:
