@@ -152,7 +152,7 @@
         if (row.ours) el.dataset.ours = '1';
         if (row.oursKey) el.dataset.ourskey = '1';
         if (row.schmeh) el.dataset.schmeh = '1';
-        el.title = row.id + ', page ' + row.page + ', ' + row.date + ', ' + row.status;
+        el.title = row.label + ' (internal ID ' + row.id + '), ' + row.date + ', ' + row.status;
         this.grid.append(el);
         return el;
       });

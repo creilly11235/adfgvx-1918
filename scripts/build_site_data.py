@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
 import adfgvx  # noqa: E402
+from labels import label  # noqa: E402
 
 records = json.loads((ROOT / 'data/records.json').read_text(encoding='utf-8'))
 keys = json.loads((ROOT / 'data/keys.json').read_text(encoding='utf-8'))
@@ -56,6 +57,7 @@ grid = []
 for row in records:
     grid.append({
         'id': row['id'],
+        'label': label(row),
         'page': row['childs_page'],
         'date': row['date'].replace(' 1918', ''),
         'status': row['status'],

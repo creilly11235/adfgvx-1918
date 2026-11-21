@@ -1,7 +1,7 @@
 """Write one page per message of Childs's log from the data files of the write-up.
 usage: public_pages.py PUBLIC_DIR      (PUBLIC_DIR holds data/records.json, keys.json, messages.json)
 Reads data/records.json, data/keys.json, data/messages.json and, if present, data/translations.json.
-Writes PUBLIC_DIR/messages/<id>.md, each following the message in six steps:
+Writes PUBLIC_DIR/messages/<id>.md and rewrites the two tables of PUBLIC_DIR/MESSAGES.md (the prose around them is edited by hand). Each page is headed by the printed-page label (scripts/labels.py) and follows the message in six steps:
   1 printed (source item, page, log heading)   2 transcribed as printed, a dash for each symbol missing
   3 repaired or edited transcription, each edit marked   4 decrypted as it stands
   5 decrypted after repair, low confidence letters marked   6 English translation, low confidence words marked
@@ -12,6 +12,8 @@ Marking convention (also in the README of the public repository):
   English      a phrase in [square brackets with a question mark] rests on at least one lowercase, _ or # letter
 The plaintext of each row comes from records.json, and the ones of the page 153 pair and message 2305 are rebuilt from messages.json."""
 import difflib, json, os, sys, textwrap
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from labels import label as printed_label   # the printed-page label, p.153 C3 for the id p156C3
 
 class A:
     """The few cipher functions needed, copied so that this file also runs alone in the public repository."""
@@ -177,7 +179,8 @@ def credit_line(e):
 
 
 def page(e, keys, msgs, trans, want_plain=False):
-    rid = e['id']; L = ['# %s' % rid, '']
+    rid = e['id']; L = ['# %s' % printed_label(e), '',
+                        'Internal ID `%s`, kept for the file name and the data. PDF page %s is printed page %s, so cite this message as %s.' % (rid, e['pdf_page'], e['childs_page'], printed_label(e)), '']
     meta = 'Childs page %s, %s' % (e['childs_page'], e['date'])
     L += [(meta + '. ' + ('Key %s' % e['key'] if e['key'] else 'No key') + '. Status %s.' % e['status'] + (' ' + credit_line(e) if credit_line(e) else '')).replace('-', ' '), '']
     if e.get('note') and e['method'] == 'not solved': L += [e['note'], '']   # PUBLIC_NOTE, the one line of explanation
@@ -257,6 +260,33 @@ def batches(pub, outdir, n):
         json.dump({i: items[i] for i in ids[b::n]}, open(os.path.join(outdir, 'batch_%02d.json' % b), 'w'), indent=0)
     print(len(items), 'messages in', n, 'batches')
 
+def entry_cell(e):
+    """The first cell of a table row: the printed-page label as the link text, the id as a small code span.
+    The link target messages/<id>.md holds the id, so a reader of the table takes the id from the target."""
+    return '[%s](messages/%s.md) `%s`' % (printed_label(e), e['id'], e['id'])
+
+def table_row(e, schmeh=None):
+    cells = [entry_cell(e), e['childs_page'], e['date'].replace(' 1918', ''), e['key'] or '', e['status'], e['key_by'] or '', e['published_by'] or '']
+    if schmeh is not None: cells.insert(0, schmeh)
+    return '| ' + ' | '.join(str(c) for c in cells) + ' |'
+
+def replace_rows(lines, header, rows):
+    """Replace the table rows that follow the header line and its separator; the prose around the table stays as it is."""
+    i = lines.index(header) + 2; j = i
+    while j < len(lines) and lines[j].startswith('|'): j += 1
+    return lines[:i] + rows + lines[j:]
+
+def write_table(pub, recs):
+    """Regenerate the two tables of MESSAGES.md (the whole log, the 22 entries of Schmeh's list) from the data files."""
+    path = os.path.join(pub, 'MESSAGES.md')
+    by_id = {e['id']: e for e in recs}
+    schmeh = json.load(open(os.path.join(pub, 'data', 'schmeh_list.json')))['entries']
+    lines = open(path).read().split('\n')
+    lines = replace_rows(lines, '| Entry | Page | Date | Key | Status | Key found by | Solution published by |', [table_row(e) for e in recs])
+    lines = replace_rows(lines, '| Schmeh | Entry | Page | Date | Key | Status | Key found by | Solution published by |',
+                         [table_row(by_id[rid], x['schmeh']) for x in schmeh for rid in x['ids']])
+    open(path, 'w').write('\n'.join(lines))
+
 def main(pub):
     D = os.path.join(pub, 'data')
     recs = json.load(open(os.path.join(D, 'records.json')))
@@ -271,7 +301,8 @@ def main(pub):
         if low in seen: raise SystemExit('file names collide ignoring case: %s' % e['id'])
         seen.add(low)
         open(os.path.join(out, e['id'] + '.md'), 'w').write(page(e, keys, msgs, trans) + '\n')
-    print(len(recs), 'pages,', len(trans), 'translated')
+    write_table(pub, recs)
+    print(len(recs), 'pages,', len(trans), 'translated, MESSAGES.md tables rewritten')
 
 if __name__ == '__main__':
     if sys.argv[1] == '--batches': batches(sys.argv[2], sys.argv[3], int(sys.argv[4]))
