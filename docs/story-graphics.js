@@ -165,11 +165,12 @@
       this.root.dataset.stage = stage;
       const c = D.counts;
       const items = [];
-      if (stage >= 2) items.push(['solved', 'read with a published key']);
+      if (stage >= 2) items.push(['solved', 'read with a published key (' + c.readable + ')']);
+      if (stage >= 2) items.push(['since', 'read or copied since this table (' + c.since + ')']);
       if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list of unsolved messages']);
       if (stage === 4) items.push(['ours', 'first published here']);
       if (stage >= 5) items.push(['ours', 'read here under a published key'], ['newkey', 'read here under a new key']);
-      items.push(['unsolved', stage >= 2 ? 'no solution published here' : 'one entry']);
+      items.push(['unsolved', stage >= 2 ? 'no solution published here, or only part of one (' + c.mapUnread + ')' : 'one entry']);
       this.legend.replaceChildren(...items.map(([k, text]) => {
         const item = node('span');
         const dot = node('i'); dot.dataset.group = k;

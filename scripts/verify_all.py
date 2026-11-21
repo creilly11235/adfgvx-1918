@@ -61,6 +61,12 @@ print('every surviving symbol re-encrypts in place: %d records (as transcribed o
 print('repaired records, share of surviving symbols that align after re-encryption: %d records' % n_rep)
 for i, m, p, n in align:
     print('  %-8s %-30s %5.1f%% of %d' % (i, m, p, n))
+# The article's data file must be what the generator writes from the data files, or the map goes stale.
+import subprocess
+stale = subprocess.run([sys.executable, os.path.join(HERE, 'build_site_data.py'), '--check'], capture_output=True, text=True)
+print('docs/story-data.js matches the generator: %s' % ('yes' if stale.returncode == 0 else 'NO'))
+if stale.returncode:
+    bad.append('docs/story-data.js is stale: run python3 scripts/build_site_data.py')
 if bad:
     print('FAILED:', bad)
     sys.exit(1)
