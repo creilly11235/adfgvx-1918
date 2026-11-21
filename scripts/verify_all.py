@@ -69,6 +69,15 @@ labels = subprocess.run([sys.executable, os.path.join(HERE, 'verify_labels.py')]
 print('printed-page labels are unique and one to one with the ids: %s' % ('yes' if labels.returncode == 0 else 'NO'))
 if labels.returncode:
     bad.append('verify_labels.py failed')
+# The no-script fallback numbers in docs/index.html must equal the data the script fills in.
+import re
+_js = open(os.path.join(HERE, '..', 'docs', 'story-data.js'), encoding='utf-8').read().split('\n')[1]
+_data = json.loads(_js[_js.index('{'):_js.rindex('}') + 1])
+_html = open(os.path.join(HERE, '..', 'docs', 'index.html'), encoding='utf-8').read()
+_off = [k for k, v in re.findall(r'data-n="counts\.(\w+)">([^<]*)<', _html) if v != format(_data['counts'][k], ',')]
+print('fallback numbers in docs/index.html match the data: %s' % ('yes' if not _off else 'NO ' + ', '.join(_off)))
+if _off:
+    bad.append('docs/index.html fallback numbers differ from the data: ' + ', '.join(_off))
 if stale.returncode:
     bad.append('docs/story-data.js is stale: run python3 scripts/build_site_data.py')
 if bad:

@@ -100,9 +100,7 @@ counts['schmehSolvedByOthers'] = sum(1 for rid in schmeh_of if status_group(by_i
 counts['schmehUnsolved'] = sum(1 for rid in schmeh_of if status_group(by_id[rid]['status']) == 'unsolved'
                                and rid not in site_status and not by_id[rid]['published_by'])
 counts['readable'] = counts.get('solved', 0) + counts.get('open', 0)
-# The map's three disjoint shades add up to the total: read, read or copied since the table, and the rest.
 counts['since'] = len(site_status)
-counts['mapUnread'] = counts['total'] - counts['readable'] - counts['since']
 counts['months'] = {}
 for row in records:
     month = row['date'].split(' ', 1)[1] if ' ' in row['date'] else row['date']

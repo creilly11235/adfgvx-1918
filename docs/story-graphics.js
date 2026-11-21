@@ -175,12 +175,11 @@
       const oursRead = oursRows.filter(read).length, oursPart = oursRows.length - oursRead;
       const oursKeyRead = oursRows.filter(row => row.oursKey && read(row)).length;
       const items = [];
-      if (stage >= 2) items.push(['solved', (stage >= 4 ? 'read, not first published here (' : 'read (') + n.solved + ')']);
-      if (stage >= 2) items.push(['since', 'read or copied more recently (' + n.since + ')']);
-      if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list of unsolved messages (' + D.grid.filter(row => row.schmeh).length + ')']);
-      if (stage === 4) items.push(['ours', 'first published here (' + n.ours + ', ' + oursPart + ' of them in part)']);
-      if (stage >= 5) items.push(['ours', 'published here under a published key (' + n.ours + ', ' + oursPart + ' of them in part)'], ['newkey', 'read here under a new key (' + n.newkey + ')']);
-      items.push(['unsolved', stage >= 2 ? 'no solution published here, or only part of one (' + n.unsolved + ')' : 'one entry']);
+      if (stage >= 2) items.push(['solved', 'read (' + n.solved + ')'], ['since', 'read since (' + n.since + ')']);
+      if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list']);
+      if (stage === 4) items.push(['ours', 'first read here (' + n.ours + ')']);
+      if (stage >= 5) items.push(['ours', 'first read here, published key (' + n.ours + ')'], ['newkey', 'first read here, new key (' + n.newkey + ')']);
+      items.push(['unsolved', stage >= 2 ? 'not read, or in part (' + n.unsolved + ')' : 'one entry']);
       this.legend.replaceChildren(...items.map(([k, text]) => {
         const item = node('span');
         const dot = node('i'); dot.dataset.group = k;
