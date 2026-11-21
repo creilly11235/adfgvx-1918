@@ -343,6 +343,11 @@ log and the print disagreed, and wrote one row for each entry. Here is where the
 | Duplicate entry | 1 |  | the log row joins the symbols of two other entries |
 | Total | 688 | 542 | |
 
+Entries are labelled by the page printed in Childs's book plus the block, for example `p.153 C3`, and a
+citation should use that printed page. The internal id of the same entry is `p156C3`: the page of the
+scanned PDF, which is exactly 3 more than the printed page on all 688 entries, plus the block. The id
+stays the file name and the key of the data files. The note in [MESSAGES.md](MESSAGES.md) has the details.
+
 [MESSAGES.md](MESSAGES.md) has the row for every entry, a section that matches the 22 entries on
 Schmeh's list to the log, and the key to the message pages. Each row names who found the key and
 who published the solution. Each entry has its own page under [messages](messages), which follows

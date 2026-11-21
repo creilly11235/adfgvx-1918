@@ -5,14 +5,17 @@ comes from data/records.json, data/keys.json, data/messages.json and data/schmeh
 when a result changes, edit the data file, run this script and the page follows.
 
 Run from the repository root:  python3 scripts/build_site_data.py
+`--check` writes nothing and exits non-zero if docs/story-data.js is not what this script would write
+(the `generated` date aside); scripts/verify_all.py runs it, so the page cannot go stale.
 """
-import json, sys
+import json, re, sys
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
 import adfgvx  # noqa: E402
+from labels import label  # noqa: E402
 
 records = json.loads((ROOT / 'data/records.json').read_text(encoding='utf-8'))
 keys = json.loads((ROOT / 'data/keys.json').read_text(encoding='utf-8'))
@@ -20,6 +23,10 @@ messages = json.loads((ROOT / 'data/messages.json').read_text(encoding='utf-8'))
 schmeh = json.loads((ROOT / 'data/schmeh_list.json').read_text(encoding='utf-8'))
 
 OURS = 'This project, 2026'
+
+# Entries the table above still lists as Unsolved that were read or found to be copies of a solved entry
+# since: id -> status, nothing else. They are drawn as their own group on the map and are not counted as solved.
+site_status = json.loads((ROOT / 'data/site_status.json').read_text(encoding='utf-8'))
 
 
 def status_group(status):
@@ -52,14 +59,20 @@ for entry in schmeh['entries']:
         if rid not in by_id:
             sys.exit(f'schmeh_list.json names {rid}, which is not in records.json')
 
+for rid in site_status:
+    if rid not in by_id or by_id[rid]['status'] != 'Unsolved':
+        sys.exit(f'site_status.json names {rid}, which is not an Unsolved entry of records.json')
+
 grid = []
 for row in records:
+    since = row['id'] in site_status
     grid.append({
         'id': row['id'],
+        'label': label(row),
         'page': row['childs_page'],
         'date': row['date'].replace(' 1918', ''),
-        'status': row['status'],
-        'group': status_group(row['status']),
+        'status': site_status[row['id']] if since else row['status'],
+        'group': 'since' if since else status_group(row['status']),
         'key': row['key'] or '',
         'schmeh': schmeh_of.get(row['id'], ''),
         'ours': row['published_by'] == OURS,
@@ -70,15 +83,24 @@ counts = count_groups(records)
 counts['total'] = len(records)
 counts['ours'] = sum(1 for row in records if row['published_by'] == OURS)
 counts['oursNewKey'] = sum(1 for row in records if row['key_by'] == OURS)
-counts['oursKey'] = sum(1 for row in records if row['published_by'] == OURS and row['key_by'].startswith('Lasry, Niebel'))
+# The entries first published here, split from the grid the map draws: read (solved, with open letters) or in part.
+_ours = [g for g in grid if g['ours']]
+counts['oursRead'] = sum(1 for g in _ours if g['group'] in ('solved', 'open'))
+counts['oursPartial'] = sum(1 for g in _ours if g['group'] == 'partial')
+assert counts['oursRead'] + counts['oursPartial'] == counts['ours']
+# Of those read here, how many under one of the published keys (the rest under this project's new key).
+counts['oursKey'] = sum(1 for g in _ours if g['oursKey'] and g['group'] in ('solved', 'open'))
 counts['noPublished'] = sum(1 for row in records if status_group(row['status']) in ('solved', 'open') and not row['published_by'])
 counts['lasryKey'] = sum(1 for row in records if row['key_by'].startswith('Lasry, Niebel'))
 counts['schmehEntries'] = len(schmeh['entries'])
 counts['schmehRecords'] = len(schmeh_of)
 counts['schmehOurs'] = sum(1 for rid in schmeh_of if by_id[rid]['published_by'] == OURS)
 counts['schmehSolvedByOthers'] = sum(1 for rid in schmeh_of if status_group(by_id[rid]['status']) in ('solved', 'open') and by_id[rid]['published_by'] != OURS)
-counts['schmehUnsolved'] = sum(1 for rid in schmeh_of if status_group(by_id[rid]['status']) == 'unsolved')
+# Unsolved in the table, with no newer status and no solution published elsewhere, even in part.
+counts['schmehUnsolved'] = sum(1 for rid in schmeh_of if status_group(by_id[rid]['status']) == 'unsolved'
+                               and rid not in site_status and not by_id[rid]['published_by'])
 counts['readable'] = counts.get('solved', 0) + counts.get('open', 0)
+counts['since'] = len(site_status)
 counts['months'] = {}
 for row in records:
     month = row['date'].split(' ', 1)[1] if ' ' in row['date'] else row['date']
@@ -93,7 +115,7 @@ for entry in schmeh['entries']:
         'ids': entry['ids'],
         'page': rows[0]['childs_page'],
         'date': rows[0]['date'].replace(' 1918', ''),
-        'status': ' and '.join(dict.fromkeys(r['status'] for r in rows)),
+        'status': ' and '.join(dict.fromkeys(site_status.get(r['id'], r['status']) for r in rows)),
         'group': 'ours' if any(r['published_by'] == OURS for r in rows) else status_group(rows[0]['status']),
         'keyBy': ' and '.join(dict.fromkeys(r['key_by'] for r in rows if r['key_by'])),
         'publishedBy': ' and '.join(dict.fromkeys(r['published_by'] for r in rows if r['published_by'])),
@@ -242,6 +264,25 @@ data = {
 }
 
 out = ROOT / 'docs/story-data.js'
-out.write_text('/* Generated by scripts/build_site_data.py from the data files. Do not edit by hand. */\n'
-               'window.STORY_DATA = ' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')
+HEAD = '/* Generated by scripts/build_site_data.py from the data files. Do not edit by hand. */\nwindow.STORY_DATA = '
+def render(d):
+    return HEAD + json.dumps(d, ensure_ascii=False, separators=(',', ':')) + ';\n'
+if '--check' in sys.argv:
+    have = out.read_text(encoding='utf-8')
+    m = re.search(r'"generated":"(\d{4}-\d{2}-\d{2})"', have)
+    if m:
+        data['generated'] = m.group(1)
+    want = render(data)
+    if have != want:
+        sys.exit('docs/story-data.js is stale: run python3 scripts/build_site_data.py')
+    print('docs/story-data.js is what the generator writes')
+    sys.exit(0)
+# `generated` is the day the data last changed: a rebuild with no change in the data keeps the old date.
+if out.exists():
+    m = re.search(r'"generated":"(\d{4}-\d{2}-\d{2})"', out.read_text(encoding='utf-8'))
+    if m:
+        kept = dict(data, generated=m.group(1))
+        if render(kept) == out.read_text(encoding='utf-8'):
+            data = kept
+out.write_text(render(data), encoding='utf-8')
 print(f'wrote {out.relative_to(ROOT)}: {len(grid)} entries, {counts["readable"]} readable, {counts["ours"]} published here')

@@ -152,7 +152,7 @@
         if (row.ours) el.dataset.ours = '1';
         if (row.oursKey) el.dataset.ourskey = '1';
         if (row.schmeh) el.dataset.schmeh = '1';
-        el.title = row.id + ', page ' + row.page + ', ' + row.date + ', ' + row.status;
+        el.title = row.label + ' (internal ID ' + row.id + '), ' + row.date + ', ' + row.status;
         this.grid.append(el);
         return el;
       });
@@ -163,24 +163,34 @@
     }
     show(stage) {
       this.root.dataset.stage = stage;
-      const c = D.counts;
+      // Everything below is counted from the cells drawn, with the colour each stage gives them
+      // (the rules for .logcell in story-graphics.css), so the legend cannot disagree with the map.
+      const read = row => row.group === 'solved' || row.group === 'open';
+      const colour = row => stage >= 4 && row.ours ? (stage >= 5 && !row.oursKey ? 'newkey' : 'ours')
+        : stage < 2 ? 'unsolved' : read(row) ? 'solved' : row.group === 'since' ? 'since' : 'unsolved';
+      const n = {};
+      D.grid.forEach(row => { const k = colour(row); n[k] = (n[k] || 0) + 1; });
+      const total = D.grid.length;
+      const oursRows = D.grid.filter(row => row.ours);
+      const oursRead = oursRows.filter(read).length, oursPart = oursRows.length - oursRead;
+      const oursKeyRead = oursRows.filter(row => row.oursKey && read(row)).length;
       const items = [];
-      if (stage >= 2) items.push(['solved', 'read with a published key']);
-      if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list of unsolved messages']);
-      if (stage === 4) items.push(['ours', 'first published here']);
-      if (stage >= 5) items.push(['ours', 'read here under a published key'], ['newkey', 'read here under a new key']);
-      items.push(['unsolved', stage >= 2 ? 'no solution published here' : 'one entry']);
+      if (stage >= 2) items.push(['solved', 'read (' + n.solved + ')'], ['since', 'read or copied since (' + n.since + ')']);
+      if (stage >= 3) items.push(['schmeh', 'on Schmeh’s list']);
+      if (stage === 4) items.push(['ours', 'first read here, whole or part (' + n.ours + ')']);
+      if (stage >= 5) items.push(['ours', 'first read, whole or part, published key (' + n.ours + ')'], ['newkey', 'first read, whole or part, new key (' + n.newkey + ')']);
+      items.push(['unsolved', stage >= 2 ? 'not read, or in part (' + n.unsolved + ')' : 'one entry']);
       this.legend.replaceChildren(...items.map(([k, text]) => {
         const item = node('span');
         const dot = node('i'); dot.dataset.group = k;
         item.append(dot, text);
         return item;
       }));
-      this.label.textContent = stage >= 5 ? c.oursKey + ' of the ' + c.ours + ' read here under one of the published keys'
-        : stage >= 4 ? c.ours + ' entries first read here, among ' + c.total + ' in the log'
-        : stage >= 3 ? c.schmehRecords + ' entries on Schmeh’s list, among ' + c.total + ' in the log'
-        : stage >= 2 ? c.readable + ' of the ' + c.total + ' entries read under a published key'
-        : 'The ' + c.total + ' entries of the log, in order';
+      this.label.textContent = stage >= 5 ? oursKeyRead + ' of the ' + oursRead + ' entries first read here under a published key, ' + (oursRead - oursKeyRead) + ' under a new key, and ' + oursPart + ' more in part'
+        : stage >= 4 ? oursRead + ' entries first read here and ' + oursPart + ' in part, among ' + total + ' in the log'
+        : stage >= 3 ? D.grid.filter(row => row.schmeh).length + ' entries on Schmeh’s list, among ' + total + ' in the log'
+        : stage >= 2 ? n.solved + ' of the ' + total + ' entries read'
+        : 'The ' + total + ' entries of the log, in order';
     }
     foot() { return this.legend.getBoundingClientRect().bottom; }
   }

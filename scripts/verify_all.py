@@ -61,6 +61,25 @@ print('every surviving symbol re-encrypts in place: %d records (as transcribed o
 print('repaired records, share of surviving symbols that align after re-encryption: %d records' % n_rep)
 for i, m, p, n in align:
     print('  %-8s %-30s %5.1f%% of %d' % (i, m, p, n))
+# The article's data file must be what the generator writes from the data files, or the map goes stale.
+import subprocess
+stale = subprocess.run([sys.executable, os.path.join(HERE, 'build_site_data.py'), '--check'], capture_output=True, text=True)
+print('docs/story-data.js matches the generator: %s' % ('yes' if stale.returncode == 0 else 'NO'))
+labels = subprocess.run([sys.executable, os.path.join(HERE, 'verify_labels.py')], capture_output=True, text=True)
+print('printed-page labels are unique and one to one with the ids: %s' % ('yes' if labels.returncode == 0 else 'NO'))
+if labels.returncode:
+    bad.append('verify_labels.py failed')
+# The no-script fallback numbers in docs/index.html must equal the data the script fills in.
+import re
+_js = open(os.path.join(HERE, '..', 'docs', 'story-data.js'), encoding='utf-8').read().split('\n')[1]
+_data = json.loads(_js[_js.index('{'):_js.rindex('}') + 1])
+_html = open(os.path.join(HERE, '..', 'docs', 'index.html'), encoding='utf-8').read()
+_off = [k for k, v in re.findall(r'data-n="counts\.(\w+)">([^<]*)<', _html) if v != format(_data['counts'][k], ',')]
+print('fallback numbers in docs/index.html match the data: %s' % ('yes' if not _off else 'NO ' + ', '.join(_off)))
+if _off:
+    bad.append('docs/index.html fallback numbers differ from the data: ' + ', '.join(_off))
+if stale.returncode:
+    bad.append('docs/story-data.js is stale: run python3 scripts/build_site_data.py')
 if bad:
     print('FAILED:', bad)
     sys.exit(1)
